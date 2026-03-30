@@ -15,8 +15,10 @@ export default function QuestionComponent() {
     }
 
     document.addEventListener("visibilitychange", handleVisibilityChange);
+    window.addEventListener("blur", handleVisibilityChange);
     return () => {
       document.removeEventListener("visibilitychange", handleVisibilityChange);
+      window.removeEventListener("blur", handleVisibilityChange);
     }
   }, [])
   const questions = {
