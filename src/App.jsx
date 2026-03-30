@@ -116,84 +116,84 @@ export default function QuestionComponent() {
     ],
     python: [
       {
-        "question": "What does df['sales'].sum() return in pandas?",
-        "explanation": "hint:  think of adding all values in a single column"
+        "question": "What is the output of: sum([i for i in range(10) if i % 3 == 0])?",
+        "explanation": "hint: consider multiples of 3 less than 10"
       },
       {
-        "question": "How do you calculate the mean of a column named 'price'?",
-        "explanation": "hint:  there's a built-in function similar to average"
+        "question": "How many numbers between 1 and 50 (inclusive) are divisible by both 2 and 5?",
+        "explanation": "hint: think about LCM of 2 and 5"
       },
       {
-        "question": "What will df.groupby('category')['revenue'].sum() do?",
-        "explanation": "hint:  grouping splits data before applying aggregation"
+        "question": "What is the output of: len([i for i in range(20) if i % 4 == 1])?",
+        "explanation": "hint: list numbers giving remainder 1 when divided by 4"
       },
       {
-        "question": "How do you count the number of rows in each group using groupby?",
-        "explanation": "hint:  use a function that counts entries per group"
+        "question": "What will be printed: for i in range(1,6): if i % 2 == 0: print(i*i)?",
+        "explanation": "hint: focus only on even numbers"
       },
       {
-        "question": "What does df.loc[0, 'name'] access?",
-        "explanation": "hint:  loc uses labels, not positions"
+        "question": "What is the sum of digits in the string 'a1b2c3d4' after extracting numbers?",
+        "explanation": "hint: isolate digits and add them"
       },
       {
-        "question": "What is the difference between df.loc[0:2] and df.iloc[0:2]?",
-        "explanation": "hint:  one includes the endpoint, the other does not"
+        "question": "What is the output of: [len(str(i)) for i in range(8, 15)]?",
+        "explanation": "hint: count digits of each number"
       },
       {
-        "question": "How do you filter rows where 'age' > 30 using pandas?",
-        "explanation": "hint:  boolean indexing is used"
+        "question": "How many elements are in the list: [i for i in range(100) if i % 7 == 0 and i % 5 == 0]?",
+        "explanation": "hint: numbers divisible by both 5 and 7"
       },
       {
-        "question": "What does df.iloc[1, 2] return?",
-        "explanation": "hint:  think row index 1 and column index 2"
+        "question": "What is the output of: sum([int(x) for x in '12345'])?",
+        "explanation": "hint: convert characters to integers before summing"
       },
       {
-        "question": "How do you create a new column 'profit' as revenue - cost?",
-        "explanation": "hint:  column operations are vectorized"
+        "question": "What will be the result of: max([i*2 for i in range(6)])?",
+        "explanation": "hint: find largest value after transformation"
       },
       {
-        "question": "What does numpy.where(condition, x, y) do?",
-        "explanation": "hint:  conditional selection like if-else"
+        "question": "What is the output of: min([i**2 for i in range(-3, 3)])?",
+        "explanation": "hint: consider squares of negative and positive numbers"
       },
       {
-        "question": "Write a numpy.where condition to assign 1 if values in array > 50 else 0.",
-        "explanation": "hint:  condition first, then true value, then false value"
+        "question": "How many times will the loop run: for i in range(2, 20, 3)?",
+        "explanation": "hint: start at 2, increment by 3, stop before 20"
       },
       {
-        "question": "How do you iterate over a list and sum only even numbers?",
-        "explanation": "hint:  use a loop and a condition with modulo"
+        "question": "What is the sum of all odd numbers between 1 and 15 using Python logic?",
+        "explanation": "hint: filter numbers using modulo"
       },
       {
-        "question": "What does the following loop output: for i in range(3): print(i)?",
-        "explanation": "hint:  range starts at 0 and excludes the stop"
+        "question": "What is the output of: sum([i for i in range(10) if i % 2 != 0])?",
+        "explanation": "hint: sum of odd numbers less than 10"
       },
       {
-        "question": "How do you break a loop when a number equals 5?",
-        "explanation": "hint:  there is a keyword to exit loops early"
+        "question": "What will this return: len(set([1,2,2,3,4,4,5]))?",
+        "explanation": "hint: sets remove duplicates"
       },
       {
-        "question": "What is the output of: sum([i for i in range(5)])?",
-        "explanation": "hint:  list comprehension from 0 to 4"
+        "question": "What is the output of: sorted([3,1,4,1,5])[-2]?",
+        "explanation": "hint: second largest element"
       },
       {
-        "question": "How do you apply a function to each element in a pandas column?",
-        "explanation": "hint:  there's a method called apply"
+        "question": "What will be printed: for i in range(3): for j in range(3): if i == j: print(i+j)?",
+        "explanation": "hint: when indices are equal"
       },
       {
-        "question": "What does df.groupby('dept').agg({'salary': 'max'}) return?",
-        "explanation": "hint:  aggregation with dictionary mapping"
+        "question": "What is the output of: sum([len(str(i)) for i in range(1, 101)])?",
+        "explanation": "hint: count digits from 1 to 100"
       },
       {
-        "question": "How do you select rows 2 to 5 using iloc?",
-        "explanation": "hint:  slicing excludes last index"
+        "question": "How many numbers between 10 and 99 have both digits the same?",
+        "explanation": "hint: think of numbers like 11, 22, etc."
       },
       {
-        "question": "What does df['col'].value_counts() compute?",
-        "explanation": "hint:  frequency of unique values"
+        "question": "What is the output of: [i for i in range(10) if '3' in str(i)]?",
+        "explanation": "hint: convert numbers to strings to check digit presence"
       },
       {
-        "question": "How do you replace values less than 0 with 0 using numpy?",
-        "explanation": "hint:  use numpy.where with a condition"
+        "question": "What is the result of: sum([i for i in range(50) if i % 4 == 0 and i % 6 != 0])?",
+        "explanation": "hint: divisible by 4 but not by 6"
       }
     ],
     cpp: [
