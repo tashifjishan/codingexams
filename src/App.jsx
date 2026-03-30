@@ -2,25 +2,25 @@ import { useEffect, useRef, useState } from "react";
 import CodeEditor from "./components/CodeEditor";
 
 export default function QuestionComponent() {
-  useEffect(() => {
-    function handleVisibilityChange() {
-      if (document.visibilityState === "hidden") {
-        alert("This will be counted as an attempt of cheating.");
-      }
-    }
+  // useEffect(() => {
+  //   function handleVisibilityChange() {
+  //     if (document.visibilityState === "hidden") {
+  //       alert("This will be counted as an attempt of cheating.");
+  //     }
+  //   }
 
-    function handleBlur() {
-      alert("This will be counted as an attempt of cheating.");
-    }
+  //   function handleBlur() {
+  //     alert("This will be counted as an attempt of cheating.");
+  //   }
 
-    document.addEventListener("visibilitychange", handleVisibilityChange);
-    window.addEventListener("blur", handleBlur);
+  //   document.addEventListener("visibilitychange", handleVisibilityChange);
+  //   window.addEventListener("blur", handleBlur);
 
-    return () => {
-      document.removeEventListener("visibilitychange", handleVisibilityChange);
-      window.removeEventListener("blur", handleBlur);
-    };
-  }, []);
+  //   return () => {
+  //     document.removeEventListener("visibilitychange", handleVisibilityChange);
+  //     window.removeEventListener("blur", handleBlur);
+  //   };
+  // }, []);
   const questions = {
     javascript: [
       {

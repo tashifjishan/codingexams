@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Compressed Screen Recorder</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+      background: #f4f4f4;
+    }
+
+    button {
+      padding: 12px 20px;
+      margin: 10px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    #start {
+      background-color: green;
+      color: white;
+    }
+
+    #stop {
+      background-color: red;
+      color: white;
+    }
+
+    video {
+      margin-top: 20px;
+      width: 80%;
+      border: 2px solid #333;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Compressed Screen Recorder (No Audio, Lower Resolution)</h1>
+
+  <button id="start">Start Recording</button>
+  <button id="stop" disabled>Stop Recording</button>
+
+  <br />
+  <video id="preview" controls></video>
+
+  <script>
+    let mediaRecorder;
+    let recordedChunks = [];
+    let stream;
+
+    const startBtn = document.getElementById("start");
+    const stopBtn = document.getElementById("stop");
+    const video = document.getElementById("preview");
+
+    startBtn.onclick = async () => {
+      try {
+        recordedChunks = [];
+
+        // Request screen with lower resolution & no audio
+        stream = await navigator.mediaDevices.getDisplayMedia({
+          video: {
+            width: { max: 640 },    // reduce width
+            height: { max: 360 },   // reduce height
+            frameRate: { max: 15 }  // reduce frame rate
+          },
+          audio: false             // exclude audio
+        });
+
+        mediaRecorder = new MediaRecorder(stream, {
+          mimeType: "video/webm; codecs=vp8", // compressed format
+          videoBitsPerSecond: 500000          // low bitrate for smaller size
+        });
+
+        mediaRecorder.ondataavailable = (event) => {
+          if (event.data.size > 0) {
+            recordedChunks.push(event.data);
+          }
+        };
+
+        mediaRecorder.onstop = () => {
+          const blob = new Blob(recordedChunks, {
+            type: "video/webm"
+          });
+
+          const url = URL.createObjectURL(blob);
+          video.src = url;
+
+          // Auto download
+          const a = document.createElement("a");
+          a.href = url;
+          a.download = "compressed-recording.webm";
+          a.click();
+        };
+
+        mediaRecorder.start();
+
+        // Stop if user manually stops sharing
+        stream.getTracks().forEach(track => {
+          track.onended = () => {
+            stopRecording();
+          };
+        });
+
+        startBtn.disabled = true;
+        stopBtn.disabled = false;
+
+      } catch (err) {
+        alert("Error: " + err.message);
+      }
+    };
+
+    stopBtn.onclick = () => {
+      stopRecording();
+    };
+
+    function stopRecording() {
+      if (mediaRecorder && mediaRecorder.state !== "inactive") {
+        mediaRecorder.stop();
+      }
+
+      if (stream) {
+        stream.getTracks().forEach(track => track.stop());
+      }
+
+      startBtn.disabled = false;
+      stopBtn.disabled = true;
+    }
+  </script>
+
+</body>
+</html>
