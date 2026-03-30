@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Compressed Screen Recorder</title>
+  <title>HD Screen Recorder</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -40,7 +40,7 @@
 </head>
 <body>
 
-  <h1>Compressed Screen Recorder (No Audio, Lower Resolution)</h1>
+  <h1>HD Screen Recorder (No Audio)</h1>
 
   <button id="start">Start Recording</button>
   <button id="stop" disabled>Stop Recording</button>
@@ -61,19 +61,19 @@
       try {
         recordedChunks = [];
 
-        // Request screen with lower resolution & no audio
+        // HD Screen capture
         stream = await navigator.mediaDevices.getDisplayMedia({
           video: {
-            width: { max: 640 },    // reduce width
-            height: { max: 360 },   // reduce height
-            frameRate: { max: 15 }  // reduce frame rate
+            width: { max: 1280 },   // HD width
+            height: { max: 720 },   // HD height
+            frameRate: { max: 24 }  // smooth for UI
           },
-          audio: false             // exclude audio
+          audio: false
         });
 
         mediaRecorder = new MediaRecorder(stream, {
-          mimeType: "video/webm; codecs=vp8", // compressed format
-          videoBitsPerSecond: 500000          // low bitrate for smaller size
+          mimeType: "video/webm; codecs=vp8",
+          videoBitsPerSecond: 2000000 // 2 Mbps
         });
 
         mediaRecorder.ondataavailable = (event) => {
@@ -83,17 +83,14 @@
         };
 
         mediaRecorder.onstop = () => {
-          const blob = new Blob(recordedChunks, {
-            type: "video/webm"
-          });
-
+          const blob = new Blob(recordedChunks, { type: "video/webm" });
           const url = URL.createObjectURL(blob);
           video.src = url;
 
           // Auto download
           const a = document.createElement("a");
           a.href = url;
-          a.download = "compressed-recording.webm";
+          a.download = "hd-recording.webm";
           a.click();
         };
 
