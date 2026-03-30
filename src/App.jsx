@@ -4,23 +4,23 @@ import CodeEditor from "./components/CodeEditor";
 export default function QuestionComponent() {
   useEffect(() => {
     function handleVisibilityChange() {
-      if (document.visibilityState == "hidden") {
-        while (true) {
-          const input = prompt("Switching to another program or tab is prohibited and is being tracked. It will be seen as a sign of cheating. Please type 'I understand' if you understand: ");
-          if (input.toLowerCase() == "i understand") {
-            break;
-          }
-        }
+      if (document.visibilityState === "hidden") {
+        alert("This will be counted as an attempt of cheating.");
       }
     }
 
+    function handleBlur() {
+      alert("This will be counted as an attempt of cheating.");
+    }
+
     document.addEventListener("visibilitychange", handleVisibilityChange);
-    window.addEventListener("blur", handleVisibilityChange);
+    window.addEventListener("blur", handleBlur);
+
     return () => {
       document.removeEventListener("visibilitychange", handleVisibilityChange);
-      window.removeEventListener("blur", handleVisibilityChange);
-    }
-  }, [])
+      window.removeEventListener("blur", handleBlur);
+    };
+  }, []);
   const questions = {
     javascript: [
       {
