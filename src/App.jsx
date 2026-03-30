@@ -2,6 +2,23 @@ import { useEffect, useRef, useState } from "react";
 import CodeEditor from "./components/CodeEditor";
 
 export default function QuestionComponent() {
+  useEffect(() => {
+    function handleVisibilityChange() {
+      if (document.visibilityState == "hidden") {
+        while (true) {
+          const input = prompt("Switching to another program or tab is prohibited and is being tracked. It will be seen as a sign of cheating. Please type 'I understand' if you understand: ");
+          if (input.toLowerCase() == "i understand") {
+            break;
+          }
+        }
+      }
+    }
+
+    document.addEventListener("visibilitychange", handleVisibilityChange);
+    return () => {
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
+    }
+  }, [])
   const questions = {
     javascript: [
       {
@@ -115,152 +132,48 @@ export default function QuestionComponent() {
       },
     ],
     python: [
-      {
-        "question": "What is the output of: sum([i for i in range(10) if i % 3 == 0])?",
-        "explanation": "hint: consider multiples of 3 less than 10"
-      },
-      {
-        "question": "How many numbers between 1 and 50 (inclusive) are divisible by both 2 and 5?",
-        "explanation": "hint: think about LCM of 2 and 5"
-      },
-      {
-        "question": "What is the output of: len([i for i in range(20) if i % 4 == 1])?",
-        "explanation": "hint: list numbers giving remainder 1 when divided by 4"
-      },
-      {
-        "question": "What will be printed: for i in range(1,6): if i % 2 == 0: print(i*i)?",
-        "explanation": "hint: focus only on even numbers"
-      },
-      {
-        "question": "What is the sum of digits in the string 'a1b2c3d4' after extracting numbers?",
-        "explanation": "hint: isolate digits and add them"
-      },
-      {
-        "question": "What is the output of: [len(str(i)) for i in range(8, 15)]?",
-        "explanation": "hint: count digits of each number"
-      },
-      {
-        "question": "How many elements are in the list: [i for i in range(100) if i % 7 == 0 and i % 5 == 0]?",
-        "explanation": "hint: numbers divisible by both 5 and 7"
-      },
-      {
-        "question": "What is the output of: sum([int(x) for x in '12345'])?",
-        "explanation": "hint: convert characters to integers before summing"
-      },
-      {
-        "question": "What will be the result of: max([i*2 for i in range(6)])?",
-        "explanation": "hint: find largest value after transformation"
-      },
-      {
-        "question": "What is the output of: min([i**2 for i in range(-3, 3)])?",
-        "explanation": "hint: consider squares of negative and positive numbers"
-      },
-      {
-        "question": "How many times will the loop run: for i in range(2, 20, 3)?",
-        "explanation": "hint: start at 2, increment by 3, stop before 20"
-      },
-      {
-        "question": "What is the sum of all odd numbers between 1 and 15 using Python logic?",
-        "explanation": "hint: filter numbers using modulo"
-      },
-      {
-        "question": "What is the output of: sum([i for i in range(10) if i % 2 != 0])?",
-        "explanation": "hint: sum of odd numbers less than 10"
-      },
-      {
-        "question": "What will this return: len(set([1,2,2,3,4,4,5]))?",
-        "explanation": "hint: sets remove duplicates"
-      },
-      {
-        "question": "What is the output of: sorted([3,1,4,1,5])[-2]?",
-        "explanation": "hint: second largest element"
-      },
-      {
-        "question": "What will be printed: for i in range(3): for j in range(3): if i == j: print(i+j)?",
-        "explanation": "hint: when indices are equal"
-      },
-      {
-        "question": "What is the output of: sum([len(str(i)) for i in range(1, 101)])?",
-        "explanation": "hint: count digits from 1 to 100"
-      },
-      {
-        "question": "How many numbers between 10 and 99 have both digits the same?",
-        "explanation": "hint: think of numbers like 11, 22, etc."
-      },
-      {
-        "question": "What is the output of: [i for i in range(10) if '3' in str(i)]?",
-        "explanation": "hint: convert numbers to strings to check digit presence"
-      },
-      {
-        "question": "What is the result of: sum([i for i in range(50) if i % 4 == 0 and i % 6 != 0])?",
-        "explanation": "hint: divisible by 4 but not by 6"
-      }
+      { question: "Print numbers from 1 to 10 using a for loop.", explanation: "hint: Use range() in a for loop." },
+      { question: "Print all even numbers between 1 and 20.", explanation: "hint: Check divisibility by 2." },
+      { question: "Print all odd numbers between 1 and 15 using a while loop.", explanation: "hint: Increment the counter by 1 each time." },
+      { question: "Print numbers from 10 down to 1 in descending order.", explanation: "hint: Use range() with a negative step." },
+      { question: "Print the sum of all numbers from 1 to 50.", explanation: "hint: Keep a running total inside the loop." },
+      { question: "Print the multiplication table of 7 up to 10.", explanation: "hint: Multiply 7 by numbers from 1 to 10." },
+      { question: "Print all numbers from 1 to 30 that are divisible by 3.", explanation: "hint: Use modulus operator to check divisibility." },
+      { question: "Print numbers from 1 to 10, but skip 5 using continue.", explanation: "hint: Use an if condition inside the loop to skip." },
+      { question: "Print numbers from 1 to 10, but stop the loop if number is greater than 7 using break.", explanation: "hint: Use an if condition and break statement." },
+      { question: "Print all characters of the string 'Python' one by one using a loop.", explanation: "hint: You can iterate directly over a string." },
+      { question: "Print all elements of the list [2,4,6,8,10] using a for loop.", explanation: "hint: Iterate over the list directly." },
+      { question: "Print the sum of all elements in the list [1,2,3,4,5].", explanation: "hint: Use a loop to accumulate the total." },
+      { question: "Print numbers from 1 to 20, and print 'Fizz' for multiples of 3, 'Buzz' for multiples of 5.", explanation: "hint: Use modulus operator with if/elif." },
+      { question: "Print the reverse of the string 'Python'.", explanation: "hint: Use slicing or loop from the end." },
+      { question: "Print the first 10 numbers and their squares.", explanation: "hint: Multiply the number by itself inside the loop." },
+      { question: "Print numbers from 1 to 50, and print only those that are divisible by both 2 and 5.", explanation: "hint: Use logical AND in if condition." },
+      { question: "Print all items in the list ['apple','banana','cherry'] in uppercase.", explanation: "hint: Use string method upper() inside the loop." },
+      { question: "Print the factorial of 5 using a loop.", explanation: "hint: Multiply numbers from 1 to 5 in a running product." },
+      { question: "Print numbers from 1 to 10, but mark even numbers with 'E' and odd numbers with 'O'.", explanation: "hint: Use modulus operator inside loop to check even/odd." },
+      { question: "Print numbers from 1 to 20, but replace multiples of 4 with '*'.", explanation: "hint: Use if condition to check divisibility by 4." }
     ],
     cpp: [
-      {
-        question: "Print numbers from 1 to N.",
-        explanation: `#include <iostream>\nusing namespace std;\n\nint main() {\n    int N = 5;\n    // Use a for loop to iterate from 1 to N\n    // Expected output: 1 2 3 4 5\n    return 0;\n}`,
-      },
-      {
-        question: "Find the sum of all even numbers from 1 to N.",
-        explanation: `#include <iostream>\nusing namespace std;\n\nint main() {\n    int N = 10, sum = 0;\n    // Iterate 1 to N, check (i % 2 == 0), add to sum\n    // Expected output: 30\n    return 0;\n}`,
-      },
-      {
-        question: "Check if a number is positive, negative, or zero.",
-        explanation: `#include <iostream>\nusing namespace std;\n\nint main() {\n    int num = -5;\n    // Use if-else if-else logic\n    // Expected output: Negative\n    return 0;\n}`,
-      },
-      {
-        question: "Swap two numbers using a third variable.",
-        explanation: `#include <iostream>\nusing namespace std;\n\nint main() {\n    int a = 5, b = 10, temp;\n    // temp = a; a = b; b = temp;\n    // Expected output: a=10, b=5\n    return 0;\n}`,
-      },
-      {
-        question: "Find the smallest of two numbers.",
-        explanation: `#include <iostream>\nusing namespace std;\n\nint main() {\n    int a = 15, b = 8;\n    // Use if(a < b) or the ternary operator\n    // Expected output: 8\n    return 0;\n}`,
-      },
-      {
-        question: "Print all odd numbers between 1 and N.",
-        explanation: `#include <iostream>\nusing namespace std;\n\nint main() {\n    int N = 7;\n    // Loop and check if (i % 2 != 0)\n    // Expected output: 1 3 5 7\n    return 0;\n}`,
-      },
-      {
-        question: "Calculate the square of a number.",
-        explanation: `#include <iostream>\nusing namespace std;\n\nint main() {\n    int x = 4;\n    // Result is x * x\n    // Expected output: 16\n    return 0;\n}`,
-      },
-      {
-        question: "Find the sum of digits of a number.",
-        explanation: `#include <iostream>\nusing namespace std;\n\nint main() {\n    int num = 123, sum = 0;\n    // While(num > 0): sum += num % 10; num /= 10;\n    // Expected output: 6\n    return 0;\n}`,
-      },
-      {
-        question: "Check if a number is divisible by 5.",
-        explanation: `#include <iostream>\nusing namespace std;\n\nint main() {\n    int num = 25;\n    // Check if (num % 5 == 0)\n    // Expected output: Divisible\n    return 0;\n}`,
-      },
-      {
-        question: "Print numbers in reverse from N to 1.",
-        explanation: `#include <iostream>\nusing namespace std;\n\nint main() {\n    int N = 5;\n    // Use a for loop: for(int i = N; i >= 1; i--)\n    // Expected output: 5 4 3 2 1\n    return 0;\n}`,
-      },
-      {
-        question: "Find the sum of digits of a number.",
-        explanation: `#include <iostream>\nusing namespace std;\n\nint main() {\n    int num = 123, sum = 0;\n    // While(num > 0): sum += num % 10; num /= 10;\n    // Expected output: 6\n    return 0;\n}`,
-      },
-      {
-        question: "Check if a number is divisible by 5.",
-        explanation: `#include <iostream>\nusing namespace std;\n\nint main() {\n    int num = 25;\n    // Check if (num % 5 == 0)\n    // Expected output: Divisible\n    return 0;\n}`,
-      },
-      {
-        question: "Print numbers in reverse from N to 1.",
-        explanation: `#include <iostream>\nusing namespace std;\n\nint main() {\n    int N = 5;\n    // Use a for loop: for(int i = N; i >= 1; i--)\n    // Expected output: 5 4 3 2 1\n    return 0;\n}`,
-      },
-      {
-        question: "Find the sum of digits of a number.",
-        explanation: `#include <iostream>\nusing namespace std;\n\nint main() {\n    int num = 123, sum = 0;\n    // While(num > 0): sum += num % 10; num /= 10;\n    // Expected output: 6\n    return 0;\n}`,
-      },
-      {
-        question: "Check if a number is divisible by 5.",
-        explanation: `#include <iostream>\nusing namespace std;\n\nint main() {\n    int num = 25;\n    // Check if (num % 5 == 0)\n    // Expected output: Divisible\n    return 0;\n}`,
-      },
-      {
-        question: "Print numbers in reverse from N to 1.",
-        explanation: `#include <iostream>\nusing namespace std;\n\nint main() {\n    int N = 5;\n    // Use a for loop: for(int i = N; i >= 1; i--)\n    // Expected output: 5 4 3 2 1\n    return 0;\n}`,
-      },
+      { question: "What is the output of the following code?\n\nint x = 5;\nif(x > 3) {\n  cout << \"Yes\";\n}", explanation: "hint: Check if 5 is greater than 3." },
+      { question: "Which loop is best when the number of iterations is known beforehand?", explanation: "hint: for loop is usually used when iterations are fixed." },
+      { question: "What will this code print?\n\nint i = 0;\nwhile(i < 3) {\n  cout << i;\n  i++;\n}", explanation: "hint: Consider how i increments each time." },
+      { question: "What keyword is used to exit a loop immediately?", explanation: "hint: Think of a word that 'breaks' the loop." },
+      { question: "What is the output?\n\nint x = 10;\nif(x % 2 == 0) {\n  cout << \"Even\";\n} else {\n  cout << \"Odd\";\n}", explanation: "hint: 10 modulo 2 equals 0." },
+      { question: "Which loop will execute at least once, even if the condition is false?", explanation: "hint: Only one type of loop checks the condition after executing." },
+      { question: "What does the 'continue' statement do inside a loop?", explanation: "hint: It skips the remaining code and jumps to the next iteration." },
+      { question: "Write a for loop to print numbers from 1 to 5.", explanation: "hint: Use for(initialization; condition; increment) structure." },
+      { question: "What is the output?\n\nint a = 5;\nif(a < 3) cout << \"Small\";\nelse if(a < 10) cout << \"Medium\";\nelse cout << \"Large\";", explanation: "hint: Check which condition is true first." },
+      { question: "How do you create an infinite loop using while?", explanation: "hint: Think about a condition that is always true." },
+      { question: "Which operator is used for logical AND in conditions?", explanation: "hint: It's a double symbol: &&." },
+      { question: "What will be printed?\n\nfor(int i = 0; i < 3; i++) {\n  if(i == 1) break;\n  cout << i;\n}", explanation: "hint: Loop breaks when i equals 1." },
+      { question: "How do you check if a number 'n' is not equal to 0 in an if statement?", explanation: "hint: Use != operator." },
+      { question: "Write a while loop to print numbers 1 to 3.", explanation: "hint: Initialize a variable before the loop and increment inside." },
+      { question: "What is the output?\n\nint x = 3;\nif(x > 5)\n  cout << \"A\";\nelse\n  cout << \"B\";", explanation: "hint: x is not greater than 5." },
+      { question: "Which loop is preferable if the number of iterations is unknown?", explanation: "hint: while or do-while loops are used when iterations depend on a condition." },
+      { question: "What does this code print?\n\nfor(int i = 1; i <= 3; i++) {\n  if(i == 2) continue;\n  cout << i;\n}", explanation: "hint: It skips printing 2." },
+      { question: "Which statement allows multiple conditions to be checked sequentially?", explanation: "hint: else if allows multiple checks." },
+      { question: "How do you write a do-while loop that prints 'Hello' once?", explanation: "hint: do { /* code */ } while(condition); structure." },
+      { question: "What is the output?\n\nint x = 0;\nif(x) cout << \"Yes\";\nelse cout << \"No\";", explanation: "hint: 0 is considered false in C++." }
     ],
   };
   const [currentIndex, setCurrentIndex] = useState(0);
