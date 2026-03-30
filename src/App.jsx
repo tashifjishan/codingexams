@@ -155,6 +155,88 @@ export default function QuestionComponent() {
       { question: "Print numbers from 1 to 10, but mark even numbers with 'E' and odd numbers with 'O'.", explanation: "hint: Use modulus operator inside loop to check even/odd." },
       { question: "Print numbers from 1 to 20, but replace multiples of 4 with '*'.", explanation: "hint: Use if condition to check divisibility by 4." }
     ],
+    "javascript-basic": [
+      {
+        "question": "Print numbers from 1 to 50, but print \"Fizz\" for multiples of 3 and \"Buzz\" for multiples of 5.",
+        "explanation": "You need to iterate through numbers from 1 to 50 and apply conditions to decide whether to print the number itself or replace it with specific words based on divisibility."
+      },
+      {
+        "question": "Find the sum of all even numbers between 1 and 100.",
+        "explanation": "You are required to identify even numbers within a range and calculate their total sum."
+      },
+      {
+        "question": "Count how many numbers between 1 and 200 are divisible by both 4 and 6.",
+        "explanation": "The task involves checking numbers in a range and counting those that satisfy multiple divisibility conditions."
+      },
+      {
+        "question": "Reverse a number (e.g., input 1234 → output 4321).",
+        "explanation": "You need to transform a number so that its digits appear in reverse order."
+      },
+      {
+        "question": "Find the largest digit in a given number.",
+        "explanation": "This requires examining each digit of a number and determining which one has the highest value."
+      },
+      {
+        "question": "Check if a number is a palindrome (e.g., 121 → true).",
+        "explanation": "A palindrome number reads the same forward and backward, so you must compare its original form with its reversed version."
+      },
+      {
+        "question": "Print the factorial of a number using a loop.",
+        "explanation": "Factorial is the product of all positive integers up to a given number, and you need to compute it iteratively."
+      },
+      {
+        "question": "Count the number of digits in a number using a loop.",
+        "explanation": "The task is to determine how many digits a number contains by repeatedly processing it."
+      },
+      {
+        "question": "Print all prime numbers between 1 and 50.",
+        "explanation": "You must identify numbers that are divisible only by 1 and themselves within a given range."
+      },
+      {
+        "question": "Generate the first 10 numbers of the Fibonacci sequence.",
+        "explanation": "The Fibonacci sequence is formed by adding the previous two numbers, and you need to generate a fixed number of terms."
+      },
+      {
+        "question": "Find the sum of digits of a number (e.g., 123 → 6).",
+        "explanation": "You must extract each digit from a number and compute their total sum."
+      },
+      {
+        "question": "Check if a number is an Armstrong number.",
+        "explanation": "An Armstrong number is one where the sum of its digits raised to the power of the number of digits equals the number itself."
+      },
+      {
+        "question": "Print numbers from 1 to 100, but print \"Even\" for even numbers and \"Odd\" for odd numbers.",
+        "explanation": "You need to classify numbers based on whether they are divisible by 2 and print corresponding labels."
+      },
+      {
+        "question": "Find the second largest number in an array.",
+        "explanation": "You are given a collection of numbers and must determine the value that is the second highest."
+      },
+      {
+        "question": "Count how many numbers in an array are greater than 50.",
+        "explanation": "The task is to examine each element in an array and count how many exceed a given threshold."
+      },
+      {
+        "question": "Select an element with id \"counter\" and increment its value by 1 when a button is clicked.\n\n<button id=\"btn\">Click</button>\n<p id=\"counter\">0</p>",
+        "explanation": "You need to access a specific DOM element and update its displayed value in response to a user interaction."
+      },
+      {
+        "question": "Select all elements with class \"item\" and change their background color if their text is a number greater than 10.\n\n<div class=\"item\">5</div>\n<div class=\"item\">15</div>",
+        "explanation": "This involves selecting multiple DOM elements, reading their content, and conditionally modifying their style."
+      },
+      {
+        "question": "Get the value from an input field and display whether it is even or odd in a <p> tag.\n\n<input id=\"num\" />\n<p id=\"result\"></p>",
+        "explanation": "You must read user input, evaluate it, and display a result dynamically on the page."
+      },
+      {
+        "question": "Add a click event to a button that takes a number input and displays its square and cube.\n\n<input id=\"num\" />\n<button id=\"btn\">Calculate</button>\n<p id=\"output\"></p>",
+        "explanation": "This requires capturing input, performing calculations, and showing multiple computed results after a user action."
+      },
+      {
+        "question": "Add an event listener to a list so that when any list item is clicked, its numeric value is doubled.\n\n<ul>\n  <li>2</li>\n  <li>5</li>\n  <li>10</li>\n</ul>",
+        "explanation": "You need to detect which element triggered an event and modify its displayed numeric value accordingly."
+      }
+    ],
     cpp: [
       { question: "What is the output of the following code?\n\nint x = 5;\nif(x > 3) {\n  cout << \"Yes\";\n}", explanation: "hint: Check if 5 is greater than 3." },
       { question: "Which loop is best when the number of iterations is known beforehand?", explanation: "hint: for loop is usually used when iterations are fixed." },
