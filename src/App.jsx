@@ -238,27 +238,87 @@ export default function QuestionComponent() {
       }
     ],
     cpp: [
-      { question: "What is the output of the following code?\n\nint x = 5;\nif(x > 3) {\n  cout << \"Yes\";\n}", explanation: "hint: Check if 5 is greater than 3." },
-      { question: "Which loop is best when the number of iterations is known beforehand?", explanation: "hint: for loop is usually used when iterations are fixed." },
-      { question: "What will this code print?\n\nint i = 0;\nwhile(i < 3) {\n  cout << i;\n  i++;\n}", explanation: "hint: Consider how i increments each time." },
-      { question: "What keyword is used to exit a loop immediately?", explanation: "hint: Think of a word that 'breaks' the loop." },
-      { question: "What is the output?\n\nint x = 10;\nif(x % 2 == 0) {\n  cout << \"Even\";\n} else {\n  cout << \"Odd\";\n}", explanation: "hint: 10 modulo 2 equals 0." },
-      { question: "Which loop will execute at least once, even if the condition is false?", explanation: "hint: Only one type of loop checks the condition after executing." },
-      { question: "What does the 'continue' statement do inside a loop?", explanation: "hint: It skips the remaining code and jumps to the next iteration." },
-      { question: "Write a for loop to print numbers from 1 to 5.", explanation: "hint: Use for(initialization; condition; increment) structure." },
-      { question: "What is the output?\n\nint a = 5;\nif(a < 3) cout << \"Small\";\nelse if(a < 10) cout << \"Medium\";\nelse cout << \"Large\";", explanation: "hint: Check which condition is true first." },
-      { question: "How do you create an infinite loop using while?", explanation: "hint: Think about a condition that is always true." },
-      { question: "Which operator is used for logical AND in conditions?", explanation: "hint: It's a double symbol: &&." },
-      { question: "What will be printed?\n\nfor(int i = 0; i < 3; i++) {\n  if(i == 1) break;\n  cout << i;\n}", explanation: "hint: Loop breaks when i equals 1." },
-      { question: "How do you check if a number 'n' is not equal to 0 in an if statement?", explanation: "hint: Use != operator." },
-      { question: "Write a while loop to print numbers 1 to 3.", explanation: "hint: Initialize a variable before the loop and increment inside." },
-      { question: "What is the output?\n\nint x = 3;\nif(x > 5)\n  cout << \"A\";\nelse\n  cout << \"B\";", explanation: "hint: x is not greater than 5." },
-      { question: "Which loop is preferable if the number of iterations is unknown?", explanation: "hint: while or do-while loops are used when iterations depend on a condition." },
-      { question: "What does this code print?\n\nfor(int i = 1; i <= 3; i++) {\n  if(i == 2) continue;\n  cout << i;\n}", explanation: "hint: It skips printing 2." },
-      { question: "Which statement allows multiple conditions to be checked sequentially?", explanation: "hint: else if allows multiple checks." },
-      { question: "How do you write a do-while loop that prints 'Hello' once?", explanation: "hint: do { /* code */ } while(condition); structure." },
-      { question: "What is the output?\n\nint x = 0;\nif(x) cout << \"Yes\";\nelse cout << \"No\";", explanation: "hint: 0 is considered false in C++." }
-    ],
+      {
+        "question": "Write a program to check if a number is even or odd.",
+        "explanation": "Use an if-else condition with modulus operator (%). Example: if(n % 2 == 0)."
+      },
+      {
+        "question": "Print numbers from 1 to 10 using a for loop.",
+        "explanation": "Use a for loop with initialization, condition, and increment: for(int i=1; i<=10; i++)."
+      },
+      {
+        "question": "Write a program to find the largest of two numbers.",
+        "explanation": "Use if-else to compare two values: if(a > b)."
+      },
+      {
+        "question": "Print the multiplication table of a given number.",
+        "explanation": "Use a loop from 1 to 10 and multiply the number each iteration."
+      },
+      {
+        "question": "Check whether a number is positive, negative, or zero.",
+        "explanation": "Use if, else if, and else conditions to compare with 0."
+      },
+      {
+        "question": "Print all even numbers between 1 and 50.",
+        "explanation": "Use a loop and check condition i % 2 == 0 inside it."
+      },
+      {
+        "question": "Calculate the sum of first N natural numbers.",
+        "explanation": "Use a loop to add numbers from 1 to N and store in a variable."
+      },
+      {
+        "question": "Write a program to count the number of digits in a number.",
+        "explanation": "Use a while loop and repeatedly divide the number by 10."
+      },
+      {
+        "question": "Reverse a given number.",
+        "explanation": "Use a loop: extract digits using n % 10 and build reversed number."
+      },
+      {
+        "question": "Check whether a number is a palindrome.",
+        "explanation": "Reverse the number using a loop and compare with original."
+      },
+      {
+        "question": "Print a pattern of stars in a right triangle shape.",
+        "explanation": "Use nested loops: outer loop for rows, inner loop for printing stars."
+      },
+      {
+        "question": "Find the factorial of a number.",
+        "explanation": "Use a loop multiplying numbers from 1 to n."
+      },
+      {
+        "question": "Check whether a number is prime.",
+        "explanation": "Loop from 2 to sqrt(n) and check if n % i == 0."
+      },
+      {
+        "question": "Print Fibonacci series up to N terms.",
+        "explanation": "Use a loop and update previous two numbers each iteration."
+      },
+      {
+        "question": "Write a program to find the sum of digits of a number.",
+        "explanation": "Use a loop: extract digits using % 10 and add them."
+      },
+      {
+        "question": "Print numbers from 10 to 1 using a while loop.",
+        "explanation": "Initialize a variable at 10 and decrement it until it reaches 1."
+      },
+      {
+        "question": "Find the smallest among three numbers.",
+        "explanation": "Use multiple if-else conditions or nested conditions."
+      },
+      {
+        "question": "Check if a year is a leap year.",
+        "explanation": "Use conditions: divisible by 4, not by 100 unless also divisible by 400."
+      },
+      {
+        "question": "Print all numbers divisible by 3 and 5 between 1 and 100.",
+        "explanation": "Use a loop and check (i % 3 == 0 && i % 5 == 0)."
+      },
+      {
+        "question": "Keep taking input until the user enters 0 and print the sum.",
+        "explanation": "Use a while loop with a running sum and break when input is 0."
+      }
+    ]
   };
   const [currentIndex, setCurrentIndex] = useState(0);
   const [finalScreen, setFinalScreen] = useState(false);
