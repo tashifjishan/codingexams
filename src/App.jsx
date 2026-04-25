@@ -564,7 +564,89 @@ export default function QuestionComponent() {
         "question": "Count the number of digits in an integer.",
         "explanation": "Break down a number and track how many components it contains."
       }
-    ]
+    ],
+    "javascript-node":[
+  {
+    "question": "What is a GET route in Express and how do you define one?",
+    "explanation": "Focus on how Express maps HTTP methods and paths to handler functions, not just the syntax."
+  },
+  {
+    "question": "What are URL parameters in Express and how do you access them?",
+    "explanation": "Think about dynamic segments in routes and where Express stores them in the request object."
+  },
+  {
+    "question": "What are query parameters and how are they different from URL parameters?",
+    "explanation": "Consider where each appears in a URL and their typical use cases."
+  },
+  {
+    "question": "How do you handle POST requests in Express?",
+    "explanation": "Remember the role of middleware in parsing request bodies before accessing data."
+  },
+  {
+    "question": "What is middleware in Express?",
+    "explanation": "Think about functions that run between request and response and how they affect flow."
+  },
+  {
+    "question": "How can you send a JSON response in Express?",
+    "explanation": "Look at helper methods on the response object designed for structured data."
+  },
+  {
+    "question": "What is the purpose of express.json() middleware?",
+    "explanation": "Consider how raw request data becomes usable JavaScript objects."
+  },
+  {
+    "question": "How do you read a file asynchronously in Node.js using promises?",
+    "explanation": "Focus on the promise-based fs module and how it differs from callback style."
+  },
+  {
+    "question": "How do you write data to a file using fs.promises?",
+    "explanation": "Think about overwriting vs appending and which method handles it."
+  },
+  {
+    "question": "How do you delete a file using Node.js?",
+    "explanation": "Recall which filesystem method removes files and how promises simplify usage."
+  },
+  {
+    "question": "How do you update file content in Node.js?",
+    "explanation": "Consider whether there is a dedicated update method or if writing again replaces content."
+  },
+  {
+    "question": "What is a Promise in JavaScript?",
+    "explanation": "Focus on its states and how it represents asynchronous completion."
+  },
+  {
+    "question": "What is async/await and how does it work with promises?",
+    "explanation": "Think about how it simplifies promise handling without changing underlying behavior."
+  },
+  {
+    "question": "What is the difference between synchronous and asynchronous code in Node.js?",
+    "explanation": "Consider blocking vs non-blocking behavior and its impact on performance."
+  },
+  {
+    "question": "What is the event loop in Node.js?",
+    "explanation": "Focus on how Node manages asynchronous operations behind the scenes."
+  },
+  {
+    "question": "How do you handle errors in async/await functions?",
+    "explanation": "Think about traditional control flow constructs used with asynchronous code."
+  },
+  {
+    "question": "What is the difference between require and import in Node.js?",
+    "explanation": "Consider module systems and when each syntax is used."
+  },
+  {
+    "question": "How do you create a simple Express server?",
+    "explanation": "Focus on the minimum setup needed to start listening for requests."
+  },
+  {
+    "question": "What is res.send() and how is it different from res.json()?",
+    "explanation": "Think about how Express formats different types of responses automatically."
+  },
+  {
+    "question": "How do you chain multiple middleware functions in a route?",
+    "explanation": "Consider execution order and how control passes between functions."
+  }
+]
   };
   const [currentIndex, setCurrentIndex] = useState(0);
   const [finalScreen, setFinalScreen] = useState(false);
