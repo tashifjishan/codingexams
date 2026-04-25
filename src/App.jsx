@@ -483,7 +483,7 @@ export default function QuestionComponent() {
         "explanation": "Use a while loop with a running sum and break when input is 0."
       }
     ],
-    "c-basic": [
+    c: [
       {
         "question": "Write a program to check whether a given number is even or odd.",
         "explanation": "Focus on evaluating a condition and executing different logic based on the result."
