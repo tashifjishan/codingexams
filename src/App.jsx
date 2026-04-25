@@ -22,7 +22,7 @@ export default function QuestionComponent() {
   //   };
   // }, []);
   const questions = {
-    htmlcss: [
+    javascript: [
       {
         question:
           "Write a program to print numbers from 1 to 50. But for multiples of 3 print 'Fizz', for multiples of 5 print 'Buzz', and for multiples of both print 'FizzBuzz'.",
@@ -132,6 +132,170 @@ export default function QuestionComponent() {
         explanation:
           "Use regex like /^[a-zA-Z0-9._]+@[a-zA-Z]+\\.[a-zA-Z]{2,}$/. Use test() method. This is basic validation, not production-level.",
       },
+    ],
+    htmlcss: [
+      {
+        "question": "Create a webpage where a div has a background image that covers the entire element without repeating.",
+        "explanation": "Focus on controlling how an image behaves inside a container, including its size and repetition."
+      },
+      {
+        "question": "Design a container with a background image that stays fixed when the user scrolls the page.",
+        "explanation": "This involves controlling how a background reacts to page scrolling."
+      },
+      {
+        "question": "Center a child element horizontally using flexbox.",
+        "explanation": "Use flexbox properties to control alignment along the main axis."
+      },
+      {
+        "question": "Create a layout where items are spaced evenly across a row using flexbox.",
+        "explanation": "Explore how spacing between elements can be distributed inside a flexible container."
+      },
+      {
+        "question": "Vertically center content inside a full-height container using flexbox.",
+        "explanation": "Focus on aligning items along the cross axis within a flexible layout."
+      },
+      {
+        "question": "Build a responsive navigation bar using display: flex where items align in a row.",
+        "explanation": "Think about structuring elements in a flexible horizontal layout."
+      },
+      {
+        "question": "Create a button that changes its background color smoothly when hovered.",
+        "explanation": "This requires defining a visual change and controlling how it transitions over time."
+      },
+      {
+        "question": "Animate a box so it moves from left to right continuously.",
+        "explanation": "Consider how to define motion using keyframes and timing."
+      },
+      {
+        "question": "Create an element that fades in when the page loads.",
+        "explanation": "Focus on gradually changing visibility using animation or transition effects."
+      },
+      {
+        "question": "Position a header so that it remains fixed at the top of the screen while scrolling.",
+        "explanation": "This involves controlling how an element behaves relative to the viewport."
+      },
+      {
+        "question": "Create a layout with proper spacing between elements using margin.",
+        "explanation": "Think about how external spacing affects the distance between elements."
+      },
+      {
+        "question": "Add internal spacing inside a box so text does not touch its edges.",
+        "explanation": "Focus on spacing within an element rather than outside it."
+      },
+      {
+        "question": "Build a card component with padding, margin, and a background image.",
+        "explanation": "Combine spacing and background styling to create a structured UI element."
+      },
+      {
+        "question": "Align multiple items at the bottom of a container using flexbox.",
+        "explanation": "Control vertical alignment of elements within a flexible layout."
+      },
+      {
+        "question": "Create a flex container where items wrap onto the next line when space is limited.",
+        "explanation": "Consider how elements behave when they exceed available space."
+      },
+      {
+        "question": "Design an image section where the background image is centered and does not stretch disproportionately.",
+        "explanation": "Focus on positioning and scaling of background visuals."
+      },
+      {
+        "question": "Make a box grow slightly larger when hovered using a smooth transition.",
+        "explanation": "Think about transforming elements and controlling the speed of change."
+      },
+      {
+        "question": "Create a sticky footer that stays at the bottom of the viewport using positioning.",
+        "explanation": "Consider how positioning affects layout relative to the screen."
+      },
+      {
+        "question": "Arrange three boxes in a row with equal spacing using flexbox.",
+        "explanation": "Focus on distributing space evenly between elements."
+      },
+      {
+        "question": "Animate a loading spinner using CSS animation.",
+        "explanation": "This involves creating a repeating visual effect using keyframes."
+      }
+    ],
+    react: [
+      {
+        "question": "Explain what useState does in React and describe a scenario where it would be used.",
+        "explanation": "Focus on how state is managed inside functional components and why it is needed."
+      },
+      {
+        "question": "Create a React component that updates and displays a counter when a button is clicked.",
+        "explanation": "This involves managing dynamic data and updating the UI based on user interaction."
+      },
+      {
+        "question": "What is useEffect and why is it used in React applications?",
+        "explanation": "Think about handling side effects and actions that occur outside of normal rendering."
+      },
+      {
+        "question": "Build a component that fetches data from an API when it mounts.",
+        "explanation": "This requires triggering logic at a specific point in the component lifecycle."
+      },
+      {
+        "question": "Explain the purpose of useRef and how it differs from useState.",
+        "explanation": "Focus on how values are stored and accessed without triggering re-renders."
+      },
+      {
+        "question": "Create a form in React that captures user input and displays it on submission.",
+        "explanation": "This involves handling user input and managing form state."
+      },
+      {
+        "question": "What are controlled components in React forms?",
+        "explanation": "Think about how input values are managed and synchronized with state."
+      },
+      {
+        "question": "Write a React component that handles a button click and logs a message to the console.",
+        "explanation": "Focus on attaching and handling events in a React component."
+      },
+      {
+        "question": "Explain how props work in React and why they are important.",
+        "explanation": "Consider how data is passed between components and how it affects reusability."
+      },
+      {
+        "question": "Create a parent and child component where the parent passes data to the child using props.",
+        "explanation": "This involves component composition and data flow between components."
+      },
+      {
+        "question": "What is the difference between functional and class components in React?",
+        "explanation": "Focus on structure, features, and modern usage patterns."
+      },
+      {
+        "question": "Create a component that uses useEffect to update the document title based on state changes.",
+        "explanation": "This involves reacting to state updates and performing side effects."
+      },
+      {
+        "question": "Explain how promises work in JavaScript.",
+        "explanation": "Think about handling asynchronous operations and managing success or failure outcomes."
+      },
+      {
+        "question": "Write a function that makes an HTTP request using fetch and handles the response.",
+        "explanation": "Focus on retrieving data asynchronously and processing the result."
+      },
+      {
+        "question": "What is the difference between async/await and promises?",
+        "explanation": "Consider how different approaches handle asynchronous code readability and flow."
+      },
+      {
+        "question": "Create a React component that displays a loading message while fetching data.",
+        "explanation": "This involves managing different UI states during asynchronous operations."
+      },
+      {
+        "question": "Explain event handling in React and how it differs from plain JavaScript.",
+        "explanation": "Focus on how React manages events and abstracts browser differences."
+      },
+      {
+        "question": "Build a form with multiple inputs and validate that all fields are filled before submission.",
+        "explanation": "This requires managing multiple pieces of state and checking input conditions."
+      },
+      {
+        "question": "What are reusable components in React and why are they important?",
+        "explanation": "Think about modular design and reducing duplication in UI development."
+      },
+      {
+        "question": "Create a component that uses useRef to focus an input field when a button is clicked.",
+        "explanation": "This involves directly interacting with a DOM element in a controlled way."
+      }
     ],
     python: [
       { question: "Print numbers from 1 to 10 using a for loop.", explanation: "hint: Use range() in a for loop." },
@@ -317,6 +481,88 @@ export default function QuestionComponent() {
       {
         "question": "Keep taking input until the user enters 0 and print the sum.",
         "explanation": "Use a while loop with a running sum and break when input is 0."
+      }
+    ],
+    "c-basic": [
+      {
+        "question": "Write a program to check whether a given number is even or odd.",
+        "explanation": "Focus on evaluating a condition and executing different logic based on the result."
+      },
+      {
+        "question": "Print numbers from 1 to 100 using a loop.",
+        "explanation": "This involves repeating a block of code multiple times using a looping construct."
+      },
+      {
+        "question": "Write a program to find the largest of three numbers.",
+        "explanation": "Compare multiple values and determine which one satisfies a condition."
+      },
+      {
+        "question": "Reverse a given string.",
+        "explanation": "Focus on accessing and rearranging characters in a sequence."
+      },
+      {
+        "question": "Count the number of vowels in a string.",
+        "explanation": "Iterate through characters and check each against a condition."
+      },
+      {
+        "question": "Print the multiplication table of a given number.",
+        "explanation": "Use repetition to generate a sequence of calculated values."
+      },
+      {
+        "question": "Find the sum of elements in an array.",
+        "explanation": "Traverse a collection of values and accumulate a result."
+      },
+      {
+        "question": "Search for a number in an array and print its index.",
+        "explanation": "Check each element of a collection to find a match."
+      },
+      {
+        "question": "Write a program to check if a number is prime.",
+        "explanation": "Determine whether a number satisfies specific divisibility conditions."
+      },
+      {
+        "question": "Sort an array of integers in ascending order.",
+        "explanation": "Rearrange elements based on their values using comparison logic."
+      },
+      {
+        "question": "Convert all lowercase characters in a string to uppercase.",
+        "explanation": "Process each character and modify it based on a condition."
+      },
+      {
+        "question": "Count how many times a specific character appears in a string.",
+        "explanation": "Iterate through the string and keep track of occurrences."
+      },
+      {
+        "question": "Print all even numbers from an array.",
+        "explanation": "Filter elements based on a condition while iterating."
+      },
+      {
+        "question": "Find the smallest element in an array.",
+        "explanation": "Compare values while traversing a collection to track the minimum."
+      },
+      {
+        "question": "Check whether a string is a palindrome.",
+        "explanation": "Compare characters in a sequence to determine if it reads the same both ways."
+      },
+      {
+        "question": "Print a pattern of stars in a right-angled triangle shape.",
+        "explanation": "Use nested loops to control rows and columns of output."
+      },
+      {
+        "question": "Remove all spaces from a string.",
+        "explanation": "Process a sequence of characters and selectively exclude certain values."
+      },
+      {
+        "question": "Find the average of numbers in an array.",
+        "explanation": "Combine accumulation and calculation over a set of values."
+      },
+      {
+        "question": "Check if two strings are equal.",
+        "explanation": "Compare sequences of characters to determine if they match."
+      },
+      {
+        "question": "Count the number of digits in an integer.",
+        "explanation": "Break down a number and track how many components it contains."
       }
     ]
   };
