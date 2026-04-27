@@ -133,7 +133,7 @@ export default function QuestionComponent() {
           "Use regex like /^[a-zA-Z0-9._]+@[a-zA-Z]+\\.[a-zA-Z]{2,}$/. Use test() method. This is basic validation, not production-level.",
       },
     ],
-    htmlcss: [
+    "html-css": [
       {
         "question": "Create a webpage where a div has a background image that covers the entire element without repeating.",
         "explanation": "Focus on controlling how an image behaves inside a container, including its size and repetition."
@@ -142,7 +142,7 @@ export default function QuestionComponent() {
         "question": "Design a container with a background image that stays fixed when the user scrolls the page.",
         "explanation": "This involves controlling how a background reacts to page scrolling."
       },
-      {
+      { 
         "question": "Center a child element horizontally using flexbox.",
         "explanation": "Use flexbox properties to control alignment along the main axis."
       },
@@ -749,7 +749,7 @@ export default function QuestionComponent() {
         </div>
       </div>
     );
-  } else if (name && !questions[subject.split("-")[0]]) {
+  } else if (name && !questions[subject]) {
     return (
       <div className="h-screen w-screen fixed top-0 left-0 text-white bg-slate-800 flex justify-center items-center">
         <p className="font-mono text-xl">Invalid Subject!</p>
