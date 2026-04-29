@@ -22,6 +22,7 @@ export default function QuestionComponent() {
   //   };
   // }, []);
   const questions = {
+
     javascript: [
       {
         question:
@@ -142,7 +143,7 @@ export default function QuestionComponent() {
         "question": "Design a container with a background image that stays fixed when the user scrolls the page.",
         "explanation": "This involves controlling how a background reacts to page scrolling."
       },
-      { 
+      {
         "question": "Center a child element horizontally using flexbox.",
         "explanation": "Use flexbox properties to control alignment along the main axis."
       },
@@ -298,26 +299,86 @@ export default function QuestionComponent() {
       }
     ],
     python: [
-      { question: "Print numbers from 1 to 10 using a for loop.", explanation: "hint: Use range() in a for loop." },
-      { question: "Print all even numbers between 1 and 20.", explanation: "hint: Check divisibility by 2." },
-      { question: "Print all odd numbers between 1 and 15 using a while loop.", explanation: "hint: Increment the counter by 1 each time." },
-      { question: "Print numbers from 10 down to 1 in descending order.", explanation: "hint: Use range() with a negative step." },
-      { question: "Print the sum of all numbers from 1 to 50.", explanation: "hint: Keep a running total inside the loop." },
-      { question: "Print the multiplication table of 7 up to 10.", explanation: "hint: Multiply 7 by numbers from 1 to 10." },
-      { question: "Print all numbers from 1 to 30 that are divisible by 3.", explanation: "hint: Use modulus operator to check divisibility." },
-      { question: "Print numbers from 1 to 10, but skip 5 using continue.", explanation: "hint: Use an if condition inside the loop to skip." },
-      { question: "Print numbers from 1 to 10, but stop the loop if number is greater than 7 using break.", explanation: "hint: Use an if condition and break statement." },
-      { question: "Print all characters of the string 'Python' one by one using a loop.", explanation: "hint: You can iterate directly over a string." },
-      { question: "Print all elements of the list [2,4,6,8,10] using a for loop.", explanation: "hint: Iterate over the list directly." },
-      { question: "Print the sum of all elements in the list [1,2,3,4,5].", explanation: "hint: Use a loop to accumulate the total." },
-      { question: "Print numbers from 1 to 20, and print 'Fizz' for multiples of 3, 'Buzz' for multiples of 5.", explanation: "hint: Use modulus operator with if/elif." },
-      { question: "Print the reverse of the string 'Python'.", explanation: "hint: Use slicing or loop from the end." },
-      { question: "Print the first 10 numbers and their squares.", explanation: "hint: Multiply the number by itself inside the loop." },
-      { question: "Print numbers from 1 to 50, and print only those that are divisible by both 2 and 5.", explanation: "hint: Use logical AND in if condition." },
-      { question: "Print all items in the list ['apple','banana','cherry'] in uppercase.", explanation: "hint: Use string method upper() inside the loop." },
-      { question: "Print the factorial of 5 using a loop.", explanation: "hint: Multiply numbers from 1 to 5 in a running product." },
-      { question: "Print numbers from 1 to 10, but mark even numbers with 'E' and odd numbers with 'O'.", explanation: "hint: Use modulus operator inside loop to check even/odd." },
-      { question: "Print numbers from 1 to 20, but replace multiples of 4 with '*'.", explanation: "hint: Use if condition to check divisibility by 4." }
+      {
+        "question": "Write a Python program to find the sum of all numbers from 1 to 100 that are divisible by both 3 and 5.",
+        "explanation": "Requires combining loop + conditional; divisibility by both means LCM logic (i.e., divisible by 15)."
+      },
+      {
+        "question": "Given a list [2, 5, 7, 10, 13], count how many numbers are prime using a loop.",
+        "explanation": "Tests nested loops and optimization (checking up to sqrt(n), not full range)."
+      },
+      {
+        "question": "Create a list of squares of even numbers between 1 and 20 using list comprehension.",
+        "explanation": "Forces filtering + transformation in a single expression."
+      },
+      {
+        "question": "Find the second largest number in a list without using built-in sorting.",
+        "explanation": "Requires tracking two variables; many fail when duplicates are present."
+      },
+      {
+        "question": "Given a list of integers, count how many are greater than the average of the list.",
+        "explanation": "Needs two passes: one for average, one for comparison."
+      },
+      {
+        "question": "Write a program to flatten a nested list like [[1,2],[3,4],[5]] into [1,2,3,4,5].",
+        "explanation": "Tests nested loops or advanced list comprehension."
+      },
+      {
+        "question": "Count frequency of each element in a list without using collections.Counter.",
+        "explanation": "Tests dictionary usage and iteration logic."
+      },
+      {
+        "question": "Generate a multiplication table (1–10) using nested loops.",
+        "explanation": "Classic nested loop problem but formatting often trips people up."
+      },
+      {
+        "question": "Find all numbers between 1 and 200 that are divisible by 7 but not by 5.",
+        "explanation": "Combines multiple conditions correctly."
+      },
+      {
+        "question": "Given a string, count vowels and consonants separately.",
+        "explanation": "Requires conditionals + character classification logic."
+      },
+      {
+        "question": "In MySQL, write a query to find total salary for each department from an Employee table.",
+        "explanation": "Uses GROUP BY with SUM; basic but essential aggregation."
+      },
+      {
+        "question": "Write a query to find departments having more than 5 employees.",
+        "explanation": "Requires GROUP BY + HAVING instead of WHERE."
+      },
+      {
+        "question": "Find the average marks of students whose marks are between 50 and 80.",
+        "explanation": "Tests BETWEEN (inclusive) and AVG aggregation."
+      },
+      {
+        "question": "Write a query to count how many employees have names starting with 'A'.",
+        "explanation": "Uses LIKE 'A%' and COUNT correctly."
+      },
+      {
+        "question": "Find the maximum and minimum salary in each department.",
+        "explanation": "Multiple aggregate functions in same GROUP BY."
+      },
+      {
+        "question": "Write a query to display names of employees whose names end with 'n'.",
+        "explanation": "Tests LIKE '%n' pattern matching."
+      },
+      {
+        "question": "Find total number of employees whose salary is between 30000 and 70000.",
+        "explanation": "Combines COUNT with BETWEEN."
+      },
+      {
+        "question": "Write a query to group employees by city and count them.",
+        "explanation": "Simple GROUP BY but tests understanding of grouping dimension."
+      },
+      {
+        "question": "Find length of each employee name and display it along with the name.",
+        "explanation": "Uses string function LENGTH per row."
+      },
+      {
+        "question": "Write a query to convert all employee names to uppercase and sort them alphabetically.",
+        "explanation": "Combines string function + ORDER BY."
+      }
     ],
     "javascript-basic": [
       {
@@ -565,88 +626,88 @@ export default function QuestionComponent() {
         "explanation": "Break down a number and track how many components it contains."
       }
     ],
-    "javascript-node":[
-  {
-    "question": "What is a GET route in Express and how do you define one?",
-    "explanation": "Focus on how Express maps HTTP methods and paths to handler functions, not just the syntax."
-  },
-  {
-    "question": "What are URL parameters in Express and how do you access them?",
-    "explanation": "Think about dynamic segments in routes and where Express stores them in the request object."
-  },
-  {
-    "question": "What are query parameters and how are they different from URL parameters?",
-    "explanation": "Consider where each appears in a URL and their typical use cases."
-  },
-  {
-    "question": "How do you handle POST requests in Express?",
-    "explanation": "Remember the role of middleware in parsing request bodies before accessing data."
-  },
-  {
-    "question": "What is middleware in Express?",
-    "explanation": "Think about functions that run between request and response and how they affect flow."
-  },
-  {
-    "question": "How can you send a JSON response in Express?",
-    "explanation": "Look at helper methods on the response object designed for structured data."
-  },
-  {
-    "question": "What is the purpose of express.json() middleware?",
-    "explanation": "Consider how raw request data becomes usable JavaScript objects."
-  },
-  {
-    "question": "How do you read a file asynchronously in Node.js using promises?",
-    "explanation": "Focus on the promise-based fs module and how it differs from callback style."
-  },
-  {
-    "question": "How do you write data to a file using fs.promises?",
-    "explanation": "Think about overwriting vs appending and which method handles it."
-  },
-  {
-    "question": "How do you delete a file using Node.js?",
-    "explanation": "Recall which filesystem method removes files and how promises simplify usage."
-  },
-  {
-    "question": "How do you update file content in Node.js?",
-    "explanation": "Consider whether there is a dedicated update method or if writing again replaces content."
-  },
-  {
-    "question": "What is a Promise in JavaScript?",
-    "explanation": "Focus on its states and how it represents asynchronous completion."
-  },
-  {
-    "question": "What is async/await and how does it work with promises?",
-    "explanation": "Think about how it simplifies promise handling without changing underlying behavior."
-  },
-  {
-    "question": "What is the difference between synchronous and asynchronous code in Node.js?",
-    "explanation": "Consider blocking vs non-blocking behavior and its impact on performance."
-  },
-  {
-    "question": "What is the event loop in Node.js?",
-    "explanation": "Focus on how Node manages asynchronous operations behind the scenes."
-  },
-  {
-    "question": "How do you handle errors in async/await functions?",
-    "explanation": "Think about traditional control flow constructs used with asynchronous code."
-  },
-  {
-    "question": "What is the difference between require and import in Node.js?",
-    "explanation": "Consider module systems and when each syntax is used."
-  },
-  {
-    "question": "How do you create a simple Express server?",
-    "explanation": "Focus on the minimum setup needed to start listening for requests."
-  },
-  {
-    "question": "What is res.send() and how is it different from res.json()?",
-    "explanation": "Think about how Express formats different types of responses automatically."
-  },
-  {
-    "question": "How do you chain multiple middleware functions in a route?",
-    "explanation": "Consider execution order and how control passes between functions."
-  }
-]
+    "javascript-node": [
+      {
+        "question": "What is a GET route in Express and how do you define one?",
+        "explanation": "Focus on how Express maps HTTP methods and paths to handler functions, not just the syntax."
+      },
+      {
+        "question": "What are URL parameters in Express and how do you access them?",
+        "explanation": "Think about dynamic segments in routes and where Express stores them in the request object."
+      },
+      {
+        "question": "What are query parameters and how are they different from URL parameters?",
+        "explanation": "Consider where each appears in a URL and their typical use cases."
+      },
+      {
+        "question": "How do you handle POST requests in Express?",
+        "explanation": "Remember the role of middleware in parsing request bodies before accessing data."
+      },
+      {
+        "question": "What is middleware in Express?",
+        "explanation": "Think about functions that run between request and response and how they affect flow."
+      },
+      {
+        "question": "How can you send a JSON response in Express?",
+        "explanation": "Look at helper methods on the response object designed for structured data."
+      },
+      {
+        "question": "What is the purpose of express.json() middleware?",
+        "explanation": "Consider how raw request data becomes usable JavaScript objects."
+      },
+      {
+        "question": "How do you read a file asynchronously in Node.js using promises?",
+        "explanation": "Focus on the promise-based fs module and how it differs from callback style."
+      },
+      {
+        "question": "How do you write data to a file using fs.promises?",
+        "explanation": "Think about overwriting vs appending and which method handles it."
+      },
+      {
+        "question": "How do you delete a file using Node.js?",
+        "explanation": "Recall which filesystem method removes files and how promises simplify usage."
+      },
+      {
+        "question": "How do you update file content in Node.js?",
+        "explanation": "Consider whether there is a dedicated update method or if writing again replaces content."
+      },
+      {
+        "question": "What is a Promise in JavaScript?",
+        "explanation": "Focus on its states and how it represents asynchronous completion."
+      },
+      {
+        "question": "What is async/await and how does it work with promises?",
+        "explanation": "Think about how it simplifies promise handling without changing underlying behavior."
+      },
+      {
+        "question": "What is the difference between synchronous and asynchronous code in Node.js?",
+        "explanation": "Consider blocking vs non-blocking behavior and its impact on performance."
+      },
+      {
+        "question": "What is the event loop in Node.js?",
+        "explanation": "Focus on how Node manages asynchronous operations behind the scenes."
+      },
+      {
+        "question": "How do you handle errors in async/await functions?",
+        "explanation": "Think about traditional control flow constructs used with asynchronous code."
+      },
+      {
+        "question": "What is the difference between require and import in Node.js?",
+        "explanation": "Consider module systems and when each syntax is used."
+      },
+      {
+        "question": "How do you create a simple Express server?",
+        "explanation": "Focus on the minimum setup needed to start listening for requests."
+      },
+      {
+        "question": "What is res.send() and how is it different from res.json()?",
+        "explanation": "Think about how Express formats different types of responses automatically."
+      },
+      {
+        "question": "How do you chain multiple middleware functions in a route?",
+        "explanation": "Consider execution order and how control passes between functions."
+      }
+    ]
   };
   const [currentIndex, setCurrentIndex] = useState(0);
   const [finalScreen, setFinalScreen] = useState(false);
