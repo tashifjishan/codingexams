@@ -88,7 +88,7 @@ export default function QuestionComponent() {
   const [name, setName] = useState(null);
   const [subject, setSubject] = useState(null);
   const [questionsDialogVisible, setQuestionsDialogVisible] = useState(false);
-  
+
   // Matrix dictionary matching index positions to answers -> { [index]: "user_input" }
   const [savedAnswers, setSavedAnswers] = useState({});
 
@@ -120,7 +120,7 @@ export default function QuestionComponent() {
   // Intercept workspace state right before index shifts
   const cacheActiveQuestionAnswer = () => {
     if (!name || !subject || !questions[subject]) return savedAnswers;
-    
+
     const activeQuestion = questions[subject][currentIndex];
     let activeResponse = "";
 
@@ -155,7 +155,7 @@ export default function QuestionComponent() {
   // Terminal submission gate wrapper 
   function handleFinalSubmit() {
     const freshAnswers = cacheActiveQuestionAnswer();
-    
+
     // Check missing answers
     const unansweredCount = questions[subject].filter((_, idx) => !freshAnswers[idx] || freshAnswers[idx].trim() === "").length;
     let confirmPromptMsg = "Are you sure you want to finalize your exam?";
@@ -171,7 +171,7 @@ export default function QuestionComponent() {
     const response = prompt(
       `Security Validation Check:\nWhat is ${firstNum} + ${secondNum} = ?`,
     );
-    
+
     if (parseInt(response, 10) === sum) {
       setFinalScreen(true);
     } else {
@@ -283,7 +283,7 @@ export default function QuestionComponent() {
                 <span className="bg-slate-800 text-slate-400 border border-slate-700 px-3 py-0.5 text-xs rounded">{index + 1}</span>{" "}
                 <span className="flex-1">{formatTextWithInlineCode(questionObj.question)}</span>
               </p>
-              
+
               {questionObj.type === "mcq" ? (
                 <div className="bg-slate-900/60 border border-slate-800 rounded-lg p-4 pl-6 text-sm text-indigo-300">
                   Selected Answer: <span className="font-bold underline text-white">{answerText}</span>
@@ -299,7 +299,25 @@ export default function QuestionComponent() {
 
         <button
           onClick={() => {
-            const htmlContent = document.documentElement.outerHTML;
+            // 1. Create a virtual deep clone of the current document structure
+            const clonedDoc = document.documentElement.cloneNode(true);
+
+            // 2. Locate the head component inside the clone
+            const head = clonedDoc.querySelector("head");
+
+            if (head) {
+              // 3. Create a script element pointing to the Tailwind Play CDN
+              const tailwindScript = document.createElement("script");
+              tailwindScript.src = "https://cdn.tailwindcss.com";
+
+              // 4. Append it to the top of the cloned document's head
+              head.appendChild(tailwindScript);
+            }
+
+            // 5. Convert the modified virtual document structure back to a string
+            const htmlContent = clonedDoc.outerHTML;
+
+            // 6. Create the download package
             const file = new Blob([htmlContent], { type: "text/html" });
             const url = URL.createObjectURL(file);
             const a = document.createElement("a");
@@ -349,8 +367,8 @@ export default function QuestionComponent() {
           <div className="p-4 border-t border-slate-700/50 flex flex-col gap-3 bg-[#0f172a]">
             <div className="flex items-center justify-between px-2 text-xs text-slate-500 font-mono">
               <div>Progress metric: {Math.round(((currentIndex + 1) / questions[subject].length) * 100)}%</div>
-              <button 
-                onClick={() => setQuestionsDialogVisible(true)} 
+              <button
+                onClick={() => setQuestionsDialogVisible(true)}
                 className="text-indigo-400 hover:underline cursor-pointer"
               >
                 Dashboard Map
@@ -396,23 +414,22 @@ export default function QuestionComponent() {
                     <p className="font-bold text-lg text-slate-200">Interactive Directory Manifest</p>
                     <button className="text-sm bg-slate-800 text-slate-400 px-3 py-1 rounded" onClick={() => setQuestionsDialogVisible(false)}>Escape</button>
                   </div>
-                  
+
                   <div className="grid grid-cols-1 gap-2 mt-2">
                     {questions[subject].map((question, index) => {
                       const isAnswered = savedAnswers[index] && savedAnswers[index].trim() !== "";
                       return (
-                        <div 
-                          key={index} 
+                        <div
+                          key={index}
                           onClick={() => {
                             cacheActiveQuestionAnswer();
                             setCurrentIndex(index);
                             setQuestionsDialogVisible(false);
                           }}
-                          className={`flex items-center gap-4 border p-2.5 rounded-lg cursor-pointer transition-all ${
-                            currentIndex === index 
-                              ? "border-indigo-500 bg-indigo-500/10" 
+                          className={`flex items-center gap-4 border p-2.5 rounded-lg cursor-pointer transition-all ${currentIndex === index
+                              ? "border-indigo-500 bg-indigo-500/10"
                               : "border-slate-800 bg-slate-900 hover:border-slate-700"
-                          }`}
+                            }`}
                         >
                           <span className={`px-2.5 py-1 text-xs rounded font-bold ${isAnswered ? "bg-emerald-500/20 text-emerald-400 border border-emerald-500/30" : "bg-slate-800 text-slate-400"}`}>
                             {`${index + 1}`.padStart(2, '0')}
@@ -457,11 +474,10 @@ export default function QuestionComponent() {
                     return (
                       <label
                         key={idx}
-                        className={`flex items-center gap-4 p-4 rounded-xl border cursor-pointer select-none transition-all duration-200 ${
-                          isSelected 
-                            ? "border-indigo-500 bg-indigo-500/10 shadow-lg shadow-indigo-950/20" 
+                        className={`flex items-center gap-4 p-4 rounded-xl border cursor-pointer select-none transition-all duration-200 ${isSelected
+                            ? "border-indigo-500 bg-indigo-500/10 shadow-lg shadow-indigo-950/20"
                             : "border-slate-800 bg-slate-900/40 hover:bg-slate-900/90 hover:border-slate-700"
-                        }`}
+                          }`}
                       >
                         <input
                           type="radio"
