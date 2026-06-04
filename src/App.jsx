@@ -2124,10 +2124,370 @@ export default function QuestionComponent() {
         question: "Filter grouped data with count > 2.",
         explanation: "Use HAVING COUNT(*) > 2."
       }
+    ],
+    "python-basics":[
+      // MCQs (50)
+
+      {
+        type: "mcq",
+        question: "Which keyword is used to create a loop that iterates over a sequence in Python?",
+        options: ["while", "for", "loop", "iterate"],
+        answer: "for"
+      },
+      {
+        type: "mcq",
+        question: "What will range(5) generate?",
+        options: ["0 to 4", "1 to 5", "0 to 5", "1 to 4"],
+        answer: "0 to 4"
+      },
+      {
+        type: "mcq",
+        question: "Which statement is used to exit a loop immediately?",
+        options: ["continue", "skip", "break", "exit"],
+        answer: "break"
+      },
+      {
+        type: "mcq",
+        question: "Which statement skips the current iteration and moves to the next?",
+        options: ["pass", "break", "continue", "next"],
+        answer: "continue"
+      },
+      {
+        type: "mcq",
+        question: "What is the output of bool(0)?",
+        options: ["True", "False", "0", "Error"],
+        answer: "False"
+      },
+      {
+        type: "mcq",
+        question: "Which operator checks equality in Python?",
+        options: ["=", "==", "!=", "==="],
+        answer: "=="
+      },
+      {
+        type: "mcq",
+        question: "Which keyword is used for conditional branching?",
+        options: ["switch", "if", "case", "when"],
+        answer: "if"
+      },
+      {
+        type: "mcq",
+        question: "What is the output of 5 > 3?",
+        options: ["False", "True", "5", "3"],
+        answer: "True"
+      },
+      {
+        type: "mcq",
+        question: "Which data type is mutable?",
+        options: ["tuple", "string", "list", "int"],
+        answer: "list"
+      },
+      {
+        type: "mcq",
+        question: "How do you create an empty list?",
+        options: ["{}", "()", "[]", "<>"],
+        answer: "[]"
+      },
+      {
+        type: "mcq",
+        question: "Which method adds an element to the end of a list?",
+        options: ["insert()", "append()", "add()", "push()"],
+        answer: "append()"
+      },
+      {
+        type: "mcq",
+        question: "Which method removes and returns the last list element?",
+        options: ["remove()", "delete()", "pop()", "discard()"],
+        answer: "pop()"
+      },
+      {
+        type: "mcq",
+        question: "What is the index of the first element in a Python list?",
+        options: ["1", "-1", "0", "None"],
+        answer: "0"
+      },
+      {
+        type: "mcq",
+        question: "What does len([1,2,3]) return?",
+        options: ["2", "3", "4", "Error"],
+        answer: "3"
+      },
+      {
+        type: "mcq",
+        question: "Which symbol is used for list comprehension?",
+        options: ["{}", "[]", "()", "<>"],
+        answer: "[]"
+      },
+      {
+        type: "mcq",
+        question: "What is the result of [x*2 for x in [1,2,3]]?",
+        options: ["[1,2,3]", "[2,4,6]", "[2,3,4]", "[1,4,9]"],
+        answer: "[2,4,6]"
+      },
+      {
+        type: "mcq",
+        question: "Which keyword is commonly used inside a list comprehension?",
+        options: ["for", "while", "loop", "repeat"],
+        answer: "for"
+      },
+      {
+        type: "mcq",
+        question: "What is the output of [x for x in range(5) if x%2==0]?",
+        options: ["[1,3]", "[0,2,4]", "[2,4]", "[0,1,2,3,4]"],
+        answer: "[0,2,4]"
+      },
+      {
+        type: "mcq",
+        question: "Which bracket is used to create a tuple?",
+        options: ["[]", "{}", "()", "<>"],
+        answer: "()"
+      },
+      {
+        type: "mcq",
+        question: "What is the type of (5,)?",
+        options: ["int", "list", "tuple", "set"],
+        answer: "tuple"
+      },
+      {
+        type: "mcq",
+        question: "Are tuples mutable?",
+        options: ["Yes", "No", "Sometimes", "Only if nested"],
+        answer: "No"
+      },
+      {
+        type: "mcq",
+        question: "How do you access the first element of a tuple t?",
+        options: ["t(0)", "t[0]", "t.first()", "t{0}"],
+        answer: "t[0]"
+      },
+      {
+        type: "mcq",
+        question: "Which data structure stores unique values only?",
+        options: ["list", "tuple", "set", "string"],
+        answer: "set"
+      },
+      {
+        type: "mcq",
+        question: "How do you create an empty set?",
+        options: ["{}", "set()", "[]", "()"],
+        answer: "set()"
+      },
+      {
+        type: "mcq",
+        question: "Which method adds an element to a set?",
+        options: ["append()", "insert()", "add()", "push()"],
+        answer: "add()"
+      },
+      {
+        type: "mcq",
+        question: "What happens if duplicate values are added to a set?",
+        options: ["Error", "Duplicates remain", "Duplicates are removed", "None"],
+        answer: "Duplicates are removed"
+      },
+      {
+        type: "mcq",
+        question: "Which operator checks membership?",
+        options: ["in", "contains", "has", "within"],
+        answer: "in"
+      },
+      {
+        type: "mcq",
+        question: "What is the output of 3 in [1,2,3]?",
+        options: ["False", "True", "3", "Error"],
+        answer: "True"
+      },
+      {
+        type: "mcq",
+        question: "Which keyword defines a variable in Python?",
+        options: ["var", "let", "No keyword needed", "define"],
+        answer: "No keyword needed"
+      },
+      {
+        type: "mcq",
+        question: "Which variable name is valid?",
+        options: ["2num", "first-name", "_count", "class"],
+        answer: "_count"
+      },
+      {
+        type: "mcq",
+        question: "What is the type of x = 10?",
+        options: ["float", "str", "int", "bool"],
+        answer: "int"
+      },
+      {
+        type: "mcq",
+        question: "What is the output of type(3.14)?",
+        options: ["int", "float", "str", "double"],
+        answer: "float"
+      },
+      {
+        type: "mcq",
+        question: "Which loop runs as long as a condition is True?",
+        options: ["for", "while", "repeat", "foreach"],
+        answer: "while"
+      },
+      {
+        type: "mcq",
+        question: "What is the output of sum([1,2,3])?",
+        options: ["5", "6", "7", "Error"],
+        answer: "6"
+      },
+      {
+        type: "mcq",
+        question: "Which function returns the largest value in a list?",
+        options: ["large()", "max()", "biggest()", "top()"],
+        answer: "max()"
+      },
+      {
+        type: "mcq",
+        question: "Which function returns the smallest value in a list?",
+        options: ["min()", "small()", "least()", "bottom()"],
+        answer: "min()"
+      },
+      {
+        type: "mcq",
+        question: "What is the output of len('Python')?",
+        options: ["5", "6", "7", "Error"],
+        answer: "6"
+      },
+      {
+        type: "mcq",
+        question: "Which logical operator means AND?",
+        options: ["&&", "&", "and", "AND"],
+        answer: "and"
+      },
+      {
+        type: "mcq",
+        question: "Which logical operator means OR?",
+        options: ["||", "or", "|", "OR"],
+        answer: "or"
+      },
+      {
+        type: "mcq",
+        question: "Which logical operator negates a condition?",
+        options: ["!", "not", "~", "neg"],
+        answer: "not"
+      },
+      {
+        type: "mcq",
+        question: "What is the output of 10 % 3?",
+        options: ["3", "1", "0", "10"],
+        answer: "1"
+      },
+      {
+        type: "mcq",
+        question: "Which operator performs exponentiation?",
+        options: ["^", "**", "^^", "*"],
+        answer: "**"
+      },
+      {
+        type: "mcq",
+        question: "What is the output of 2 ** 3?",
+        options: ["6", "8", "9", "23"],
+        answer: "8"
+      },
+      {
+        type: "mcq",
+        question: "Which method sorts a list in place?",
+        options: ["sort()", "sorted()", "order()", "arrange()"],
+        answer: "sort()"
+      },
+      {
+        type: "mcq",
+        question: "What does sorted() return?",
+        options: ["A new sorted list", "Nothing", "A tuple", "A set"],
+        answer: "A new sorted list"
+      },
+      {
+        type: "mcq",
+        question: "What is the output of list(range(3))?",
+        options: ["[1,2,3]", "[0,1,2]", "[0,1,2,3]", "[3]"],
+        answer: "[0,1,2]"
+      },
+      {
+        type: "mcq",
+        question: "Which function converts a tuple into a list?",
+        options: ["list()", "tuple()", "convert()", "array()"],
+        answer: "list()"
+      },
+      {
+        type: "mcq",
+        question: "What is the result of set([1,1,2,2,3])?",
+        options: ["{1,1,2,2,3}", "{1,2,3}", "[1,2,3]", "(1,2,3)"],
+        answer: "{1,2,3}"
+      },
+      {
+        type: "mcq",
+        question: "Which keyword is used when no action is required in a block?",
+        options: ["skip", "continue", "pass", "none"],
+        answer: "pass"
+      },
+      {
+        type: "mcq",
+        question: "What is the output of bool([])?",
+        options: ["True", "False", "[]", "Error"],
+        answer: "False"
+      },
+      {
+        type: "mcq",
+        question: "Which comprehension creates a set?",
+        options: ["[]", "{}", "()", "<>"],
+        answer: "{}"
+      },
+
+      // Coding Questions (10)
+
+      {
+        type: "code",
+        question: "Write a Python program to print numbers from 1 to 10 using a for loop.",
+        explanation: "for i in range(1, 11): print(i)"
+      },
+      {
+        type: "code",
+        question: "Write a Python program to print all even numbers from 1 to 20.",
+        explanation: "for i in range(2, 21, 2): print(i)"
+      },
+      {
+        type: "code",
+        question: "Write a Python program to check whether a number is positive, negative, or zero.",
+        explanation: "Use if, elif, and else conditions."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to find the sum of all elements in a list.",
+        explanation: "Use sum(my_list) or a loop."
+      },
+      {
+        type: "code",
+        question: "Write a Python list comprehension to create a list of squares from 1 to 10.",
+        explanation: "[x*x for x in range(1, 11)]"
+      },
+      {
+        type: "code",
+        question: "Write a Python program to count the number of vowels in a string.",
+        explanation: "Loop through characters and count vowels."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to remove duplicates from a list using a set.",
+        explanation: "list(set(my_list))"
+      },
+      {
+        type: "code",
+        question: "Write a Python program to find the largest element in a list.",
+        explanation: "Use max(my_list) or iterate manually."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to create a tuple containing five numbers and print its first element.",
+        explanation: "nums = (1,2,3,4,5); print(nums[0])"
+      },
+      {
+        type: "code",
+        question: "Write a Python program to find the common elements between two sets.",
+        explanation: "Use set1.intersection(set2) or set1 & set2."
+      }
     ]
-
-
-
   };
 
   const [currentIndex, setCurrentIndex] = useState(0);
