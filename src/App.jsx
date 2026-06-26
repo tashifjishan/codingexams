@@ -3,7 +3,7 @@ import CodeEditor from "./components/CodeEditor";
 
 export default function QuestionComponent() {
   const questions = {
-    "python-morning": 
+    "python-morning":
       [
         {
           type: "mcq",
@@ -125,89 +125,217 @@ export default function QuestionComponent() {
           options: ["arrange()", "order()", "sort()", "sortedlist()"],
           answer: "sort()",
         },
-          {
-            type: "code",
-            question: "Write a Python program to print the multiplication table of a given number.",
-          },
-          {
-            type: "code",
-            question: "Write a Python program to check whether a given number is even or odd using if-else.",
-          },
-          {
-            type: "code",
-            question: "Write a Python program to find the largest of three numbers using if-elif-else.",
-          },
-          {
-            type: "code",
-            question: "Write a Python program to calculate the factorial of a given number using a for loop.",
-          },
-          {
-            type: "code",
-            question: "Write a Python program to print all even numbers from 1 to 100 using a loop.",
-          },
-          {
-            type: "code",
-            question: "Write a Python program to calculate the sum of the first N natural numbers.",
-          },
-          {
-            type: "code",
-            question: "Write a Python program to count the number of digits in a given integer.",
-          },
-          {
-            type: "code",
-            question: "Write a Python program to reverse a given number using a while loop.",
-          },
-          {
-            type: "code",
-            question: "Write a Python program to check whether a given number is a palindrome.",
-          },
-          {
-            type: "code",
-            question: "Write a Python program to print the following pattern for N rows:\n*\n**\n***\n****",
-          },
-          {
-            type: "code",
-            question: "Write a Python program to count the number of vowels in a given string.",
-          },
-          {
-            type: "code",
-            question: "Write a Python program to check whether a given string is a palindrome.",
-          },
-          {
-            type: "code",
-            question: "Write a Python program to count the occurrences of a specific character in a string.",
-          },
-          {
-            type: "code",
-            question: "Write a Python program to replace all spaces in a string with hyphens (-).",
-          },
-          {
-            type: "code",
-            question: "Write a Python program to find the longest word in a given sentence.",
-          },
-          {
-            type: "code",
-            question: "Write a Python program to find the largest element in a list without using max().",
-          },
-          {
-            type: "code",
-            question: "Write a Python program to calculate the sum of all elements in a list.",
-          },
-          {
-            type: "code",
-            question: "Write a Python program to remove duplicate elements from a list.",
-          },
-          {
-            type: "code",
-            question: "Write a Python program to count how many even and odd numbers are present in a list.",
-          },
-          {
-            type: "code",
-            question: "Write a Python program to create a new list containing the squares of all even numbers from 1 to 20.",
-          }
-        
-      ]
-    
+        {
+          type: "code",
+          question: "Write a Python program to print the multiplication table of a given number.",
+        },
+        {
+          type: "code",
+          question: "Write a Python program to check whether a given number is even or odd using if-else.",
+        },
+        {
+          type: "code",
+          question: "Write a Python program to find the largest of three numbers using if-elif-else.",
+        },
+        {
+          type: "code",
+          question: "Write a Python program to calculate the factorial of a given number using a for loop.",
+        },
+        {
+          type: "code",
+          question: "Write a Python program to print all even numbers from 1 to 100 using a loop.",
+        },
+        {
+          type: "code",
+          question: "Write a Python program to calculate the sum of the first N natural numbers.",
+        },
+        {
+          type: "code",
+          question: "Write a Python program to count the number of digits in a given integer.",
+        },
+        {
+          type: "code",
+          question: "Write a Python program to reverse a given number using a while loop.",
+        },
+        {
+          type: "code",
+          question: "Write a Python program to check whether a given number is a palindrome.",
+        },
+        {
+          type: "code",
+          question: "Write a Python program to print the following pattern for N rows:\n*\n**\n***\n****",
+        },
+        {
+          type: "code",
+          question: "Write a Python program to count the number of vowels in a given string.",
+        },
+        {
+          type: "code",
+          question: "Write a Python program to check whether a given string is a palindrome.",
+        },
+        {
+          type: "code",
+          question: "Write a Python program to count the occurrences of a specific character in a string.",
+        },
+        {
+          type: "code",
+          question: "Write a Python program to replace all spaces in a string with hyphens (-).",
+        },
+        {
+          type: "code",
+          question: "Write a Python program to find the longest word in a given sentence.",
+        },
+        {
+          type: "code",
+          question: "Write a Python program to find the largest element in a list without using max().",
+        },
+        {
+          type: "code",
+          question: "Write a Python program to calculate the sum of all elements in a list.",
+        },
+        {
+          type: "code",
+          question: "Write a Python program to remove duplicate elements from a list.",
+        },
+        {
+          type: "code",
+          question: "Write a Python program to count how many even and odd numbers are present in a list.",
+        },
+        {
+          type: "code",
+          question: "Write a Python program to create a new list containing the squares of all even numbers from 1 to 20.",
+        }
+
+      ],
+
+    css: [
+      {
+        type: "mcq",
+        question: "Which CSS property is used to change the text color?",
+        options: ["font-color", "text-color", "color", "foreground"],
+        answer: "color",
+      },
+      {
+        type: "mcq",
+        question: "Which CSS property is used to make text bold?",
+        options: ["font-style", "font-weight", "text-weight", "bold"],
+        answer: "font-weight",
+      },
+      {
+        type: "mcq",
+        question: "Which CSS property is used to align text horizontally?",
+        options: ["align", "text-align", "font-align", "justify-content"],
+        answer: "text-align",
+      },
+      {
+        type: "mcq",
+        question: "Which CSS property changes the size of the text?",
+        options: ["text-size", "font-size", "size", "text-style"],
+        answer: "font-size",
+      },
+      {
+        type: "mcq",
+        question: "Which CSS property is used to underline text?",
+        options: ["text-decoration", "font-decoration", "underline", "text-style"],
+        answer: "text-decoration",
+      },
+      {
+        type: "mcq",
+        question: "Which part of the CSS Box Model surrounds the content directly?",
+        options: ["Margin", "Border", "Padding", "Content"],
+        answer: "Padding",
+      },
+      {
+        type: "mcq",
+        question: "Which part of the CSS Box Model is outside the border?",
+        options: ["Padding", "Content", "Margin", "Outline"],
+        answer: "Margin",
+      },
+      {
+        type: "mcq",
+        question: "Which CSS property changes the space between the content and the border?",
+        options: ["margin", "spacing", "padding", "border-spacing"],
+        answer: "padding",
+      },
+      {
+        type: "mcq",
+        question: "Which CSS property changes the thickness of a border?",
+        options: ["border-width", "border-size", "width", "outline-width"],
+        answer: "border-width",
+      },
+      {
+        type: "mcq",
+        question: "What is the correct order of the CSS Box Model from inside to outside?",
+        options: [
+          "Content → Padding → Border → Margin",
+          "Content → Border → Padding → Margin",
+          "Padding → Content → Border → Margin",
+          "Content → Margin → Border → Padding"
+        ],
+        answer: "Content → Padding → Border → Margin",
+      },
+      {
+        type: "mcq",
+        question: "Which display value makes an element a flex container?",
+        options: ["display: block", "display: inline", "display: flex", "display: grid"],
+        answer: "display: flex",
+      },
+      {
+        type: "mcq",
+        question: "Which Flexbox property changes the direction of flex items?",
+        options: ["justify-content", "align-items", "flex-direction", "flex-wrap"],
+        answer: "flex-direction",
+      },
+      {
+        type: "mcq",
+        question: "Which Flexbox property aligns items horizontally in a row?",
+        options: ["justify-content", "align-items", "align-content", "text-align"],
+        answer: "justify-content",
+      },
+      {
+        type: "mcq",
+        question: "Which Flexbox property aligns items vertically when flex-direction is row?",
+        options: ["justify-content", "align-items", "text-align", "flex-wrap"],
+        answer: "align-items",
+      },
+      {
+        type: "mcq",
+        question: "Which Flexbox property allows items to move to the next line?",
+        options: ["flex-direction", "flex-wrap", "justify-content", "align-items"],
+        answer: "flex-wrap",
+      },
+      {
+        type: "mcq",
+        question: "Which display value makes an element start on a new line and take the full available width?",
+        options: ["inline", "inline-block", "block", "flex"],
+        answer: "block",
+      },
+      {
+        type: "mcq",
+        question: "Which display value allows elements to stay on the same line but does NOT allow width and height to be set?",
+        options: ["block", "inline", "inline-block", "flex"],
+        answer: "inline",
+      },
+      {
+        type: "mcq",
+        question: "Which display value allows elements to stay on the same line while allowing width and height to be set?",
+        options: ["block", "inline", "inline-block", "flex"],
+        answer: "inline-block",
+      },
+      {
+        type: "mcq",
+        question: "Which CSS property changes the background color of an element?",
+        options: ["bg-color", "background-color", "color", "background-style"],
+        answer: "background-color",
+      },
+      {
+        type: "mcq",
+        question: "Which CSS property is used to round the corners of an element?",
+        options: ["corner-radius", "border-round", "border-radius", "radius"],
+        answer: "border-radius",
+      }
+    ]
+
   };
 
   const [currentIndex, setCurrentIndex] = useState(0);
