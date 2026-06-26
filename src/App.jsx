@@ -334,7 +334,130 @@ export default function QuestionComponent() {
         options: ["corner-radius", "border-round", "border-radius", "radius"],
         answer: "border-radius",
       }
-    ]
+    ],
+
+    "c-morning": [
+  {
+    type: "code",
+    question: "Write a C program to print numbers from 1 to 10 using a while loop."
+  },
+  {
+    type: "code",
+    question: "Write a C program to print numbers from 1 to 10 using a for loop."
+  },
+  {
+    type: "code",
+    question: "Write a C program to print even numbers from 1 to 20."
+  },
+  {
+    type: "code",
+    question: "Write a C program to print odd numbers from 1 to 20."
+  },
+  {
+    type: "code",
+    question: "Write a C program to add two integers."
+  },
+  {
+    type: "code",
+    question: "Write a C program to subtract two integers."
+  },
+  {
+    type: "code",
+    question: "Write a C program to multiply two integers."
+  },
+  {
+    type: "code",
+    question: "Write a C program to divide two integers."
+  },
+  {
+    type: "code",
+    question: "Write a C program to check whether a number is even or odd using if-else."
+  },
+  {
+    type: "code",
+    question: "Write a C program to check whether a number is positive or negative."
+  },
+  {
+    type: "code",
+    question: "Write a C program to find the largest of two numbers using if-else."
+  },
+  {
+    type: "code",
+    question: "Write a C program to find the smallest of two numbers using if-else."
+  },
+  {
+    type: "code",
+    question: "Write a C program to find the largest of three numbers using if-else-if."
+  },
+  {
+    type: "code",
+    question: "Write a C program to print the multiplication table of a number."
+  },
+  {
+    type: "code",
+    question: "Write a C program to calculate the sum of first 10 natural numbers."
+  },
+  {
+    type: "code",
+    question: "Write a C program to find factorial of a small number using a loop."
+  },
+  {
+    type: "code",
+    question: "Write a C program to store 5 numbers in an array and print them."
+  },
+  {
+    type: "code",
+    question: "Write a C program to find the sum of elements in an array."
+  },
+  {
+    type: "code",
+    question: "Write a C program to find the largest number in a small array."
+  },
+  {
+    type: "code",
+    question: "Write a C program to print all elements of an array."
+  },
+  {
+    type: "code",
+    question: "Write a C program to input and print a string using character array."
+  },
+  {
+    type: "code",
+    question: "Write a C program to count the number of characters in a string."
+  },
+  {
+    type: "code",
+    question: "Write a C program to print a string using fgets()."
+  },
+  {
+    type: "code",
+    question: "Write a C program to remove newline character from input using strcspn()."
+  },
+  {
+    type: "code",
+    question: "Write a C program to print first character of a string."
+  },
+  {
+    type: "code",
+    question: "Write a C program to compare two numbers using if-else."
+  },
+  {
+    type: "code",
+    question: "Write a C program to find average of 3 numbers."
+  },
+  {
+    type: "code",
+    question: "Write a C program to check whether a number is zero, positive, or negative."
+  },
+  {
+    type: "code",
+    question: "Write a C program to print digits of a number using a loop (basic level)."
+  },
+  {
+    type: "code",
+    question: "Write a C program to reverse a small number using a loop."
+  }
+]
 
   };
 
