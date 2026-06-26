@@ -457,6 +457,89 @@ export default function QuestionComponent() {
     type: "code",
     question: "Write a C program to reverse a small number using a loop."
   }
+],
+
+"javascript-2pm": [
+  {
+    type: "code",
+    question: "Declare two variables and use console.log() to print their sum."
+  },
+  {
+    type: "code",
+    question: "Declare a variable called age and use an if statement to print 'Adult' if age is 18 or more, otherwise print 'Minor'."
+  },
+  {
+    type: "code",
+    question: "Write a program that checks if a number is even or odd using if...else and prints the result with console.log()."
+  },
+  {
+    type: "code",
+    question: "Use a for loop to print the numbers from 1 to 10 using console.log()."
+  },
+  {
+    type: "code",
+    question: "Use a while loop to print the numbers from 10 down to 1 using console.log()."
+  },
+  {
+    type: "code",
+    question: "Write a program to print the multiplication table of 5 using a for loop."
+  },
+  {
+    type: "code",
+    question: "Declare a variable score and print 'Pass' if the score is 40 or above, otherwise print 'Fail'."
+  },
+  {
+    type: "code",
+    question: "Write a program to print all even numbers from 1 to 20 using a loop."
+  },
+  {
+    type: "code",
+    question: "Write a program to print all odd numbers from 1 to 20 using a loop."
+  },
+  {
+    type: "code",
+    question: "Use a loop to calculate and print the sum of numbers from 1 to 10."
+  },
+  {
+    type: "code",
+    question: "Declare a variable temperature and use if...else to print 'Hot' if it is above 30, otherwise print 'Cool'."
+  },
+  {
+    type: "code",
+    question: "Write a program to count from 1 to 5 using a do...while loop and print each number."
+  },
+  {
+    type: "code",
+    question: "Write a program to print the square of numbers from 1 to 10 using a for loop."
+  },
+  {
+    type: "code",
+    question: "Declare a variable number and print 'Positive' if it is greater than 0, otherwise print 'Not Positive'."
+  },
+  {
+    type: "code",
+    question: "Write a program that prints numbers from 1 to 20 but skips multiples of 3 using if...else."
+  },
+  {
+    type: "code",
+    question: "Use a loop to print the first 10 natural numbers using console.log()."
+  },
+  {
+    type: "code",
+    question: "Declare a variable marks and print 'Excellent' if marks are 90 or above, otherwise print 'Keep Practicing'."
+  },
+  {
+    type: "code",
+    question: "Write a program to print a countdown from 5 to 1 using a while loop."
+  },
+  {
+    type: "code",
+    question: "Use a for loop to print numbers from 1 to 15 and print 'Fizz' instead of numbers divisible by 3."
+  },
+  {
+    type: "code",
+    question: "Write a program that declares a variable n and prints the factorial of n using a loop."
+  }
 ]
 
   };
