@@ -540,6 +540,129 @@ export default function QuestionComponent() {
     type: "code",
     question: "Write a program that declares a variable n and prints the factorial of n using a loop."
   }
+],
+
+"sql": [
+  {
+    type: "code",
+    question: "Write a SELECT query to display all columns from the employees table."
+  },
+  {
+    type: "code",
+    question: "Write a SELECT query to display only the name and salary columns from the employees table."
+  },
+  {
+    type: "code",
+    question: "Write a SELECT query to display unique department names from the employees table using DISTINCT."
+  },
+  {
+    type: "code",
+    question: "Write a WHERE query to display employees whose salary is greater than 50000."
+  },
+  {
+    type: "code",
+    question: "Write a WHERE query to display employees who belong to the 'Sales' department."
+  },
+  {
+    type: "code",
+    question: "Write a WHERE query to display employees whose age is between 25 and 35."
+  },
+  {
+    type: "code",
+    question: "Write a WHERE query to display employees whose name starts with the letter 'A'."
+  },
+  {
+    type: "code",
+    question: "Write a query using GROUP BY to count the number of employees in each department."
+  },
+  {
+    type: "code",
+    question: "Write a query using GROUP BY to calculate the average salary for each department."
+  },
+  {
+    type: "code",
+    question: "Write a query using GROUP BY and HAVING to display departments with more than 5 employees."
+  },
+  {
+    type: "code",
+    question: "Write a query using GROUP BY and HAVING to display departments where the average salary is greater than 60000."
+  },
+  {
+    type: "code",
+    question: "Write a query to display employees whose manager_id is NULL."
+  },
+  {
+    type: "code",
+    question: "Write a query to display employees whose email is NOT NULL."
+  },
+  {
+    type: "code",
+    question: "Write a query using IS NULL to find products that do not have a discount value."
+  },
+  {
+    type: "code",
+    question: "Write a query using IS NOT NULL to display customers who have provided a phone number."
+  },
+  {
+    type: "code",
+    question: "Write a query using REGEXP to display employees whose names start with either 'A' or 'B'."
+  },
+  {
+    type: "code",
+    question: "Write a query using REGEXP to display email addresses ending with '.com'."
+  },
+  {
+    type: "code",
+    question: "Write a query using REGEXP to display product names that contain at least one digit."
+  },
+  {
+    type: "code",
+    question: "Write a query using the COUNT() aggregation function to count the total number of employees."
+  },
+  {
+    type: "code",
+    question: "Write a query using the SUM() aggregation function to calculate the total salary of all employees."
+  },
+  {
+    type: "code",
+    question: "Write a query using the AVG() aggregation function to calculate the average salary."
+  },
+  {
+    type: "code",
+    question: "Write a query using the MAX() aggregation function to find the highest salary."
+  },
+  {
+    type: "code",
+    question: "Write a query using the MIN() aggregation function to find the lowest salary."
+  },
+  {
+    type: "code",
+    question: "Write a query using CASE WHEN to display 'High' if salary is greater than 70000, otherwise display 'Low'."
+  },
+  {
+    type: "code",
+    question: "Write a query using CASE WHEN to categorize students as 'Pass' if marks are 40 or above, otherwise 'Fail'."
+  },
+  {
+    type: "code",
+    question: "Write a SELECT query that creates a calculated column named annual_salary by multiplying salary by 12."
+  },
+  {
+    type: "code",
+    question: "Write a SELECT query that creates a calculated column named discounted_price by subtracting discount from price."
+  },
+  {
+    type: "code",
+    question: "Write a SELECT query that creates a calculated column named full_name by combining first_name and last_name."
+  },
+  {
+    type: "code",
+    question: "Write a query using CASE WHEN to assign grades: 'A' for marks >= 90, 'B' for marks >= 75, otherwise 'C'."
+  },
+  {
+    type: "code",
+    question: "Write a query that groups employees by department and displays the total salary only for departments where the total salary exceeds 500000."
+  }
 ]
 
   };
