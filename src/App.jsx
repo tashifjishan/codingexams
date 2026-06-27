@@ -211,6 +211,670 @@ export default function QuestionComponent() {
     css: [
       {
         type: "mcq",
+        question: "Which CSS property enables Flexbox layout?",
+        options: [
+          "display: flex",
+          "display: block",
+          "display: inline",
+          "display: grid",
+        ],
+        answer: "display: flex",
+      },
+      {
+        type: "mcq",
+        question: "Which element becomes the flex container?",
+        options: [
+          "The parent element",
+          "The first child element",
+          "The last child element",
+          "The largest element",
+        ],
+        answer: "The parent element",
+      },
+      {
+        type: "mcq",
+        question: "By default, what is the value of flex-direction?",
+        options: ["column", "row", "row-reverse", "column-reverse"],
+        answer: "row",
+      },
+      {
+        type: "mcq",
+        question: "Which property changes the direction of flex items?",
+        options: [
+          "justify-content",
+          "flex-direction",
+          "flex-wrap",
+          "align-items",
+        ],
+        answer: "flex-direction",
+      },
+      {
+        type: "mcq",
+        question: "Which value of flex-direction stacks items vertically?",
+        options: ["row", "column", "row-reverse", "inline"],
+        answer: "column",
+      },
+      {
+        type: "mcq",
+        question: "Which property controls the alignment of items along the main axis?",
+        options: [
+          "align-items",
+          "justify-content",
+          "align-content",
+          "place-items",
+        ],
+        answer: "justify-content",
+      },
+      {
+        type: "mcq",
+        question: "Which value of justify-content places items at the center?",
+        options: ["start", "center", "end", "stretch"],
+        answer: "center",
+      },
+      {
+        type: "mcq",
+        question: "Which property aligns items along the cross axis?",
+        options: [
+          "justify-content",
+          "align-items",
+          "flex-wrap",
+          "flex-direction",
+        ],
+        answer: "align-items",
+      },
+      {
+        type: "mcq",
+        question: "Which value of align-items stretches items to fill the container?",
+        options: ["center", "flex-start", "stretch", "baseline"],
+        answer: "stretch",
+      },
+      {
+        type: "mcq",
+        question: "Which property allows flex items to move onto multiple lines?",
+        options: [
+          "flex-wrap",
+          "flex-flow",
+          "align-content",
+          "justify-content",
+        ],
+        answer: "flex-wrap",
+      },
+      {
+        type: "mcq",
+        question: "Which value prevents flex items from wrapping?",
+        options: ["wrap", "nowrap", "reverse", "inherit"],
+        answer: "nowrap",
+      },
+      {
+        type: "mcq",
+        question: "Which shorthand property combines flex-direction and flex-wrap?",
+        options: [
+          "flex",
+          "flex-flow",
+          "flex-layout",
+          "flex-box",
+        ],
+        answer: "flex-flow",
+      },
+      {
+        type: "mcq",
+        question: "Which property specifies how much a flex item should grow?",
+        options: [
+          "flex-grow",
+          "flex-expand",
+          "grow",
+          "flex-size",
+        ],
+        answer: "flex-grow",
+      },
+      {
+        type: "mcq",
+        question: "Which property specifies how much a flex item should shrink?",
+        options: [
+          "flex-shrink",
+          "flex-reduce",
+          "shrink",
+          "flex-compress",
+        ],
+        answer: "flex-shrink",
+      },
+      {
+        type: "mcq",
+        question: "Which property specifies the initial size of a flex item?",
+        options: [
+          "flex-basis",
+          "width",
+          "flex-size",
+          "basis",
+        ],
+        answer: "flex-basis",
+      },
+      {
+        type: "mcq",
+        question: "Which shorthand property combines flex-grow, flex-shrink, and flex-basis?",
+        options: [
+          "flex",
+          "flex-item",
+          "flex-layout",
+          "flex-flow",
+        ],
+        answer: "flex",
+      },
+      {
+        type: "mcq",
+        question: "Which property changes the display order of a flex item?",
+        options: [
+          "order",
+          "z-index",
+          "position",
+          "flex-order",
+        ],
+        answer: "order",
+      },
+      {
+        type: "mcq",
+        question: "Which property aligns a single flex item differently from the others?",
+        options: [
+          "align-self",
+          "justify-self",
+          "self-align",
+          "place-self",
+        ],
+        answer: "align-self",
+      },
+      {
+        type: "mcq",
+        question: "Which value of justify-content creates equal space around items?",
+        options: [
+          "space-around",
+          "space-evenly",
+          "space-between",
+          "center",
+        ],
+        answer: "space-around",
+      },
+      {
+        type: "mcq",
+        question: "Which value of justify-content creates equal spacing between all items and the container edges?",
+        options: [
+          "space-between",
+          "space-around",
+          "space-evenly",
+          "flex-start",
+        ],
+        answer: "space-evenly",
+      },
+
+
+      {
+        type: "mcq",
+        question: "Which HTML tag is used to link a Google Font stylesheet?",
+        options: ["<style>", "<script>", "<link>", "<font>"],
+        answer: "<link>",
+      },
+      {
+        type: "mcq",
+        question: "Which CSS property is used to apply a Google Font?",
+        options: ["font-family", "font-style", "font-type", "font-name"],
+        answer: "font-family",
+      },
+      {
+        type: "mcq",
+        question: "Which CSS property changes the size of text?",
+        options: ["font-size", "text-size", "font-style", "size"],
+        answer: "font-size",
+      },
+      {
+        type: "mcq",
+        question: "Which CSS property makes text bold?",
+        options: ["font-style", "font-weight", "text-bold", "font-bold"],
+        answer: "font-weight",
+      },
+      {
+        type: "mcq",
+        question: "Which value of font-weight represents bold text?",
+        options: ["300", "400", "700", "200"],
+        answer: "700",
+      },
+      {
+        type: "mcq",
+        question: "Which CSS property makes text italic?",
+        options: ["font-weight", "font-style", "text-style", "italic"],
+        answer: "font-style",
+      },
+      {
+        type: "mcq",
+        question: "Which CSS property changes the text color?",
+        options: ["font-color", "text-color", "color", "foreground"],
+        answer: "color",
+      },
+      {
+        type: "mcq",
+        question: "Which CSS property aligns text horizontally?",
+        options: ["text-align", "align", "font-align", "justify"],
+        answer: "text-align",
+      },
+      {
+        type: "mcq",
+        question: "Which value of text-align centers the text?",
+        options: ["left", "center", "right", "justify"],
+        answer: "center",
+      },
+      {
+        type: "mcq",
+        question: "Which CSS property adds a line under text?",
+        options: [
+          "font-decoration",
+          "text-decoration",
+          "underline",
+          "text-style",
+        ],
+        answer: "text-decoration",
+      },
+
+      {
+        type: "mcq",
+        question: "Which CSS property changes the spacing between letters?",
+        options: [
+          "letter-spacing",
+          "word-spacing",
+          "text-spacing",
+          "character-spacing",
+        ],
+        answer: "letter-spacing",
+      },
+      {
+        type: "mcq",
+        question: "Which CSS property changes the spacing between words?",
+        options: [
+          "word-spacing",
+          "letter-spacing",
+          "text-spacing",
+          "line-height",
+        ],
+        answer: "word-spacing",
+      },
+      {
+        type: "mcq",
+        question: "Which CSS property changes the space between lines of text?",
+        options: [
+          "line-height",
+          "text-height",
+          "font-height",
+          "line-spacing",
+        ],
+        answer: "line-height",
+      },
+      {
+        type: "mcq",
+        question: "Which HTML tag is used for the largest heading?",
+        options: ["<h6>", "<heading>", "<h1>", "<head>"],
+        answer: "<h1>",
+      },
+      {
+        type: "mcq",
+        question: "Which HTML tag is used to create a paragraph?",
+        options: ["<para>", "<text>", "<p>", "<paragraph>"],
+        answer: "<p>",
+      },
+      {
+        type: "mcq",
+        question: "Which HTML tag is used to insert an image?",
+        options: ["<picture>", "<img>", "<image>", "<src>"],
+        answer: "<img>",
+      },
+      {
+        type: "mcq",
+        question: "Which HTML tag is used to create a hyperlink?",
+        options: ["<link>", "<a>", "<href>", "<url>"],
+        answer: "<a>",
+      },
+      {
+        type: "mcq",
+        question: "Which HTML tag is used to create an unordered list?",
+        options: ["<ol>", "<ul>", "<li>", "<list>"],
+        answer: "<ul>",
+      },
+      {
+        type: "mcq",
+        question: "Which HTML tag represents a list item?",
+        options: ["<ul>", "<ol>", "<li>", "<item>"],
+        answer: "<li>",
+      },
+      {
+        type: "mcq",
+        question: "Which HTML tag is commonly used as a generic container for styling with CSS?",
+        options: ["<section>", "<div>", "<span>", "<article>"],
+        answer: "<div>",
+      },
+
+      {
+        type: "mcq",
+        question: "Which CSS property is used to apply animations?",
+        options: ["transition", "animation", "transform", "motion"],
+        answer: "animation",
+      },
+      {
+        type: "mcq",
+        question: "Which rule is used to define an animation?",
+        options: ["@transition", "@animation", "@keyframes", "@frames"],
+        answer: "@keyframes",
+      },
+      {
+        type: "mcq",
+        question: "Which property specifies the name of the animation?",
+        options: [
+          "animation-name",
+          "animation-id",
+          "animation-key",
+          "animation-effect",
+        ],
+        answer: "animation-name",
+      },
+      {
+        type: "mcq",
+        question: "Which property specifies how long an animation takes to complete one cycle?",
+        options: [
+          "animation-delay",
+          "animation-duration",
+          "transition-duration",
+          "animation-time",
+        ],
+        answer: "animation-duration",
+      },
+      {
+        type: "mcq",
+        question: "Which property specifies the number of times an animation should repeat?",
+        options: [
+          "animation-repeat",
+          "animation-loop",
+          "animation-iteration-count",
+          "animation-count",
+        ],
+        answer: "animation-iteration-count",
+      },
+      {
+        type: "mcq",
+        question: "Which value makes an animation repeat forever?",
+        options: ["always", "repeat", "infinite", "endless"],
+        answer: "infinite",
+      },
+      {
+        type: "mcq",
+        question: "Which property delays the start of an animation?",
+        options: [
+          "animation-delay",
+          "transition-delay",
+          "animation-duration",
+          "animation-start",
+        ],
+        answer: "animation-delay",
+      },
+      {
+        type: "mcq",
+        question: "Which property controls the speed curve of an animation?",
+        options: [
+          "animation-timing-function",
+          "animation-speed",
+          "animation-curve",
+          "animation-mode",
+        ],
+        answer: "animation-timing-function",
+      },
+      {
+        type: "mcq",
+        question: "Which shorthand property combines all animation properties?",
+        options: ["animation", "transition", "transform", "keyframes"],
+        answer: "animation",
+      },
+      {
+        type: "mcq",
+        question: "Which property specifies whether an animation runs normally or in reverse?",
+        options: [
+          "animation-direction",
+          "animation-order",
+          "animation-mode",
+          "animation-flow",
+        ],
+        answer: "animation-direction",
+      },
+
+      // Positioning
+      {
+        type: "mcq",
+        question: "Which CSS property is used to position an element?",
+        options: ["display", "position", "float", "align"],
+        answer: "position",
+      },
+      {
+        type: "mcq",
+        question: "Which position value places an element according to the normal document flow?",
+        options: ["relative", "absolute", "fixed", "static"],
+        answer: "static",
+      },
+      {
+        type: "mcq",
+        question: "Which position value allows an element to be moved relative to its normal position?",
+        options: ["absolute", "fixed", "relative", "sticky"],
+        answer: "relative",
+      },
+      {
+        type: "mcq",
+        question: "Which position value removes an element from the normal document flow?",
+        options: ["relative", "static", "absolute", "inherit"],
+        answer: "absolute",
+      },
+      {
+        type: "mcq",
+        question: "Which position value keeps an element fixed relative to the browser window?",
+        options: ["sticky", "relative", "absolute", "fixed"],
+        answer: "fixed",
+      },
+      {
+        type: "mcq",
+        question: "Which position value behaves like relative until a scroll threshold is reached?",
+        options: ["fixed", "sticky", "absolute", "static"],
+        answer: "sticky",
+      },
+      {
+        type: "mcq",
+        question: "Which property controls the stacking order of positioned elements?",
+        options: ["layer", "z-index", "stack", "order"],
+        answer: "z-index",
+      },
+      {
+        type: "mcq",
+        question: "Which property is commonly used with position:absolute to move an element downward?",
+        options: ["margin-top", "top", "padding-top", "bottom"],
+        answer: "top",
+      },
+      {
+        type: "mcq",
+        question: "An absolutely positioned element is positioned relative to:",
+        options: [
+          "The nearest positioned ancestor",
+          "The browser window only",
+          "The body element only",
+          "Its previous sibling",
+        ],
+        answer: "The nearest positioned ancestor",
+      },
+      {
+        type: "mcq",
+        question: "Which combination keeps a navigation bar visible while scrolling?",
+        options: [
+          "position: relative",
+          "position: static",
+          "position: fixed",
+          "position: absolute",
+        ],
+        answer: "position: fixed",
+      },
+      {
+        type: "mcq",
+        question: "Which CSS property is used to apply a transition effect?",
+        options: ["animation", "transition", "transform", "effect"],
+        answer: "transition",
+      },
+      {
+        type: "mcq",
+        question: "Which property specifies the duration of a CSS transition?",
+        options: [
+          "transition-delay",
+          "transition-duration",
+          "animation-duration",
+          "duration",
+        ],
+        answer: "transition-duration",
+      },
+      {
+        type: "mcq",
+        question: "Which property defines the CSS property that should transition?",
+        options: [
+          "transition-property",
+          "transition-name",
+          "transition-target",
+          "property",
+        ],
+        answer: "transition-property",
+      },
+      {
+        type: "mcq",
+        question: "Which transition timing function starts slowly, speeds up, then slows down?",
+        options: ["linear", "ease", "ease-in", "ease-out"],
+        answer: "ease",
+      },
+      {
+        type: "mcq",
+        question: "Which transition timing function moves at a constant speed?",
+        options: ["ease", "linear", "ease-in-out", "ease-out"],
+        answer: "linear",
+      },
+      {
+        type: "mcq",
+        question: "Which property delays the start of a transition?",
+        options: [
+          "transition-duration",
+          "transition-delay",
+          "animation-delay",
+          "delay",
+        ],
+        answer: "transition-delay",
+      },
+      {
+        type: "mcq",
+        question: "Which shorthand property combines all transition properties?",
+        options: ["transform", "transition", "animation", "effect"],
+        answer: "transition",
+      },
+      {
+        type: "mcq",
+        question: "Transitions are commonly triggered by which pseudo-class?",
+        options: [":hover", ":before", ":after", ":focus-visible"],
+        answer: ":hover",
+      },
+      {
+        type: "mcq",
+        question: "What happens if transition-duration is set to 0s?",
+        options: [
+          "The transition is disabled.",
+          "The transition becomes infinite.",
+          "The transition runs slowly.",
+          "The transition repeats once.",
+        ],
+        answer: "The transition is disabled.",
+      },
+      {
+        type: "mcq",
+        question: "Which CSS property is commonly transitioned to create a fade effect?",
+        options: ["display", "opacity", "visibility", "overflow"],
+        answer: "opacity",
+      },
+
+      // Transforms
+      {
+        type: "mcq",
+        question: "Which CSS property is used to apply transformations?",
+        options: ["translate", "transform", "transition", "animation"],
+        answer: "transform",
+      },
+      {
+        type: "mcq",
+        question: "Which transform function moves an element horizontally or vertically?",
+        options: ["rotate()", "scale()", "translate()", "skew()"],
+        answer: "translate()",
+      },
+      {
+        type: "mcq",
+        question: "Which transform function rotates an element?",
+        options: ["rotate()", "translate()", "scale()", "move()"],
+        answer: "rotate()",
+      },
+      {
+        type: "mcq",
+        question: "Which transform function changes the size of an element?",
+        options: ["zoom()", "resize()", "scale()", "grow()"],
+        answer: "scale()",
+      },
+      {
+        type: "mcq",
+        question: "Which transform function slants an element?",
+        options: ["rotate()", "translate()", "skew()", "scale()"],
+        answer: "skew()",
+      },
+      {
+        type: "mcq",
+        question: "Which property changes the origin point of transformations?",
+        options: [
+          "transform-origin",
+          "transform-point",
+          "origin",
+          "transform-center",
+        ],
+        answer: "transform-origin",
+      },
+      {
+        type: "mcq",
+        question: "Which value rotates an element by 90 degrees?",
+        options: [
+          "rotate(90deg)",
+          "rotate(90px)",
+          "rotateX(90px)",
+          "rotate(90)",
+        ],
+        answer: "rotate(90deg)",
+      },
+      {
+        type: "mcq",
+        question: "Which transform function enlarges an element to twice its size?",
+        options: ["scale(2)", "scale(200)", "zoom(2)", "grow(2)"],
+        answer: "scale(2)",
+      },
+      {
+        type: "mcq",
+        question: "Which transform function moves an element 50px to the right?",
+        options: [
+          "translateX(50px)",
+          "moveX(50px)",
+          "translateY(50px)",
+          "left(50px)",
+        ],
+        answer: "translateX(50px)",
+      },
+      {
+        type: "mcq",
+        question: "Multiple transform functions can be applied by:",
+        options: [
+          "Writing them in the same transform property",
+          "Using multiple transform properties",
+          "Using transition",
+          "Using animation only",
+        ],
+        answer: "Writing them in the same transform property",
+      },
+
+      {
+        type: "mcq",
         question: "Which CSS property is used to change the text color?",
         options: ["font-color", "text-color", "color", "foreground"],
         answer: "color",
@@ -337,333 +1001,456 @@ export default function QuestionComponent() {
     ],
 
     "c-morning": [
-  {
-    type: "code",
-    question: "Write a C program to print numbers from 1 to 10 using a while loop."
-  },
-  {
-    type: "code",
-    question: "Write a C program to print numbers from 1 to 10 using a for loop."
-  },
-  {
-    type: "code",
-    question: "Write a C program to print even numbers from 1 to 20."
-  },
-  {
-    type: "code",
-    question: "Write a C program to print odd numbers from 1 to 20."
-  },
-  {
-    type: "code",
-    question: "Write a C program to add two integers."
-  },
-  {
-    type: "code",
-    question: "Write a C program to subtract two integers."
-  },
-  {
-    type: "code",
-    question: "Write a C program to multiply two integers."
-  },
-  {
-    type: "code",
-    question: "Write a C program to divide two integers."
-  },
-  {
-    type: "code",
-    question: "Write a C program to check whether a number is even or odd using if-else."
-  },
-  {
-    type: "code",
-    question: "Write a C program to check whether a number is positive or negative."
-  },
-  {
-    type: "code",
-    question: "Write a C program to find the largest of two numbers using if-else."
-  },
-  {
-    type: "code",
-    question: "Write a C program to find the smallest of two numbers using if-else."
-  },
-  {
-    type: "code",
-    question: "Write a C program to find the largest of three numbers using if-else-if."
-  },
-  {
-    type: "code",
-    question: "Write a C program to print the multiplication table of a number."
-  },
-  {
-    type: "code",
-    question: "Write a C program to calculate the sum of first 10 natural numbers."
-  },
-  {
-    type: "code",
-    question: "Write a C program to find factorial of a small number using a loop."
-  },
-  {
-    type: "code",
-    question: "Write a C program to store 5 numbers in an array and print them."
-  },
-  {
-    type: "code",
-    question: "Write a C program to find the sum of elements in an array."
-  },
-  {
-    type: "code",
-    question: "Write a C program to find the largest number in a small array."
-  },
-  {
-    type: "code",
-    question: "Write a C program to print all elements of an array."
-  },
-  {
-    type: "code",
-    question: "Write a C program to input and print a string using character array."
-  },
-  {
-    type: "code",
-    question: "Write a C program to count the number of characters in a string."
-  },
-  {
-    type: "code",
-    question: "Write a C program to print a string using fgets()."
-  },
-  {
-    type: "code",
-    question: "Write a C program to remove newline character from input using strcspn()."
-  },
-  {
-    type: "code",
-    question: "Write a C program to print first character of a string."
-  },
-  {
-    type: "code",
-    question: "Write a C program to compare two numbers using if-else."
-  },
-  {
-    type: "code",
-    question: "Write a C program to find average of 3 numbers."
-  },
-  {
-    type: "code",
-    question: "Write a C program to check whether a number is zero, positive, or negative."
-  },
-  {
-    type: "code",
-    question: "Write a C program to print digits of a number using a loop (basic level)."
-  },
-  {
-    type: "code",
-    question: "Write a C program to reverse a small number using a loop."
-  }
-],
+      {
+        type: "code",
+        question: "Write a C program to print numbers from 1 to 10 using a while loop."
+      },
+      {
+        type: "code",
+        question: "Write a C program to print numbers from 1 to 10 using a for loop."
+      },
+      {
+        type: "code",
+        question: "Write a C program to print even numbers from 1 to 20."
+      },
+      {
+        type: "code",
+        question: "Write a C program to print odd numbers from 1 to 20."
+      },
+      {
+        type: "code",
+        question: "Write a C program to add two integers."
+      },
+      {
+        type: "code",
+        question: "Write a C program to subtract two integers."
+      },
+      {
+        type: "code",
+        question: "Write a C program to multiply two integers."
+      },
+      {
+        type: "code",
+        question: "Write a C program to divide two integers."
+      },
+      {
+        type: "code",
+        question: "Write a C program to check whether a number is even or odd using if-else."
+      },
+      {
+        type: "code",
+        question: "Write a C program to check whether a number is positive or negative."
+      },
+      {
+        type: "code",
+        question: "Write a C program to find the largest of two numbers using if-else."
+      },
+      {
+        type: "code",
+        question: "Write a C program to find the smallest of two numbers using if-else."
+      },
+      {
+        type: "code",
+        question: "Write a C program to find the largest of three numbers using if-else-if."
+      },
+      {
+        type: "code",
+        question: "Write a C program to print the multiplication table of a number."
+      },
+      {
+        type: "code",
+        question: "Write a C program to calculate the sum of first 10 natural numbers."
+      },
+      {
+        type: "code",
+        question: "Write a C program to find factorial of a small number using a loop."
+      },
+      {
+        type: "code",
+        question: "Write a C program to store 5 numbers in an array and print them."
+      },
+      {
+        type: "code",
+        question: "Write a C program to find the sum of elements in an array."
+      },
+      {
+        type: "code",
+        question: "Write a C program to find the largest number in a small array."
+      },
+      {
+        type: "code",
+        question: "Write a C program to print all elements of an array."
+      },
+      {
+        type: "code",
+        question: "Write a C program to input and print a string using character array."
+      },
+      {
+        type: "code",
+        question: "Write a C program to count the number of characters in a string."
+      },
+      {
+        type: "code",
+        question: "Write a C program to print a string using fgets()."
+      },
+      {
+        type: "code",
+        question: "Write a C program to remove newline character from input using strcspn()."
+      },
+      {
+        type: "code",
+        question: "Write a C program to print first character of a string."
+      },
+      {
+        type: "code",
+        question: "Write a C program to compare two numbers using if-else."
+      },
+      {
+        type: "code",
+        question: "Write a C program to find average of 3 numbers."
+      },
+      {
+        type: "code",
+        question: "Write a C program to check whether a number is zero, positive, or negative."
+      },
+      {
+        type: "code",
+        question: "Write a C program to print digits of a number using a loop (basic level)."
+      },
+      {
+        type: "code",
+        question: "Write a C program to reverse a small number using a loop."
+      }
+    ],
 
-"javascript-2pm": [
-  {
-    type: "code",
-    question: "Declare two variables and use console.log() to print their sum."
-  },
-  {
-    type: "code",
-    question: "Declare a variable called age and use an if statement to print 'Adult' if age is 18 or more, otherwise print 'Minor'."
-  },
-  {
-    type: "code",
-    question: "Write a program that checks if a number is even or odd using if...else and prints the result with console.log()."
-  },
-  {
-    type: "code",
-    question: "Use a for loop to print the numbers from 1 to 10 using console.log()."
-  },
-  {
-    type: "code",
-    question: "Use a while loop to print the numbers from 10 down to 1 using console.log()."
-  },
-  {
-    type: "code",
-    question: "Write a program to print the multiplication table of 5 using a for loop."
-  },
-  {
-    type: "code",
-    question: "Declare a variable score and print 'Pass' if the score is 40 or above, otherwise print 'Fail'."
-  },
-  {
-    type: "code",
-    question: "Write a program to print all even numbers from 1 to 20 using a loop."
-  },
-  {
-    type: "code",
-    question: "Write a program to print all odd numbers from 1 to 20 using a loop."
-  },
-  {
-    type: "code",
-    question: "Use a loop to calculate and print the sum of numbers from 1 to 10."
-  },
-  {
-    type: "code",
-    question: "Declare a variable temperature and use if...else to print 'Hot' if it is above 30, otherwise print 'Cool'."
-  },
-  {
-    type: "code",
-    question: "Write a program to count from 1 to 5 using a do...while loop and print each number."
-  },
-  {
-    type: "code",
-    question: "Write a program to print the square of numbers from 1 to 10 using a for loop."
-  },
-  {
-    type: "code",
-    question: "Declare a variable number and print 'Positive' if it is greater than 0, otherwise print 'Not Positive'."
-  },
-  {
-    type: "code",
-    question: "Write a program that prints numbers from 1 to 20 but skips multiples of 3 using if...else."
-  },
-  {
-    type: "code",
-    question: "Use a loop to print the first 10 natural numbers using console.log()."
-  },
-  {
-    type: "code",
-    question: "Declare a variable marks and print 'Excellent' if marks are 90 or above, otherwise print 'Keep Practicing'."
-  },
-  {
-    type: "code",
-    question: "Write a program to print a countdown from 5 to 1 using a while loop."
-  },
-  {
-    type: "code",
-    question: "Use a for loop to print numbers from 1 to 15 and print 'Fizz' instead of numbers divisible by 3."
-  },
-  {
-    type: "code",
-    question: "Write a program that declares a variable n and prints the factorial of n using a loop."
-  }
-],
+    "javascript-2pm": [
+      {
+        type: "code",
+        question: "Declare two variables and use console.log() to print their sum."
+      },
+      {
+        type: "code",
+        question: "Declare a variable called age and use an if statement to print 'Adult' if age is 18 or more, otherwise print 'Minor'."
+      },
+      {
+        type: "code",
+        question: "Write a program that checks if a number is even or odd using if...else and prints the result with console.log()."
+      },
+      {
+        type: "code",
+        question: "Use a for loop to print the numbers from 1 to 10 using console.log()."
+      },
+      {
+        type: "code",
+        question: "Use a while loop to print the numbers from 10 down to 1 using console.log()."
+      },
+      {
+        type: "code",
+        question: "Write a program to print the multiplication table of 5 using a for loop."
+      },
+      {
+        type: "code",
+        question: "Declare a variable score and print 'Pass' if the score is 40 or above, otherwise print 'Fail'."
+      },
+      {
+        type: "code",
+        question: "Write a program to print all even numbers from 1 to 20 using a loop."
+      },
+      {
+        type: "code",
+        question: "Write a program to print all odd numbers from 1 to 20 using a loop."
+      },
+      {
+        type: "code",
+        question: "Use a loop to calculate and print the sum of numbers from 1 to 10."
+      },
+      {
+        type: "code",
+        question: "Declare a variable temperature and use if...else to print 'Hot' if it is above 30, otherwise print 'Cool'."
+      },
+      {
+        type: "code",
+        question: "Write a program to count from 1 to 5 using a do...while loop and print each number."
+      },
+      {
+        type: "code",
+        question: "Write a program to print the square of numbers from 1 to 10 using a for loop."
+      },
+      {
+        type: "code",
+        question: "Declare a variable number and print 'Positive' if it is greater than 0, otherwise print 'Not Positive'."
+      },
+      {
+        type: "code",
+        question: "Write a program that prints numbers from 1 to 20 but skips multiples of 3 using if...else."
+      },
+      {
+        type: "code",
+        question: "Use a loop to print the first 10 natural numbers using console.log()."
+      },
+      {
+        type: "code",
+        question: "Declare a variable marks and print 'Excellent' if marks are 90 or above, otherwise print 'Keep Practicing'."
+      },
+      {
+        type: "code",
+        question: "Write a program to print a countdown from 5 to 1 using a while loop."
+      },
+      {
+        type: "code",
+        question: "Use a for loop to print numbers from 1 to 15 and print 'Fizz' instead of numbers divisible by 3."
+      },
+      {
+        type: "code",
+        question: "Write a program that declares a variable n and prints the factorial of n using a loop."
+      }
+    ],
 
-"sql": [
-  {
-    type: "code",
-    question: "Write a SELECT query to display all columns from the employees table."
-  },
-  {
-    type: "code",
-    question: "Write a SELECT query to display only the name and salary columns from the employees table."
-  },
-  {
-    type: "code",
-    question: "Write a SELECT query to display unique department names from the employees table using DISTINCT."
-  },
-  {
-    type: "code",
-    question: "Write a WHERE query to display employees whose salary is greater than 50000."
-  },
-  {
-    type: "code",
-    question: "Write a WHERE query to display employees who belong to the 'Sales' department."
-  },
-  {
-    type: "code",
-    question: "Write a WHERE query to display employees whose age is between 25 and 35."
-  },
-  {
-    type: "code",
-    question: "Write a WHERE query to display employees whose name starts with the letter 'A'."
-  },
-  {
-    type: "code",
-    question: "Write a query using GROUP BY to count the number of employees in each department."
-  },
-  {
-    type: "code",
-    question: "Write a query using GROUP BY to calculate the average salary for each department."
-  },
-  {
-    type: "code",
-    question: "Write a query using GROUP BY and HAVING to display departments with more than 5 employees."
-  },
-  {
-    type: "code",
-    question: "Write a query using GROUP BY and HAVING to display departments where the average salary is greater than 60000."
-  },
-  {
-    type: "code",
-    question: "Write a query to display employees whose manager_id is NULL."
-  },
-  {
-    type: "code",
-    question: "Write a query to display employees whose email is NOT NULL."
-  },
-  {
-    type: "code",
-    question: "Write a query using IS NULL to find products that do not have a discount value."
-  },
-  {
-    type: "code",
-    question: "Write a query using IS NOT NULL to display customers who have provided a phone number."
-  },
-  {
-    type: "code",
-    question: "Write a query using REGEXP to display employees whose names start with either 'A' or 'B'."
-  },
-  {
-    type: "code",
-    question: "Write a query using REGEXP to display email addresses ending with '.com'."
-  },
-  {
-    type: "code",
-    question: "Write a query using REGEXP to display product names that contain at least one digit."
-  },
-  {
-    type: "code",
-    question: "Write a query using the COUNT() aggregation function to count the total number of employees."
-  },
-  {
-    type: "code",
-    question: "Write a query using the SUM() aggregation function to calculate the total salary of all employees."
-  },
-  {
-    type: "code",
-    question: "Write a query using the AVG() aggregation function to calculate the average salary."
-  },
-  {
-    type: "code",
-    question: "Write a query using the MAX() aggregation function to find the highest salary."
-  },
-  {
-    type: "code",
-    question: "Write a query using the MIN() aggregation function to find the lowest salary."
-  },
-  {
-    type: "code",
-    question: "Write a query using CASE WHEN to display 'High' if salary is greater than 70000, otherwise display 'Low'."
-  },
-  {
-    type: "code",
-    question: "Write a query using CASE WHEN to categorize students as 'Pass' if marks are 40 or above, otherwise 'Fail'."
-  },
-  {
-    type: "code",
-    question: "Write a SELECT query that creates a calculated column named annual_salary by multiplying salary by 12."
-  },
-  {
-    type: "code",
-    question: "Write a SELECT query that creates a calculated column named discounted_price by subtracting discount from price."
-  },
-  {
-    type: "code",
-    question: "Write a SELECT query that creates a calculated column named full_name by combining first_name and last_name."
-  },
-  {
-    type: "code",
-    question: "Write a query using CASE WHEN to assign grades: 'A' for marks >= 90, 'B' for marks >= 75, otherwise 'C'."
-  },
-  {
-    type: "code",
-    question: "Write a query that groups employees by department and displays the total salary only for departments where the total salary exceeds 500000."
-  }
-]
+    "sql": [
+      {
+        type: "code",
+        question: "Write a SELECT query to display all columns from the employees table."
+      },
+      {
+        type: "code",
+        question: "Write a SELECT query to display only the name and salary columns from the employees table."
+      },
+      {
+        type: "code",
+        question: "Write a SELECT query to display unique department names from the employees table using DISTINCT."
+      },
+      {
+        type: "code",
+        question: "Write a WHERE query to display employees whose salary is greater than 50000."
+      },
+      {
+        type: "code",
+        question: "Write a WHERE query to display employees who belong to the 'Sales' department."
+      },
+      {
+        type: "code",
+        question: "Write a WHERE query to display employees whose age is between 25 and 35."
+      },
+      {
+        type: "code",
+        question: "Write a WHERE query to display employees whose name starts with the letter 'A'."
+      },
+      {
+        type: "code",
+        question: "Write a query using GROUP BY to count the number of employees in each department."
+      },
+      {
+        type: "code",
+        question: "Write a query using GROUP BY to calculate the average salary for each department."
+      },
+      {
+        type: "code",
+        question: "Write a query using GROUP BY and HAVING to display departments with more than 5 employees."
+      },
+      {
+        type: "code",
+        question: "Write a query using GROUP BY and HAVING to display departments where the average salary is greater than 60000."
+      },
+      {
+        type: "code",
+        question: "Write a query to display employees whose manager_id is NULL."
+      },
+      {
+        type: "code",
+        question: "Write a query to display employees whose email is NOT NULL."
+      },
+      {
+        type: "code",
+        question: "Write a query using IS NULL to find products that do not have a discount value."
+      },
+      {
+        type: "code",
+        question: "Write a query using IS NOT NULL to display customers who have provided a phone number."
+      },
+      {
+        type: "code",
+        question: "Write a query using REGEXP to display employees whose names start with either 'A' or 'B'."
+      },
+      {
+        type: "code",
+        question: "Write a query using REGEXP to display email addresses ending with '.com'."
+      },
+      {
+        type: "code",
+        question: "Write a query using REGEXP to display product names that contain at least one digit."
+      },
+      {
+        type: "code",
+        question: "Write a query using the COUNT() aggregation function to count the total number of employees."
+      },
+      {
+        type: "code",
+        question: "Write a query using the SUM() aggregation function to calculate the total salary of all employees."
+      },
+      {
+        type: "code",
+        question: "Write a query using the AVG() aggregation function to calculate the average salary."
+      },
+      {
+        type: "code",
+        question: "Write a query using the MAX() aggregation function to find the highest salary."
+      },
+      {
+        type: "code",
+        question: "Write a query using the MIN() aggregation function to find the lowest salary."
+      },
+      {
+        type: "code",
+        question: "Write a query using CASE WHEN to display 'High' if salary is greater than 70000, otherwise display 'Low'."
+      },
+      {
+        type: "code",
+        question: "Write a query using CASE WHEN to categorize students as 'Pass' if marks are 40 or above, otherwise 'Fail'."
+      },
+      {
+        type: "code",
+        question: "Write a SELECT query that creates a calculated column named annual_salary by multiplying salary by 12."
+      },
+      {
+        type: "code",
+        question: "Write a SELECT query that creates a calculated column named discounted_price by subtracting discount from price."
+      },
+      {
+        type: "code",
+        question: "Write a SELECT query that creates a calculated column named full_name by combining first_name and last_name."
+      },
+      {
+        type: "code",
+        question: "Write a query using CASE WHEN to assign grades: 'A' for marks >= 90, 'B' for marks >= 75, otherwise 'C'."
+      },
+      {
+        type: "code",
+        question: "Write a query that groups employees by department and displays the total salary only for departments where the total salary exceeds 500000."
+      }
+    ],
+
+    "javascript-dscdc": [
+      {
+        type: "code",
+        question: "Write a JavaScript program to print numbers from 1 to 10 using a for loop."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to print all even numbers between 1 and 100 using a loop."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript function to calculate the factorial of a given number."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to find the largest number in an array."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to calculate the sum of all elements in an array."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to reverse an array without using the reverse() method."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript function to check whether a given number is prime."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript function to check whether a given string is a palindrome."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to count the number of vowels in a string."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to remove duplicate elements from an array."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to sort an array of numbers in ascending order without using sort()."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript function that returns the second largest number in an array."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to merge two arrays into one."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to print all key-value pairs of an object using a loop."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to count the number of properties in an object."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript function that accepts an object representing a student and prints all its properties."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program using if...else to determine whether a number is positive, negative, or zero."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to check whether a given year is a leap year using if...else."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript function that returns 'Pass' if marks are 40 or above; otherwise return 'Fail'."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript function to calculate the simple interest given principal, rate, and time."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program that prints numbers from 1 to 20, but skips multiples of 3 using continue."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program that prints numbers from 1 to 50 and stops when it reaches 25 using break."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program that displays 'Hello, JavaScript!' after a delay of 3 seconds using setTimeout()."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program that prints the current time every second using setInterval()."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program that starts a counter using setInterval() and stops it after 10 seconds using clearInterval()."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript function that returns a Promise which resolves with the message 'Task Completed' after 2 seconds."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript async function that waits for a Promise to resolve and then prints the result using async/await."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program that fetches data from a public API using fetch() and logs the JSON response to the console."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript function that uses map() to create a new array containing the squares of all numbers in an array."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript function that uses filter() to return only the even numbers from an array."
+      },
+    ]
 
   };
 
