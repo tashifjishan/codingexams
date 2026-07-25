@@ -211,793 +211,184 @@ export default function QuestionComponent() {
     css: [
       {
         type: "mcq",
-        question: "Which CSS property enables Flexbox layout?",
-        options: [
-          "display: flex",
-          "display: block",
-          "display: inline",
-          "display: grid",
-        ],
-        answer: "display: flex",
-      },
-      {
-        type: "mcq",
-        question: "Which element becomes the flex container?",
-        options: [
-          "The parent element",
-          "The first child element",
-          "The last child element",
-          "The largest element",
-        ],
-        answer: "The parent element",
-      },
-      {
-        type: "mcq",
-        question: "By default, what is the value of flex-direction?",
-        options: ["column", "row", "row-reverse", "column-reverse"],
-        answer: "row",
-      },
-      {
-        type: "mcq",
-        question: "Which property changes the direction of flex items?",
-        options: [
-          "justify-content",
-          "flex-direction",
-          "flex-wrap",
-          "align-items",
-        ],
-        answer: "flex-direction",
-      },
-      {
-        type: "mcq",
-        question: "Which value of flex-direction stacks items vertically?",
-        options: ["row", "column", "row-reverse", "inline"],
-        answer: "column",
-      },
-      {
-        type: "mcq",
-        question: "Which property controls the alignment of items along the main axis?",
-        options: [
-          "align-items",
-          "justify-content",
-          "align-content",
-          "place-items",
-        ],
-        answer: "justify-content",
-      },
-      {
-        type: "mcq",
-        question: "Which value of justify-content places items at the center?",
-        options: ["start", "center", "end", "stretch"],
-        answer: "center",
-      },
-      {
-        type: "mcq",
-        question: "Which property aligns items along the cross axis?",
-        options: [
-          "justify-content",
-          "align-items",
-          "flex-wrap",
-          "flex-direction",
-        ],
-        answer: "align-items",
-      },
-      {
-        type: "mcq",
-        question: "Which value of align-items stretches items to fill the container?",
-        options: ["center", "flex-start", "stretch", "baseline"],
-        answer: "stretch",
-      },
-      {
-        type: "mcq",
-        question: "Which property allows flex items to move onto multiple lines?",
-        options: [
-          "flex-wrap",
-          "flex-flow",
-          "align-content",
-          "justify-content",
-        ],
-        answer: "flex-wrap",
-      },
-      {
-        type: "mcq",
-        question: "Which value prevents flex items from wrapping?",
-        options: ["wrap", "nowrap", "reverse", "inherit"],
-        answer: "nowrap",
-      },
-      {
-        type: "mcq",
-        question: "Which shorthand property combines flex-direction and flex-wrap?",
-        options: [
-          "flex",
-          "flex-flow",
-          "flex-layout",
-          "flex-box",
-        ],
-        answer: "flex-flow",
-      },
-      {
-        type: "mcq",
-        question: "Which property specifies how much a flex item should grow?",
-        options: [
-          "flex-grow",
-          "flex-expand",
-          "grow",
-          "flex-size",
-        ],
-        answer: "flex-grow",
-      },
-      {
-        type: "mcq",
-        question: "Which property specifies how much a flex item should shrink?",
-        options: [
-          "flex-shrink",
-          "flex-reduce",
-          "shrink",
-          "flex-compress",
-        ],
-        answer: "flex-shrink",
-      },
-      {
-        type: "mcq",
-        question: "Which property specifies the initial size of a flex item?",
-        options: [
-          "flex-basis",
-          "width",
-          "flex-size",
-          "basis",
-        ],
-        answer: "flex-basis",
-      },
-      {
-        type: "mcq",
-        question: "Which shorthand property combines flex-grow, flex-shrink, and flex-basis?",
-        options: [
-          "flex",
-          "flex-item",
-          "flex-layout",
-          "flex-flow",
-        ],
-        answer: "flex",
-      },
-      {
-        type: "mcq",
-        question: "Which property changes the display order of a flex item?",
-        options: [
-          "order",
-          "z-index",
-          "position",
-          "flex-order",
-        ],
-        answer: "order",
-      },
-      {
-        type: "mcq",
-        question: "Which property aligns a single flex item differently from the others?",
-        options: [
-          "align-self",
-          "justify-self",
-          "self-align",
-          "place-self",
-        ],
-        answer: "align-self",
-      },
-      {
-        type: "mcq",
-        question: "Which value of justify-content creates equal space around items?",
-        options: [
-          "space-around",
-          "space-evenly",
-          "space-between",
-          "center",
-        ],
-        answer: "space-around",
-      },
-      {
-        type: "mcq",
-        question: "Which value of justify-content creates equal spacing between all items and the container edges?",
-        options: [
-          "space-between",
-          "space-around",
-          "space-evenly",
-          "flex-start",
-        ],
-        answer: "space-evenly",
-      },
-
-
-      {
-        type: "mcq",
-        question: "Which HTML tag is used to link a Google Font stylesheet?",
-        options: ["<style>", "<script>", "<link>", "<font>"],
-        answer: "<link>",
-      },
-      {
-        type: "mcq",
-        question: "Which CSS property is used to apply a Google Font?",
-        options: ["font-family", "font-style", "font-type", "font-name"],
-        answer: "font-family",
-      },
-      {
-        type: "mcq",
-        question: "Which CSS property changes the size of text?",
-        options: ["font-size", "text-size", "font-style", "size"],
-        answer: "font-size",
-      },
-      {
-        type: "mcq",
-        question: "Which CSS property makes text bold?",
-        options: ["font-style", "font-weight", "text-bold", "font-bold"],
-        answer: "font-weight",
-      },
-      {
-        type: "mcq",
-        question: "Which value of font-weight represents bold text?",
-        options: ["300", "400", "700", "200"],
-        answer: "700",
-      },
-      {
-        type: "mcq",
-        question: "Which CSS property makes text italic?",
-        options: ["font-weight", "font-style", "text-style", "italic"],
-        answer: "font-style",
-      },
-      {
-        type: "mcq",
-        question: "Which CSS property changes the text color?",
-        options: ["font-color", "text-color", "color", "foreground"],
-        answer: "color",
-      },
-      {
-        type: "mcq",
-        question: "Which CSS property aligns text horizontally?",
-        options: ["text-align", "align", "font-align", "justify"],
-        answer: "text-align",
-      },
-      {
-        type: "mcq",
-        question: "Which value of text-align centers the text?",
-        options: ["left", "center", "right", "justify"],
-        answer: "center",
-      },
-      {
-        type: "mcq",
-        question: "Which CSS property adds a line under text?",
-        options: [
-          "font-decoration",
-          "text-decoration",
-          "underline",
-          "text-style",
-        ],
-        answer: "text-decoration",
-      },
-
-      {
-        type: "mcq",
-        question: "Which CSS property changes the spacing between letters?",
-        options: [
-          "letter-spacing",
-          "word-spacing",
-          "text-spacing",
-          "character-spacing",
-        ],
-        answer: "letter-spacing",
-      },
-      {
-        type: "mcq",
-        question: "Which CSS property changes the spacing between words?",
-        options: [
-          "word-spacing",
-          "letter-spacing",
-          "text-spacing",
-          "line-height",
-        ],
-        answer: "word-spacing",
-      },
-      {
-        type: "mcq",
-        question: "Which CSS property changes the space between lines of text?",
-        options: [
-          "line-height",
-          "text-height",
-          "font-height",
-          "line-spacing",
-        ],
-        answer: "line-height",
-      },
-      {
-        type: "mcq",
-        question: "Which HTML tag is used for the largest heading?",
+        question: "Which HTML element is used to create the largest heading?",
         options: ["<h6>", "<heading>", "<h1>", "<head>"],
         answer: "<h1>",
       },
       {
         type: "mcq",
-        question: "Which HTML tag is used to create a paragraph?",
-        options: ["<para>", "<text>", "<p>", "<paragraph>"],
+        question: "Which HTML element is used to create a paragraph?",
+        options: ["<p>", "<para>", "<text>", "<paragraph>"],
         answer: "<p>",
       },
       {
         type: "mcq",
-        question: "Which HTML tag is used to insert an image?",
-        options: ["<picture>", "<img>", "<image>", "<src>"],
-        answer: "<img>",
-      },
-      {
-        type: "mcq",
-        question: "Which HTML tag is used to create a hyperlink?",
+        question: "Which HTML element is used to create a hyperlink?",
         options: ["<link>", "<a>", "<href>", "<url>"],
         answer: "<a>",
       },
       {
         type: "mcq",
-        question: "Which HTML tag is used to create an unordered list?",
+        question: "Which HTML element is used to display an image?",
+        options: ["<img>", "<image>", "<picture>", "<src>"],
+        answer: "<img>",
+      },
+      {
+        type: "mcq",
+        question: "Which attribute is required for the <img> tag to specify the image source?",
+        options: ["href", "alt", "src", "link"],
+        answer: "src",
+      },
+      {
+        type: "mcq",
+        question: "Which HTML element is commonly used to create a button?",
+        options: ["<input>", "<button>", "<click>", "<btn>"],
+        answer: "<button>",
+      },
+      {
+        type: "mcq",
+        question: "Which HTML element is used to create an unordered list?",
         options: ["<ol>", "<ul>", "<li>", "<list>"],
         answer: "<ul>",
       },
       {
         type: "mcq",
-        question: "Which HTML tag represents a list item?",
-        options: ["<ul>", "<ol>", "<li>", "<item>"],
+        question: "Which HTML element is used for a list item?",
+        options: ["<item>", "<li>", "<ul>", "<listitem>"],
         answer: "<li>",
       },
       {
         type: "mcq",
-        question: "Which HTML tag is commonly used as a generic container for styling with CSS?",
-        options: ["<section>", "<div>", "<span>", "<article>"],
+        question: "Which HTML element is commonly used as a generic container for block-level content?",
+        options: ["<span>", "<section>", "<div>", "<container>"],
         answer: "<div>",
       },
-
       {
         type: "mcq",
-        question: "Which CSS property is used to apply animations?",
-        options: ["transition", "animation", "transform", "motion"],
-        answer: "animation",
+        question: "Which HTML element is commonly used as a generic inline container?",
+        options: ["<div>", "<span>", "<section>", "<inline>"],
+        answer: "<span>",
       },
       {
         type: "mcq",
-        question: "Which rule is used to define an animation?",
-        options: ["@transition", "@animation", "@keyframes", "@frames"],
-        answer: "@keyframes",
+        question: "Which CSS display value makes an element a block element?",
+        options: ["inline", "inline-block", "block", "none"],
+        answer: "block",
       },
       {
         type: "mcq",
-        question: "Which property specifies the name of the animation?",
-        options: [
-          "animation-name",
-          "animation-id",
-          "animation-key",
-          "animation-effect",
-        ],
-        answer: "animation-name",
+        question: "Which CSS display value keeps an element inline without allowing width and height?",
+        options: ["block", "inline", "flex", "grid"],
+        answer: "inline",
       },
       {
         type: "mcq",
-        question: "Which property specifies how long an animation takes to complete one cycle?",
-        options: [
-          "animation-delay",
-          "animation-duration",
-          "transition-duration",
-          "animation-time",
-        ],
-        answer: "animation-duration",
+        question: "Which CSS display value allows an element to stay inline while accepting width and height?",
+        options: ["inline-block", "block", "inline", "none"],
+        answer: "inline-block",
       },
       {
         type: "mcq",
-        question: "Which property specifies the number of times an animation should repeat?",
-        options: [
-          "animation-repeat",
-          "animation-loop",
-          "animation-iteration-count",
-          "animation-count",
-        ],
-        answer: "animation-iteration-count",
+        question: "Which CSS display value completely hides an element?",
+        options: ["hidden", "opacity: 0", "display: none", "visibility: hidden"],
+        answer: "display: none",
       },
       {
         type: "mcq",
-        question: "Which value makes an animation repeat forever?",
-        options: ["always", "repeat", "infinite", "endless"],
-        answer: "infinite",
+        question: "Which HTML element makes text bold by default?",
+        options: ["<strong>", "<bold>", "<b>", "Both <strong> and <b>"],
+        answer: "Both <strong> and <b>",
       },
       {
         type: "mcq",
-        question: "Which property delays the start of an animation?",
-        options: [
-          "animation-delay",
-          "transition-delay",
-          "animation-duration",
-          "animation-start",
-        ],
-        answer: "animation-delay",
+        question: "Which HTML element displays italic text?",
+        options: ["<italic>", "<i>", "<em>", "Both <i> and <em>"],
+        answer: "Both <i> and <em>",
       },
       {
         type: "mcq",
-        question: "Which property controls the speed curve of an animation?",
-        options: [
-          "animation-timing-function",
-          "animation-speed",
-          "animation-curve",
-          "animation-mode",
-        ],
-        answer: "animation-timing-function",
+        question: "Which HTML element is used to underline text?",
+        options: ["<underline>", "<u>", "<line>", "<mark>"],
+        answer: "<u>",
       },
       {
         type: "mcq",
-        question: "Which shorthand property combines all animation properties?",
-        options: ["animation", "transition", "transform", "keyframes"],
-        answer: "animation",
-      },
-      {
-        type: "mcq",
-        question: "Which property specifies whether an animation runs normally or in reverse?",
-        options: [
-          "animation-direction",
-          "animation-order",
-          "animation-mode",
-          "animation-flow",
-        ],
-        answer: "animation-direction",
-      },
-
-      // Positioning
-      {
-        type: "mcq",
-        question: "Which CSS property is used to position an element?",
-        options: ["display", "position", "float", "align"],
-        answer: "position",
-      },
-      {
-        type: "mcq",
-        question: "Which position value places an element according to the normal document flow?",
-        options: ["relative", "absolute", "fixed", "static"],
-        answer: "static",
-      },
-      {
-        type: "mcq",
-        question: "Which position value allows an element to be moved relative to its normal position?",
-        options: ["absolute", "fixed", "relative", "sticky"],
-        answer: "relative",
-      },
-      {
-        type: "mcq",
-        question: "Which position value removes an element from the normal document flow?",
-        options: ["relative", "static", "absolute", "inherit"],
-        answer: "absolute",
-      },
-      {
-        type: "mcq",
-        question: "Which position value keeps an element fixed relative to the browser window?",
-        options: ["sticky", "relative", "absolute", "fixed"],
-        answer: "fixed",
-      },
-      {
-        type: "mcq",
-        question: "Which position value behaves like relative until a scroll threshold is reached?",
-        options: ["fixed", "sticky", "absolute", "static"],
-        answer: "sticky",
-      },
-      {
-        type: "mcq",
-        question: "Which property controls the stacking order of positioned elements?",
-        options: ["layer", "z-index", "stack", "order"],
-        answer: "z-index",
-      },
-      {
-        type: "mcq",
-        question: "Which property is commonly used with position:absolute to move an element downward?",
-        options: ["margin-top", "top", "padding-top", "bottom"],
-        answer: "top",
-      },
-      {
-        type: "mcq",
-        question: "An absolutely positioned element is positioned relative to:",
-        options: [
-          "The nearest positioned ancestor",
-          "The browser window only",
-          "The body element only",
-          "Its previous sibling",
-        ],
-        answer: "The nearest positioned ancestor",
-      },
-      {
-        type: "mcq",
-        question: "Which combination keeps a navigation bar visible while scrolling?",
-        options: [
-          "position: relative",
-          "position: static",
-          "position: fixed",
-          "position: absolute",
-        ],
-        answer: "position: fixed",
-      },
-      {
-        type: "mcq",
-        question: "Which CSS property is used to apply a transition effect?",
-        options: ["animation", "transition", "transform", "effect"],
-        answer: "transition",
-      },
-      {
-        type: "mcq",
-        question: "Which property specifies the duration of a CSS transition?",
-        options: [
-          "transition-delay",
-          "transition-duration",
-          "animation-duration",
-          "duration",
-        ],
-        answer: "transition-duration",
-      },
-      {
-        type: "mcq",
-        question: "Which property defines the CSS property that should transition?",
-        options: [
-          "transition-property",
-          "transition-name",
-          "transition-target",
-          "property",
-        ],
-        answer: "transition-property",
-      },
-      {
-        type: "mcq",
-        question: "Which transition timing function starts slowly, speeds up, then slows down?",
-        options: ["linear", "ease", "ease-in", "ease-out"],
-        answer: "ease",
-      },
-      {
-        type: "mcq",
-        question: "Which transition timing function moves at a constant speed?",
-        options: ["ease", "linear", "ease-in-out", "ease-out"],
-        answer: "linear",
-      },
-      {
-        type: "mcq",
-        question: "Which property delays the start of a transition?",
-        options: [
-          "transition-duration",
-          "transition-delay",
-          "animation-delay",
-          "delay",
-        ],
-        answer: "transition-delay",
-      },
-      {
-        type: "mcq",
-        question: "Which shorthand property combines all transition properties?",
-        options: ["transform", "transition", "animation", "effect"],
-        answer: "transition",
-      },
-      {
-        type: "mcq",
-        question: "Transitions are commonly triggered by which pseudo-class?",
-        options: [":hover", ":before", ":after", ":focus-visible"],
-        answer: ":hover",
-      },
-      {
-        type: "mcq",
-        question: "What happens if transition-duration is set to 0s?",
-        options: [
-          "The transition is disabled.",
-          "The transition becomes infinite.",
-          "The transition runs slowly.",
-          "The transition repeats once.",
-        ],
-        answer: "The transition is disabled.",
-      },
-      {
-        type: "mcq",
-        question: "Which CSS property is commonly transitioned to create a fade effect?",
-        options: ["display", "opacity", "visibility", "overflow"],
-        answer: "opacity",
-      },
-
-      // Transforms
-      {
-        type: "mcq",
-        question: "Which CSS property is used to apply transformations?",
-        options: ["translate", "transform", "transition", "animation"],
-        answer: "transform",
-      },
-      {
-        type: "mcq",
-        question: "Which transform function moves an element horizontally or vertically?",
-        options: ["rotate()", "scale()", "translate()", "skew()"],
-        answer: "translate()",
-      },
-      {
-        type: "mcq",
-        question: "Which transform function rotates an element?",
-        options: ["rotate()", "translate()", "scale()", "move()"],
-        answer: "rotate()",
-      },
-      {
-        type: "mcq",
-        question: "Which transform function changes the size of an element?",
-        options: ["zoom()", "resize()", "scale()", "grow()"],
-        answer: "scale()",
-      },
-      {
-        type: "mcq",
-        question: "Which transform function slants an element?",
-        options: ["rotate()", "translate()", "skew()", "scale()"],
-        answer: "skew()",
-      },
-      {
-        type: "mcq",
-        question: "Which property changes the origin point of transformations?",
-        options: [
-          "transform-origin",
-          "transform-point",
-          "origin",
-          "transform-center",
-        ],
-        answer: "transform-origin",
-      },
-      {
-        type: "mcq",
-        question: "Which value rotates an element by 90 degrees?",
-        options: [
-          "rotate(90deg)",
-          "rotate(90px)",
-          "rotateX(90px)",
-          "rotate(90)",
-        ],
-        answer: "rotate(90deg)",
-      },
-      {
-        type: "mcq",
-        question: "Which transform function enlarges an element to twice its size?",
-        options: ["scale(2)", "scale(200)", "zoom(2)", "grow(2)"],
-        answer: "scale(2)",
-      },
-      {
-        type: "mcq",
-        question: "Which transform function moves an element 50px to the right?",
-        options: [
-          "translateX(50px)",
-          "moveX(50px)",
-          "translateY(50px)",
-          "left(50px)",
-        ],
-        answer: "translateX(50px)",
-      },
-      {
-        type: "mcq",
-        question: "Multiple transform functions can be applied by:",
-        options: [
-          "Writing them in the same transform property",
-          "Using multiple transform properties",
-          "Using transition",
-          "Using animation only",
-        ],
-        answer: "Writing them in the same transform property",
-      },
-
-      {
-        type: "mcq",
-        question: "Which CSS property is used to change the text color?",
+        question: "Which CSS property changes the text colour?",
         options: ["font-color", "text-color", "color", "foreground"],
         answer: "color",
       },
       {
         type: "mcq",
-        question: "Which CSS property is used to make text bold?",
-        options: ["font-style", "font-weight", "text-weight", "bold"],
-        answer: "font-weight",
-      },
-      {
-        type: "mcq",
-        question: "Which CSS property is used to align text horizontally?",
-        options: ["align", "text-align", "font-align", "justify-content"],
-        answer: "text-align",
-      },
-      {
-        type: "mcq",
-        question: "Which CSS property changes the size of the text?",
-        options: ["text-size", "font-size", "size", "text-style"],
-        answer: "font-size",
-      },
-      {
-        type: "mcq",
-        question: "Which CSS property is used to underline text?",
-        options: ["text-decoration", "font-decoration", "underline", "text-style"],
-        answer: "text-decoration",
-      },
-      {
-        type: "mcq",
-        question: "Which part of the CSS Box Model surrounds the content directly?",
-        options: ["Margin", "Border", "Padding", "Content"],
-        answer: "Padding",
-      },
-      {
-        type: "mcq",
-        question: "Which part of the CSS Box Model is outside the border?",
-        options: ["Padding", "Content", "Margin", "Outline"],
-        answer: "Margin",
-      },
-      {
-        type: "mcq",
-        question: "Which CSS property changes the space between the content and the border?",
-        options: ["margin", "spacing", "padding", "border-spacing"],
-        answer: "padding",
-      },
-      {
-        type: "mcq",
-        question: "Which CSS property changes the thickness of a border?",
-        options: ["border-width", "border-size", "width", "outline-width"],
-        answer: "border-width",
-      },
-      {
-        type: "mcq",
-        question: "What is the correct order of the CSS Box Model from inside to outside?",
-        options: [
-          "Content → Padding → Border → Margin",
-          "Content → Border → Padding → Margin",
-          "Padding → Content → Border → Margin",
-          "Content → Margin → Border → Padding"
-        ],
-        answer: "Content → Padding → Border → Margin",
-      },
-      {
-        type: "mcq",
-        question: "Which display value makes an element a flex container?",
-        options: ["display: block", "display: inline", "display: flex", "display: grid"],
-        answer: "display: flex",
-      },
-      {
-        type: "mcq",
-        question: "Which Flexbox property changes the direction of flex items?",
-        options: ["justify-content", "align-items", "flex-direction", "flex-wrap"],
-        answer: "flex-direction",
-      },
-      {
-        type: "mcq",
-        question: "Which Flexbox property aligns items horizontally in a row?",
-        options: ["justify-content", "align-items", "align-content", "text-align"],
-        answer: "justify-content",
-      },
-      {
-        type: "mcq",
-        question: "Which Flexbox property aligns items vertically when flex-direction is row?",
-        options: ["justify-content", "align-items", "text-align", "flex-wrap"],
-        answer: "align-items",
-      },
-      {
-        type: "mcq",
-        question: "Which Flexbox property allows items to move to the next line?",
-        options: ["flex-direction", "flex-wrap", "justify-content", "align-items"],
-        answer: "flex-wrap",
-      },
-      {
-        type: "mcq",
-        question: "Which display value makes an element start on a new line and take the full available width?",
-        options: ["inline", "inline-block", "block", "flex"],
-        answer: "block",
-      },
-      {
-        type: "mcq",
-        question: "Which display value allows elements to stay on the same line but does NOT allow width and height to be set?",
-        options: ["block", "inline", "inline-block", "flex"],
-        answer: "inline",
-      },
-      {
-        type: "mcq",
-        question: "Which display value allows elements to stay on the same line while allowing width and height to be set?",
-        options: ["block", "inline", "inline-block", "flex"],
-        answer: "inline-block",
-      },
-      {
-        type: "mcq",
-        question: "Which CSS property changes the background color of an element?",
-        options: ["bg-color", "background-color", "color", "background-style"],
+        question: "Which CSS property changes the background colour of an element?",
+        options: ["background", "background-color", "color", "bg-color"],
         answer: "background-color",
       },
       {
         type: "mcq",
-        question: "Which CSS property is used to round the corners of an element?",
-        options: ["corner-radius", "border-round", "border-radius", "radius"],
-        answer: "border-radius",
-      }
+        question: "Which CSS property changes the font size?",
+        options: ["font-style", "font-size", "text-size", "size"],
+        answer: "font-size",
+      },
+      {
+        type: "mcq",
+        question: "Which CSS property makes text bold?",
+        options: ["font-weight", "font-style", "text-weight", "font-bold"],
+        answer: "font-weight",
+      },
+      {
+        type: "mcq",
+        question: "Which HTML input type is used to enter an email address?",
+        options: ["text", "mail", "email", "address"],
+        answer: "email",
+      },
+      {
+        type: "mcq",
+        question: "Which HTML input type hides the characters entered by the user?",
+        options: ["hidden", "password", "secret", "text"],
+        answer: "password",
+      },
+      {
+        type: "mcq",
+        question: "Which HTML element is used to create a form?",
+        options: ["<input>", "<form>", "<fieldset>", "<label>"],
+        answer: "<form>",
+      },
+      {
+        type: "mcq",
+        question: "Which HTML element associates text with a form input?",
+        options: ["<text>", "<caption>", "<label>", "<span>"],
+        answer: "<label>",
+      },
+      {
+        type: "mcq",
+        question: "Which HTML element is used to create a table row?",
+        options: ["<td>", "<tr>", "<th>", "<table-row>"],
+        answer: "<tr>",
+      },
+      {
+        type: "mcq",
+        question: "Which HTML element is used to create a table cell?",
+        options: ["<tr>", "<td>", "<th>", "<cell>"],
+        answer: "<td>",
+      },
+      {
+        type: "mcq",
+        question: "Which HTML element is used to define the main content of a webpage?",
+        options: ["<content>", "<main>", "<body>", "<section>"],
+        answer: "<main>",
+      },
+      {
+        type: "mcq",
+        question: "Which HTML element is commonly used to group related content into a section?",
+        options: ["<group>", "<section>", "<span>", "<aside>"],
+        answer: "<section>",
+      },
+      {
+        type: "mcq",
+        question: "Which HTML element is used to include an external CSS file?",
+        options: ["<style>", "<css>", "<link>", "<script>"],
+        answer: "<link>",
+      },
     ],
 
     "c-morning": [
@@ -1592,7 +983,7 @@ export default function QuestionComponent() {
   // Sync state mutations directly to LocalStorage tracking blocks
   const saveStateToStorage = (updatedAnswers) => {
     localStorage.setItem(
-      `answersMatrix-${name}-${subject}`,
+      `answersMatrix- ${name}-${subject} `,
       JSON.stringify({
         name: name,
         subject: subject,
@@ -1652,7 +1043,7 @@ export default function QuestionComponent() {
     const unansweredCount = questions[subject].filter((_, idx) => !freshAnswers[idx] || freshAnswers[idx].trim() === "").length;
     let confirmPromptMsg = "Are you sure you want to finalize your exam?";
     if (unansweredCount > 0) {
-      confirmPromptMsg = `You have ${unansweredCount} unanswered questions left. Are you sure you want to submit?`;
+      confirmPromptMsg = `You have ${unansweredCount} unanswered questions left.Are you sure you want to submit ? `;
     }
 
     if (!window.confirm(confirmPromptMsg)) return;
@@ -1661,7 +1052,7 @@ export default function QuestionComponent() {
     const secondNum = Math.floor(Math.random() * 11);
     const sum = firstNum + secondNum;
     const response = prompt(
-      `Security Validation Check:\nWhat is ${firstNum} + ${secondNum} = ?`,
+      `Security Validation Check: \nWhat is ${firstNum} + ${secondNum} = ?`,
     );
 
     if (parseInt(response, 10) === sum) {
@@ -1674,7 +1065,7 @@ export default function QuestionComponent() {
   // Effect handles authentication initialization logic
   useEffect(() => {
     if (name && subject && questions[subject]) {
-      const existingData = localStorage.getItem(`answersMatrix-${name}-${subject}`);
+      const existingData = localStorage.getItem(`answersMatrix - ${name} -${subject} `);
       if (existingData) {
         const parsed = JSON.parse(existingData);
         if (parsed.savedAnswers) {
@@ -1703,7 +1094,7 @@ export default function QuestionComponent() {
   // Syntax highlight string parser utility
   const formatTextWithInlineCode = (text) => {
     if (!text) return "";
-    const segments = text.split(/(`[^`]+`)/g);
+    const segments = text.split(/(`[^ `]+`)/g);
     return segments.map((seg, i) => {
       if (seg.startsWith("`") && seg.endsWith("`")) {
         return (
