@@ -1329,129 +1329,128 @@ export default function QuestionComponent() {
       }
     ],
 
-    "javascript-dscdc": [
+    "javascript-dsdc-july": [
       {
         type: "code",
-        question: "Write a JavaScript program to print numbers from 1 to 10 using a for loop."
+        question: "Write a JavaScript program to print numbers from 1 to 20 using a for loop."
       },
       {
         type: "code",
-        question: "Write a JavaScript program to print all even numbers between 1 and 100 using a loop."
+        question: "Write a JavaScript program to print all even numbers from 2 to 50 using a for loop."
       },
       {
         type: "code",
-        question: "Write a JavaScript function to calculate the factorial of a given number."
+        question: "Write a JavaScript program to calculate the sum of numbers from 1 to 100 using a loop."
       },
       {
         type: "code",
-        question: "Write a JavaScript program to find the largest number in an array."
+        question: "Write a JavaScript program to print the multiplication table of 7 using a for loop."
       },
       {
         type: "code",
-        question: "Write a JavaScript program to calculate the sum of all elements in an array."
+        question: "Write a JavaScript program to count how many numbers between 1 and 100 are divisible by 5."
       },
       {
         type: "code",
-        question: "Write a JavaScript program to reverse an array without using the reverse() method."
+        question: "Write a JavaScript program that checks if a number is positive, negative, or zero using if/else."
       },
       {
         type: "code",
-        question: "Write a JavaScript function to check whether a given number is prime."
+        question: "Write a JavaScript program that checks whether a given number is even or odd using if/else."
       },
       {
         type: "code",
-        question: "Write a JavaScript function to check whether a given string is a palindrome."
+        question: "Write a JavaScript program to find the largest of three numbers using if/else."
       },
       {
         type: "code",
-        question: "Write a JavaScript program to count the number of vowels in a string."
+        question: "Write a JavaScript program to calculate a student's grade based on marks using if/else (90+: A, 80–89: B, 70–79: C, below 70: D)."
       },
       {
         type: "code",
-        question: "Write a JavaScript program to remove duplicate elements from an array."
+        question: "Write a JavaScript program that checks whether a given year is a leap year using if/else."
       },
       {
         type: "code",
-        question: "Write a JavaScript program to sort an array of numbers in ascending order without using sort()."
+        question: "Write a JavaScript program to create an array of five numbers and print each element using a loop."
       },
       {
         type: "code",
-        question: "Write a JavaScript function that returns the second largest number in an array."
+        question: "Write a JavaScript program to add three new numbers to an array using push() and print the updated array."
       },
       {
         type: "code",
-        question: "Write a JavaScript program to merge two arrays into one."
+        question: "Write a JavaScript program to remove the last element from an array using pop() and display both the removed element and the updated array."
       },
       {
         type: "code",
-        question: "Write a JavaScript program to print all key-value pairs of an object using a loop."
+        question: "Write a JavaScript program to remove the first element from an array using shift() and print the updated array."
       },
       {
         type: "code",
-        question: "Write a JavaScript program to count the number of properties in an object."
+        question: "Write a JavaScript program to add two elements at the beginning of an array using unshift() and print the updated array."
       },
       {
         type: "code",
-        question: "Write a JavaScript function that accepts an object representing a student and prints all its properties."
+        question: "Write a JavaScript program to create a new array containing elements from index 2 to index 5 using slice()."
       },
       {
         type: "code",
-        question: "Write a JavaScript program using if...else to determine whether a number is positive, negative, or zero."
+        question: "Write a JavaScript program to replace two elements in an array starting at index 1 using splice()."
       },
       {
         type: "code",
-        question: "Write a JavaScript program to check whether a given year is a leap year using if...else."
+        question: "Write a JavaScript program to calculate the sum of all numbers in an array using a loop."
       },
       {
         type: "code",
-        question: "Write a JavaScript function that returns 'Pass' if marks are 40 or above; otherwise return 'Fail'."
+        question: "Write a JavaScript program to find the largest number in an array using a loop."
       },
       {
         type: "code",
-        question: "Write a JavaScript function to calculate the simple interest given principal, rate, and time."
+        question: "Write a JavaScript program to count how many numbers in an array are greater than 50."
       },
       {
         type: "code",
-        question: "Write a JavaScript program that prints numbers from 1 to 20, but skips multiples of 3 using continue."
+        question: "Write a JavaScript program to create an object representing a student with properties name, age, and marks, then print each property."
       },
       {
         type: "code",
-        question: "Write a JavaScript program that prints numbers from 1 to 50 and stops when it reaches 25 using break."
+        question: "Write a JavaScript program to update the price property of a product object and display the updated object."
       },
       {
         type: "code",
-        question: "Write a JavaScript program that displays 'Hello, JavaScript!' after a delay of 3 seconds using setTimeout()."
+        question: "Write a JavaScript program to create an array of objects representing three students and print the name of each student."
       },
       {
         type: "code",
-        question: "Write a JavaScript program that prints the current time every second using setInterval()."
+        question: "Write a JavaScript program to find and display the names of students whose marks are greater than or equal to 75 from an array of objects."
       },
       {
         type: "code",
-        question: "Write a JavaScript program that starts a counter using setInterval() and stops it after 10 seconds using clearInterval()."
+        question: "Write a JavaScript function named square that takes a number as a parameter and returns its square."
       },
       {
         type: "code",
-        question: "Write a JavaScript function that returns a Promise which resolves with the message 'Task Completed' after 2 seconds."
+        question: "Write a JavaScript function named findAverage that takes an array of numbers and returns the average."
       },
       {
         type: "code",
-        question: "Write a JavaScript async function that waits for a Promise to resolve and then prints the result using async/await."
+        question: "Write a JavaScript function that accepts two numbers and returns the larger number."
       },
       {
         type: "code",
-        question: "Write a JavaScript program that fetches data from a public API using fetch() and logs the JSON response to the console."
+        question: "Write a JavaScript program to select an element with the id 'title' and change its text content to 'Welcome to JavaScript'."
       },
       {
         type: "code",
-        question: "Write a JavaScript function that uses map() to create a new array containing the squares of all numbers in an array."
+        question: "Write a JavaScript program to select all elements with the class 'item' and change their text color to blue."
       },
       {
         type: "code",
-        question: "Write a JavaScript function that uses filter() to return only the even numbers from an array."
-      },
+        question: "Write a JavaScript program to add a click event listener to a button that increments and displays a counter every time the button is clicked."
+      }
     ]
-
   };
 
   const [currentIndex, setCurrentIndex] = useState(0);
