@@ -1450,6 +1450,128 @@ export default function QuestionComponent() {
         type: "code",
         question: "Write a JavaScript program to add a click event listener to a button that increments and displays a counter every time the button is clicked."
       }
+    ],
+    "python-dsdc-july": [
+      {
+        "type": "code",
+        "question": "Write a Python program to declare two variables and print their sum."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to swap the values of two variables."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take a user's name as input and print 'Hello, <name>!'."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take two numbers as input and print their product."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to calculate the area of a rectangle using user input for length and width."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to check whether a number is positive, negative, or zero using if/else."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to check whether a number is even or odd."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to find the largest of three numbers using if/else."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to assign grades based on marks (90+: A, 80–89: B, 70–79: C, below 70: D)."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to check whether a given year is a leap year."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to print numbers from 1 to 20 using a for loop."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to print all even numbers between 1 and 50."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to calculate the sum of numbers from 1 to 100 using a loop."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to print the multiplication table of a given number."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to count how many numbers between 1 and 100 are divisible by 7."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to print numbers from 10 down to 1 using a while loop."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to create a list of five numbers and print each element using a loop."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to add three numbers to a list using append()."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to remove the last element from a list and print the updated list."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to find the largest number in a list."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to calculate the sum of all numbers in a list."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to count how many numbers in a list are greater than 50."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to replace the third element of a list with a new value."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to create a list of dictionaries representing three students with keys 'name' and 'marks'."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to print the names of all students from a list of dictionaries."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to find and print the names of students who scored more than 80 marks from a list of dictionaries."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to calculate the average marks of students stored in a list of dictionaries."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to count how many students passed if passing marks are 40, using a list of dictionaries."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take five numbers as input from the user, store them in a list, and print the largest number."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take the names and ages of three people as input, store them as dictionaries in a list, and print the name of the oldest person."
+      }
     ]
   };
 
