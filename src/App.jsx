@@ -1266,6 +1266,232 @@ export default function QuestionComponent() {
         options: ["inline", "flex", "table", "list-item"],
         answer: "flex",
       },
+    ],
+    "python-dics-july": [
+      {
+        "type": "code",
+        "question": "Write a Python program to take an integer as input and print whether it is positive, negative, or zero."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take two integers as input and print the larger number using if-else."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take a student's marks as input and print 'Pass' if the marks are at least 40, otherwise print 'Fail'."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take a number as input and print whether it is even or odd."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take a person's age as input and print whether they are eligible to vote."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take three integers as input and print the largest number using if-else statements."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take a character as input and print whether it is a vowel or a consonant."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take a year as input and print whether it is a leap year."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take a number as input and print whether it is divisible by both 3 and 5."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take a temperature in Celsius as input and print 'Hot' if it is above 30, otherwise print 'Pleasant'."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to print numbers from 1 to 10 using a for loop."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to print numbers from 10 to 1 using a while loop."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to print the multiplication table of a given number using a for loop."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to calculate the sum of numbers from 1 to N using a for loop."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to calculate the sum of numbers from 1 to N using a while loop."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to print all even numbers from 1 to N using a for loop."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to print all odd numbers from 1 to N using a while loop."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to count from 1 to 20 and print each number using a while loop."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to print the square of numbers from 1 to 10 using a for loop."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to print the cube of numbers from 1 to 10 using a for loop."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to calculate the factorial of a number using a while loop."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to calculate the factorial of a number using a for loop."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to reverse the digits of a given number using a while loop."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to count the number of digits in a given integer using a while loop."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to calculate the sum of the digits of a given integer using a while loop."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to print numbers from 1 to N that are divisible by 5 using a for loop."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to print the first N natural numbers using a while loop."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to print all multiples of 7 less than or equal to N using a for loop."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to calculate the product of numbers from 1 to N using a for loop."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to print numbers from N down to 1 using a while loop."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take five integers as input, store them in a list, and print the largest number."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take five integers as input, store them in a list, and print the smallest number."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take five integers as input, store them in a list, and print the sum of all numbers."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take five integers as input, store them in a list, and count how many are even."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take five integers as input, store them in a list, and count how many are odd."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take N integers as input, store them in a list, and print all positive numbers."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take N integers as input, store them in a list, and print the average of the numbers."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take five student marks as input, store them in a list, and count how many students passed with marks of at least 40."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take five names as input, store them in a list, and print each name using a for loop."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take five numbers as input, store them in a list, and print only the numbers greater than 50."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take three people's names and ages as input, store them as dictionaries in a list, and print the youngest person's name."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take the names and salaries of three employees as input, store them as dictionaries in a list, and print the employee with the highest salary."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take the names and marks of three students as input, store them as dictionaries in a list, and print the student with the highest marks."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take the names and prices of three products as input, store them as dictionaries in a list, and print the most expensive product."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take the names and quantities of three items as input, store them as dictionaries in a list, and print the item with the highest quantity."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take three cities and their populations as input, store them as dictionaries in a list, and print the city with the largest population."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take the names and scores of three players as input, store them as dictionaries in a list, and print all players whose score is greater than 50."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take the names and ages of three people as input, store them as dictionaries in a list, and count how many people are adults (age 18 or above)."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take the names and marks of five students as input, store them as dictionaries in a list, and print the names of students who passed."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take the names and ages of three people as input, store them as dictionaries in a list, and print the name of the oldest person."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take a number N as input and print all numbers from 1 to N, replacing multiples of 3 with 'Fizz' using if-else."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take an integer as input and determine whether it is a prime number using a for loop."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take an integer as input and print all of its factors using a for loop."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take two integers as input and calculate their greatest common divisor (GCD) using a while loop."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to print the first N multiples of a given number using a for loop."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take a number as input and count how many of its digits are even using a while loop."
+      }
     ]
   };
 
