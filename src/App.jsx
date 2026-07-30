@@ -204,9 +204,133 @@ export default function QuestionComponent() {
         {
           type: "code",
           question: "Write a Python program to create a new list containing the squares of all even numbers from 1 to 20.",
-        }
+        },
 
       ],
+
+    "cpp-dics-july": [
+      {
+        type: "code",
+        question: "Write a C++ program to input two numbers and print the larger number using if/else.",
+      },
+      {
+        type: "code",
+        question: "Write a C++ program to check whether a number is even or odd using if/else.",
+      },
+      {
+        type: "code",
+        question: "Write a C++ program to check whether a number is positive, negative, or zero using if/else.",
+      },
+      {
+        type: "code",
+        question: "Write a C++ program to find the largest of three numbers using if/else statements.",
+      },
+      {
+        type: "code",
+        question: "Write a C++ program to determine whether a given year is a leap year using if/else.",
+      },
+      {
+        type: "code",
+        question: "Write a C++ program to calculate the factorial of a number using a for loop.",
+      },
+      {
+        type: "code",
+        question: "Write a C++ program to print the multiplication table of a number from 1 to 10 using a for loop.",
+      },
+      {
+        type: "code",
+        question: "Write a C++ program to print all even numbers from 1 to 100 using a for loop.",
+      },
+      {
+        type: "code",
+        question: "Write a C++ program to calculate the sum of the first n natural numbers using a for loop.",
+      },
+      {
+        type: "code",
+        question: "Write a C++ program to print a right-angled triangle pattern of stars using nested for loops.",
+      },
+      {
+        type: "code",
+        question: "Write a C++ program to reverse the digits of a number using a while loop.",
+      },
+      {
+        type: "code",
+        question: "Write a C++ program to count the number of digits in an integer using a while loop.",
+      },
+      {
+        type: "code",
+        question: "Write a C++ program to check whether a number is a palindrome using a while loop.",
+      },
+      {
+        type: "code",
+        question: "Write a C++ program to calculate the sum of the digits of a number using a while loop.",
+      },
+      {
+        type: "code",
+        question: "Write a C++ program to print the Fibonacci series up to n terms using a while loop.",
+      },
+      {
+        type: "code",
+        question: "Write a C++ function that takes two integers as input and returns their sum.",
+      },
+      {
+        type: "code",
+        question: "Write a C++ function to calculate the square of a given number.",
+      },
+      {
+        type: "code",
+        question: "Write a C++ function to determine whether a number is prime.",
+      },
+      {
+        type: "code",
+        question: "Write a C++ function that returns the factorial of a given number.",
+      },
+      {
+        type: "code",
+        question: "Write a C++ function that accepts a character and returns whether it is a vowel or a consonant.",
+      },
+      {
+        type: "code",
+        question: "Write a C++ program to input 10 integers into an array and print all the elements.",
+      },
+      {
+        type: "code",
+        question: "Write a C++ program to find the largest element in an array.",
+      },
+      {
+        type: "code",
+        question: "Write a C++ program to calculate the sum and average of elements in an array.",
+      },
+      {
+        type: "code",
+        question: "Write a C++ program to reverse the elements of an array.",
+      },
+      {
+        type: "code",
+        question: "Write a C++ program to search for a given element in an array using linear search.",
+      },
+      {
+        type: "code",
+        question: "Write a C++ program to swap the values of two variables using a third variable.",
+      },
+      {
+        type: "code",
+        question: "Write a C++ program to calculate the area of a rectangle using variables for length and width.",
+      },
+      {
+        type: "code",
+        question: "Write a C++ program to convert temperature from Celsius to Fahrenheit using variables.",
+      },
+      {
+        type: "code",
+        question: "Write a C++ program to count the number of even and odd elements in an array.",
+      },
+      {
+        type: "code",
+        question: "Write a C++ program that defines a function to swap two numbers and then calls it from main().",
+      }
+    ],
+
 
     css: [
       {
