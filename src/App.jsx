@@ -1868,7 +1868,128 @@ export default function QuestionComponent() {
         type: "code",
         question: "Create an Express route '/product' that accepts query parameters 'id' and 'brand' and displays both values."
       }
-    ]
+    ],
+
+    "sql-dics-july-evening": [{
+      type: "code",
+      question: "Write a SQL query using CASE WHEN to categorize employees based on salary: High (salary >= 100000), Medium (50000-99999), and Low (below 50000)."
+    },
+    {
+      type: "code",
+      question: "Write a SQL query using CASE WHEN to display 'Pass' if a student's marks are greater than or equal to 40, otherwise display 'Fail'."
+    },
+    {
+      type: "code",
+      question: "Write a SQL query to convert all employee names into uppercase using SQL text functions."
+    },
+    {
+      type: "code",
+      question: "Write a SQL query to find the length of each customer's name using a string function."
+    },
+    {
+      type: "code",
+      question: "Write a SQL query to extract the first three characters from each product name."
+    },
+    {
+      type: "code",
+      question: "Write a SQL query using COALESCE to replace NULL values in the phone number column with 'Not Available'."
+    },
+    {
+      type: "code",
+      question: "Write a SQL query to calculate total salary by adding bonus to salary. Use COALESCE to handle NULL bonus values."
+    },
+    {
+      type: "code",
+      question: "Write a SQL UPDATE query to increase all employee salaries by 10%."
+    },
+    {
+      type: "code",
+      question: "Write a SQL UPDATE query to change the department to 'IT' for employees whose department value is NULL."
+    },
+    {
+      type: "code",
+      question: "Write a SQL DELETE query to remove all records from the employee table where salary is less than 20000."
+    },
+    {
+      type: "code",
+      question: "Write a SQL DELETE query to remove duplicate records from a table while keeping one copy of each record."
+    },
+    {
+      type: "code",
+      question: "Write a SQL query to create an Employees table with columns EmployeeID, Name, Department, Salary, and JoiningDate."
+    },
+    {
+      type: "code",
+      question: "Write SQL INSERT statements to add five records into the Employees table."
+    },
+    {
+      type: "code",
+      question: "Write a SQL query using DESC command to display the structure of the Employees table."
+    },
+    {
+      type: "code",
+      question: "Write a SQL INNER JOIN query to display customer names along with their order details."
+    },
+    {
+      type: "code",
+      question: "Write a SQL LEFT JOIN query to display all customers including customers who have not placed any orders."
+    },
+    {
+      type: "code",
+      question: "Write a SQL query using multiple joins to display customer name, order details, and payment information."
+    },
+    {
+      type: "code",
+      question: "Write a SQL query using ROW_NUMBER() window function to assign rankings to employees based on salary."
+    },
+    {
+      type: "code",
+      question: "Write a SQL query using RANK() window function to find employee salary rankings within each department."
+    },
+    {
+      type: "code",
+      question: "Write a SQL query using DENSE_RANK() to find the top three highest-paid employees in each department."
+    },
+    {
+      type: "code",
+      question: "Write a SQL query using LAG() window function to display each employee's previous salary."
+    },
+    {
+      type: "code",
+      question: "Write a SQL query using LEAD() window function to display the next employee's salary."
+    },
+    {
+      type: "code",
+      question: "Write a SQL query using SUM() OVER() to calculate a running total of sales."
+    },
+    {
+      type: "code",
+      question: "Write a SQL query using AVG() OVER() to calculate the average salary for each department."
+    },
+    {
+      type: "code",
+      question: "Write a SQL query using a subquery to find employees earning more than the average salary."
+    },
+    {
+      type: "code",
+      question: "Write a SQL query using a subquery to find the employee with the highest salary."
+    },
+    {
+      type: "code",
+      question: "Write a SQL query using a subquery to find the second highest salary from the Employees table."
+    },
+    {
+      type: "code",
+      question: "Write a SQL query using a CTE to calculate the average salary of employees in each department."
+    },
+    {
+      type: "code",
+      question: "Write a SQL query using a CTE and ROW_NUMBER() to find the top three employees in each department."
+    },
+    {
+      type: "code",
+      question: "Write a recursive CTE query to display an employee hierarchy showing managers and their employees."
+    }]
   };
 
   const [currentIndex, setCurrentIndex] = useState(0);
