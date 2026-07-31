@@ -1992,7 +1992,7 @@ export default function QuestionComponent() {
         question: "Write a recursive CTE query to display an employee hierarchy showing managers and their employees."
       }],
 
-    "js-node-dics-evening": [
+    "javascript-node-dics-evening": [
       {
         type: "code",
         question: "Create a basic Express server that listens on port 3000."
