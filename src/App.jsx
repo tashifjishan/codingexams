@@ -1618,7 +1618,7 @@ export default function QuestionComponent() {
       }
     ],
 
-    "sql-dics-july":[
+    "sql-dics-july": [
       {
         type: "code",
         question: "Create a table named students with columns student_id (INT), name (VARCHAR), and address (TEXT)."
@@ -1783,6 +1783,90 @@ export default function QuestionComponent() {
       {
         type: "code",
         question: "Select student_id and name, and display a calculated column that multiplies student_id by 10 and aliases it as score."
+      }
+    ],
+    "node-dics-july": [
+      {
+        type: "code",
+        question: "Write a Node.js program to create a file named notes.txt using the File System module."
+      },
+      {
+        type: "code",
+        question: "Write a Node.js program to create a file named student.txt and write your name into it."
+      },
+      {
+        type: "code",
+        question: "Write a Node.js program to read the contents of data.txt and display them in the console."
+      },
+      {
+        type: "code",
+        question: "Write a Node.js program to read a file asynchronously using fs.readFile()."
+      },
+      {
+        type: "code",
+        question: "Write a Node.js program to append the text 'Welcome to Node.js' to an existing file named message.txt."
+      },
+      {
+        type: "code",
+        question: "Write a Node.js program to append a new line containing today's date to log.txt."
+      },
+      {
+        type: "code",
+        question: "Write a Node.js program to delete a file named temp.txt using fs.unlink()."
+      },
+      {
+        type: "code",
+        question: "Write a Node.js program to check if a file exists before deleting it."
+      },
+      {
+        type: "code",
+        question: "Write a Node.js program to create a file, append new content to it, and then read its contents."
+      },
+      {
+        type: "code",
+        question: "Write a Node.js program to create a file named report.txt containing multiple lines of text."
+      },
+
+      {
+        type: "code",
+        question: "Create an Express application with an app.get() route that displays 'Hello, World!' at the root URL (/)."
+      },
+      {
+        type: "code",
+        question: "Create an Express route '/about' that returns the message 'About Us'."
+      },
+      {
+        type: "code",
+        question: "Create an Express route '/contact' that returns your email address."
+      },
+      {
+        type: "code",
+        question: "Create an Express route '/student/:name' that displays the student's name using URL parameters."
+      },
+      {
+        type: "code",
+        question: "Create an Express route '/product/:id' that displays the product ID from the URL."
+      },
+      {
+        type: "code",
+        question: "Create an Express route '/user/:id/:name' that displays both the user ID and user name."
+      },
+
+      {
+        type: "code",
+        question: "Create an Express route '/search' that reads the query parameter 'name' and displays it."
+      },
+      {
+        type: "code",
+        question: "Create an Express route '/filter' that accepts query parameters 'category' and 'price' and displays both values."
+      },
+      {
+        type: "code",
+        question: "Create an Express route '/student' that accepts query parameters 'name' and 'course' and displays them."
+      },
+      {
+        type: "code",
+        question: "Create an Express route '/product' that accepts query parameters 'id' and 'brand' and displays both values."
       }
     ]
   };
