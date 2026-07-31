@@ -1616,6 +1616,174 @@ export default function QuestionComponent() {
         "type": "code",
         "question": "Write a Python program to take a number as input and count how many of its digits are even using a while loop."
       }
+    ],
+
+    "sql-dics-july":[
+      {
+        type: "code",
+        question: "Create a table named students with columns student_id (INT), name (VARCHAR), and address (TEXT)."
+      },
+      {
+        type: "code",
+        question: "Create a table named employees with columns emp_id (INT), emp_name (VARCHAR), and department (VARCHAR)."
+      },
+      {
+        type: "code",
+        question: "Create a table named books with columns book_id (INT), title (VARCHAR), and description (TEXT)."
+      },
+      {
+        type: "code",
+        question: "Create a table named products with columns product_id (INT), product_name (VARCHAR), and details (TEXT)."
+      },
+      {
+        type: "code",
+        question: "Create a table named customers with columns customer_id (INT), customer_name (VARCHAR), and city (VARCHAR)."
+      },
+
+      {
+        type: "code",
+        question: "Insert a new record into the students table with appropriate values."
+      },
+      {
+        type: "code",
+        question: "Insert three records into the employees table in a single query."
+      },
+      {
+        type: "code",
+        question: "Insert a new book into the books table with a title and description."
+      },
+      {
+        type: "code",
+        question: "Insert two products into the products table."
+      },
+      {
+        type: "code",
+        question: "Insert a new customer into the customers table."
+      },
+
+      {
+        type: "code",
+        question: "Update the city of a customer whose customer_id is 5."
+      },
+      {
+        type: "code",
+        question: "Update the department of all employees currently working in 'Sales' to 'Marketing'."
+      },
+      {
+        type: "code",
+        question: "Update the title of the book with book_id = 3."
+      },
+      {
+        type: "code",
+        question: "Delete the student record whose student_id is 8."
+      },
+      {
+        type: "code",
+        question: "Delete all products whose product_id is greater than 100."
+      },
+      {
+        type: "code",
+        question: "Delete all customers from the customers table whose city is 'Delhi'."
+      },
+      {
+        type: "code",
+        question: "Update the details column of the products table for product_id = 10."
+      },
+      {
+        type: "code",
+        question: "Delete all books whose title is 'Unknown'."
+      },
+
+      {
+        type: "code",
+        question: "Select all records from the students table where student_id > 10."
+      },
+      {
+        type: "code",
+        question: "Select all employees whose emp_id is less than or equal to 20."
+      },
+      {
+        type: "code",
+        question: "Select all customers whose customer_id is IN (1, 3, 5, 7)."
+      },
+      {
+        type: "code",
+        question: "Select all books whose book_id is NOT IN (2, 4, 6)."
+      },
+      {
+        type: "code",
+        question: "Select all students whose student_id is BETWEEN 5 AND 15."
+      },
+      {
+        type: "code",
+        question: "Select all employees whose emp_name starts with the letter 'A' using LIKE."
+      },
+      {
+        type: "code",
+        question: "Select all products whose product_name ends with 'Pro' using LIKE."
+      },
+      {
+        type: "code",
+        question: "Select all customers whose city contains the word 'New' using LIKE."
+      },
+      {
+        type: "code",
+        question: "Select all books whose title is not equal to 'Database Systems'."
+      },
+      {
+        type: "code",
+        question: "Select all products where product_id >= 50 AND product_id <= 100."
+      },
+      {
+        type: "code",
+        question: "Select all employees whose emp_id is NOT BETWEEN 10 AND 20."
+      },
+      {
+        type: "code",
+        question: "Select all students whose name is LIKE '%Kumar%'."
+      },
+
+      {
+        type: "code",
+        question: "Write a query using CASE WHEN to display 'Adult' if student_id is greater than 18, otherwise display 'Minor' as a new column."
+      },
+      {
+        type: "code",
+        question: "Write a query using CASE WHEN to display 'Senior Employee' if emp_id is greater than 100, otherwise 'Junior Employee'."
+      },
+      {
+        type: "code",
+        question: "Write a query using CASE WHEN to display 'Available' if product_id is less than 50, otherwise 'Limited Stock'."
+      },
+      {
+        type: "code",
+        question: "Write a query using CASE WHEN to display 'Local' if city is 'Delhi', otherwise 'Outside Delhi'."
+      },
+
+      {
+        type: "code",
+        question: "Select student_id and display a calculated column that adds 100 to student_id."
+      },
+      {
+        type: "code",
+        question: "Select emp_id and display a calculated column showing emp_id multiplied by 2."
+      },
+      {
+        type: "code",
+        question: "Select product_id and display its square as a calculated column."
+      },
+      {
+        type: "code",
+        question: "Select customer_id and display customer_id divided by 2 as a calculated column."
+      },
+      {
+        type: "code",
+        question: "Select book_id and display a calculated column that subtracts 5 from book_id."
+      },
+      {
+        type: "code",
+        question: "Select student_id and name, and display a calculated column that multiplies student_id by 10 and aliases it as score."
+      }
     ]
   };
 
