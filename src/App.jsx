@@ -2113,6 +2113,129 @@ export default function QuestionComponent() {
         type: "code",
         question: "Write a complete Express application that connects to MongoDB using Mongoose, creates a simple schema with only String fields, defines a Student model, and implements one GET route and one POST route."
       }
+    ],
+
+    "sql-dics-july-evening": [
+      {
+        type: "code",
+        question: "Write a SQL query to select all columns from the Employees table."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query to select only the name and salary columns from the Employees table."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query to display employees whose salary is greater than 50000 using the WHERE clause."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query to find employees whose name starts with 'A' using the LIKE operator."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query to find employees whose name ends with 'n' using the LIKE operator."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query to display employees whose salary is between 30000 and 60000."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query to find employees whose department is either 'HR', 'IT', or 'Sales' using the IN operator."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query to display employees whose department is not 'HR' or 'Finance' using the NOT IN operator."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query using multiple WHERE conditions with AND and OR."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query to retrieve employees whose age is greater than 25 and salary is less than 60000."
+      },
+      {
+        type: "code",
+        question: "Write a SQL statement to create a table named Students with id, name, and marks columns."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query to insert a single record into the Students table."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query to insert multiple records into the Students table."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query to update the salary of an employee whose id is 101."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query to update the department of all employees currently in 'Support' to 'Customer Success'."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query to delete a student whose id is 5."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query to delete all employees whose salary is less than 20000."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query to perform an INNER JOIN between the Employees and Departments tables."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query to perform a LEFT JOIN between the Customers and Orders tables."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query to perform a RIGHT JOIN between the Students and Courses tables."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query to perform a FULL OUTER JOIN between two tables."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query to display employee names along with their department names using an INNER JOIN."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query using CASE WHEN to display 'Pass' if marks are 40 or above, otherwise 'Fail'."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query using CASE WHEN to categorize employees as 'High Salary' if salary is above 70000, otherwise 'Low Salary'."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query to create a calculated column showing annual salary by multiplying monthly salary by 12."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query to display a calculated column showing a 10% bonus based on employee salary."
+      },
+      {
+        type: "code",
+        question: "Write a SQL statement to add an email column to the Students table using ALTER TABLE."
+      },
+      {
+        type: "code",
+        question: "Write a SQL statement to drop the phone column from the Students table using ALTER TABLE."
+      },
+      {
+        type: "code",
+        question: "Write a SQL statement to rename the name column to student_name using ALTER TABLE."
+      },
+      {
+        type: "code",
+        question: "Write a SQL statement to modify the salary column to DECIMAL(10,2) using ALTER TABLE."
+      }
     ]
   };
 
