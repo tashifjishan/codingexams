@@ -1870,126 +1870,250 @@ export default function QuestionComponent() {
       }
     ],
 
-    "sql-dics-july-evening": [{
-      type: "code",
-      question: "Write a SQL query using CASE WHEN to categorize employees based on salary: High (salary >= 100000), Medium (50000-99999), and Low (below 50000)."
-    },
-    {
-      type: "code",
-      question: "Write a SQL query using CASE WHEN to display 'Pass' if a student's marks are greater than or equal to 40, otherwise display 'Fail'."
-    },
-    {
-      type: "code",
-      question: "Write a SQL query to convert all employee names into uppercase using SQL text functions."
-    },
-    {
-      type: "code",
-      question: "Write a SQL query to find the length of each customer's name using a string function."
-    },
-    {
-      type: "code",
-      question: "Write a SQL query to extract the first three characters from each product name."
-    },
-    {
-      type: "code",
-      question: "Write a SQL query using COALESCE to replace NULL values in the phone number column with 'Not Available'."
-    },
-    {
-      type: "code",
-      question: "Write a SQL query to calculate total salary by adding bonus to salary. Use COALESCE to handle NULL bonus values."
-    },
-    {
-      type: "code",
-      question: "Write a SQL UPDATE query to increase all employee salaries by 10%."
-    },
-    {
-      type: "code",
-      question: "Write a SQL UPDATE query to change the department to 'IT' for employees whose department value is NULL."
-    },
-    {
-      type: "code",
-      question: "Write a SQL DELETE query to remove all records from the employee table where salary is less than 20000."
-    },
-    {
-      type: "code",
-      question: "Write a SQL DELETE query to remove duplicate records from a table while keeping one copy of each record."
-    },
-    {
-      type: "code",
-      question: "Write a SQL query to create an Employees table with columns EmployeeID, Name, Department, Salary, and JoiningDate."
-    },
-    {
-      type: "code",
-      question: "Write SQL INSERT statements to add five records into the Employees table."
-    },
-    {
-      type: "code",
-      question: "Write a SQL query using DESC command to display the structure of the Employees table."
-    },
-    {
-      type: "code",
-      question: "Write a SQL INNER JOIN query to display customer names along with their order details."
-    },
-    {
-      type: "code",
-      question: "Write a SQL LEFT JOIN query to display all customers including customers who have not placed any orders."
-    },
-    {
-      type: "code",
-      question: "Write a SQL query using multiple joins to display customer name, order details, and payment information."
-    },
-    {
-      type: "code",
-      question: "Write a SQL query using ROW_NUMBER() window function to assign rankings to employees based on salary."
-    },
-    {
-      type: "code",
-      question: "Write a SQL query using RANK() window function to find employee salary rankings within each department."
-    },
-    {
-      type: "code",
-      question: "Write a SQL query using DENSE_RANK() to find the top three highest-paid employees in each department."
-    },
-    {
-      type: "code",
-      question: "Write a SQL query using LAG() window function to display each employee's previous salary."
-    },
-    {
-      type: "code",
-      question: "Write a SQL query using LEAD() window function to display the next employee's salary."
-    },
-    {
-      type: "code",
-      question: "Write a SQL query using SUM() OVER() to calculate a running total of sales."
-    },
-    {
-      type: "code",
-      question: "Write a SQL query using AVG() OVER() to calculate the average salary for each department."
-    },
-    {
-      type: "code",
-      question: "Write a SQL query using a subquery to find employees earning more than the average salary."
-    },
-    {
-      type: "code",
-      question: "Write a SQL query using a subquery to find the employee with the highest salary."
-    },
-    {
-      type: "code",
-      question: "Write a SQL query using a subquery to find the second highest salary from the Employees table."
-    },
-    {
-      type: "code",
-      question: "Write a SQL query using a CTE to calculate the average salary of employees in each department."
-    },
-    {
-      type: "code",
-      question: "Write a SQL query using a CTE and ROW_NUMBER() to find the top three employees in each department."
-    },
-    {
-      type: "code",
-      question: "Write a recursive CTE query to display an employee hierarchy showing managers and their employees."
-    }]
+    "sql-dics-july-evening": [
+      {
+        type: "code",
+        question: "Write a SQL query using CASE WHEN to categorize employees based on salary: High (salary >= 100000), Medium (50000-99999), and Low (below 50000)."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query using CASE WHEN to display 'Pass' if a student's marks are greater than or equal to 40, otherwise display 'Fail'."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query to convert all employee names into uppercase using SQL text functions."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query to find the length of each customer's name using a string function."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query to extract the first three characters from each product name."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query using COALESCE to replace NULL values in the phone number column with 'Not Available'."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query to calculate total salary by adding bonus to salary. Use COALESCE to handle NULL bonus values."
+      },
+      {
+        type: "code",
+        question: "Write a SQL UPDATE query to increase all employee salaries by 10%."
+      },
+      {
+        type: "code",
+        question: "Write a SQL UPDATE query to change the department to 'IT' for employees whose department value is NULL."
+      },
+      {
+        type: "code",
+        question: "Write a SQL DELETE query to remove all records from the employee table where salary is less than 20000."
+      },
+      {
+        type: "code",
+        question: "Write a SQL DELETE query to remove duplicate records from a table while keeping one copy of each record."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query to create an Employees table with columns EmployeeID, Name, Department, Salary, and JoiningDate."
+      },
+      {
+        type: "code",
+        question: "Write SQL INSERT statements to add five records into the Employees table."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query using DESC command to display the structure of the Employees table."
+      },
+      {
+        type: "code",
+        question: "Write a SQL INNER JOIN query to display customer names along with their order details."
+      },
+      {
+        type: "code",
+        question: "Write a SQL LEFT JOIN query to display all customers including customers who have not placed any orders."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query using multiple joins to display customer name, order details, and payment information."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query using ROW_NUMBER() window function to assign rankings to employees based on salary."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query using RANK() window function to find employee salary rankings within each department."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query using DENSE_RANK() to find the top three highest-paid employees in each department."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query using LAG() window function to display each employee's previous salary."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query using LEAD() window function to display the next employee's salary."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query using SUM() OVER() to calculate a running total of sales."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query using AVG() OVER() to calculate the average salary for each department."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query using a subquery to find employees earning more than the average salary."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query using a subquery to find the employee with the highest salary."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query using a subquery to find the second highest salary from the Employees table."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query using a CTE to calculate the average salary of employees in each department."
+      },
+      {
+        type: "code",
+        question: "Write a SQL query using a CTE and ROW_NUMBER() to find the top three employees in each department."
+      },
+      {
+        type: "code",
+        question: "Write a recursive CTE query to display an employee hierarchy showing managers and their employees."
+      }],
+
+    "js-node-dics-evening": [
+      {
+        type: "code",
+        question: "Create a basic Express server that listens on port 3000."
+      },
+      {
+        type: "code",
+        question: "Write code to create an Express application using the express module."
+      },
+      {
+        type: "code",
+        question: "Write an Express GET route for '/' that sends 'Hello World' as the response."
+      },
+      {
+        type: "code",
+        question: "Write an Express GET route for '/about' that returns a JSON response."
+      },
+      {
+        type: "code",
+        question: "Write an Express POST route for '/login' that returns 'Login Successful'."
+      },
+      {
+        type: "code",
+        question: "Write code to use express.json() middleware in an Express application."
+      },
+      {
+        type: "code",
+        question: "Write code to access the request body in a POST route."
+      },
+      {
+        type: "code",
+        question: "Write an Express route that accepts a user's name in the request body and returns a welcome message."
+      },
+      {
+        type: "code",
+        question: "Write an Express GET route that accepts a route parameter 'id' and returns it in the response."
+      },
+      {
+        type: "code",
+        question: "Write an Express GET route that reads a query parameter named 'name' and returns it in the response."
+      },
+      {
+        type: "code",
+        question: "Write the MongoDB shell command to switch to a database named 'college'."
+      },
+      {
+        type: "code",
+        question: "Write the MongoDB shell command to display all databases."
+      },
+      {
+        type: "code",
+        question: "Write the MongoDB shell command to display all collections in the current database."
+      },
+      {
+        type: "code",
+        question: "Write the MongoDB shell command to insert one document into a 'students' collection."
+      },
+      {
+        type: "code",
+        question: "Write the MongoDB shell command to insert multiple documents into a 'students' collection."
+      },
+      {
+        type: "code",
+        question: "Write the MongoDB shell command to find all documents in the 'students' collection."
+      },
+      {
+        type: "code",
+        question: "Write the MongoDB shell command to find students whose name is 'Rahul'."
+      },
+      {
+        type: "code",
+        question: "Write the MongoDB shell command to delete one document from the 'students' collection."
+      },
+      {
+        type: "code",
+        question: "Write the MongoDB shell command to delete all students whose city is 'Delhi'."
+      },
+      {
+        type: "code",
+        question: "Write the MongoDB shell command to update one student's city using updateOne()."
+      },
+      {
+        type: "code",
+        question: "Write code to connect an Express application to MongoDB using Mongoose."
+      },
+      {
+        type: "code",
+        question: "Write code to import the Mongoose package into a Node.js application."
+      },
+      {
+        type: "code",
+        question: "Write code to create a Mongoose schema with 'name' and 'city' fields of type String."
+      },
+      {
+        type: "code",
+        question: "Write code to create a Mongoose model named 'Student' using the schema."
+      },
+      {
+        type: "code",
+        question: "Write code to insert one document using a Mongoose model."
+      },
+      {
+        type: "code",
+        question: "Write code to insert multiple documents using a Mongoose model."
+      },
+      {
+        type: "code",
+        question: "Write code to retrieve all documents from a collection using Mongoose."
+      },
+      {
+        type: "code",
+        question: "Write code to find students whose city is 'Mumbai' using Mongoose."
+      },
+      {
+        type: "code",
+        question: "Write code to delete one document using Mongoose's deleteOne() method."
+      },
+      {
+        type: "code",
+        question: "Write a complete Express application that connects to MongoDB using Mongoose, creates a simple schema with only String fields, defines a Student model, and implements one GET route and one POST route."
+      }
+    ]
   };
 
   const [currentIndex, setCurrentIndex] = useState(0);
