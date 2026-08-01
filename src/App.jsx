@@ -208,6 +208,129 @@ export default function QuestionComponent() {
 
       ],
 
+    "react-dsdc-july": [
+      {
+        type: "code",
+        question: "Create a React functional component named Welcome that displays 'Hello, React!' inside an <h1> tag."
+      },
+      {
+        type: "code",
+        question: "Create a React component named Student that displays your name and course inside separate <p> tags."
+      },
+      {
+        type: "code",
+        question: "Create a Header component and render it inside the App component."
+      },
+      {
+        type: "code",
+        question: "Create a Footer component that displays '© 2026 My Website' and render it in App."
+      },
+      {
+        type: "code",
+        question: "Create a Profile component that displays a profile picture, name, and profession."
+      },
+      {
+        type: "code",
+        question: "Create a Greeting component that accepts a name prop and displays 'Hello, {name}!'."
+      },
+      {
+        type: "code",
+        question: "Create a Product component that receives productName and price as props and displays them."
+      },
+      {
+        type: "code",
+        question: "Create a UserCard component that accepts username and age as props and displays them."
+      },
+      {
+        type: "code",
+        question: "Create a Movie component that receives title and rating as props and displays them."
+      },
+      {
+        type: "code",
+        question: "Create a Book component that receives title, author, and year as props and displays the information."
+      },
+      {
+        type: "code",
+        question: "Rewrite the Greeting component using props destructuring instead of props.name."
+      },
+      {
+        type: "code",
+        question: "Create a StudentCard component that destructures name, rollNo, and course from props."
+      },
+      {
+        type: "code",
+        question: "Create a ProductCard component that destructures productName and price from props."
+      },
+      {
+        type: "code",
+        question: "Create a Weather component that destructures city and temperature from props and displays them."
+      },
+      {
+        type: "code",
+        question: "Create an Employee component that destructures name, department, and salary from props."
+      },
+      {
+        type: "code",
+        question: "Create a button that displays an alert saying 'Button Clicked!' when clicked."
+      },
+      {
+        type: "code",
+        question: "Create a button that logs 'React Event Triggered' to the console when clicked."
+      },
+      {
+        type: "code",
+        question: "Create a component with a button that changes the page title to 'Welcome to React' when clicked."
+      },
+      {
+        type: "code",
+        question: "Create two buttons: one displays an alert saying 'Accepted' and the other displays 'Rejected'."
+      },
+      {
+        type: "code",
+        question: "Create a button that changes the background color of the page when clicked."
+      },
+      {
+        type: "code",
+        question: "Create a counter application using useState with Increment and Decrement buttons."
+      },
+      {
+        type: "code",
+        question: "Create a component that displays a name using useState and changes it to another name when a button is clicked."
+      },
+      {
+        type: "code",
+        question: "Create a component that toggles between 'ON' and 'OFF' using useState."
+      },
+      {
+        type: "code",
+        question: "Create a component that tracks the number of times a button has been clicked using useState."
+      },
+      {
+        type: "code",
+        question: "Create a component that increases a score by 10 every time a button is clicked using useState."
+      },
+      {
+        type: "code",
+        question: "Create a component that displays 'Logged In' if isLoggedIn is true; otherwise display 'Please Log In'."
+      },
+      {
+        type: "code",
+        question: "Create a component that displays 'Pass' if marks are 40 or above; otherwise display 'Fail'."
+      },
+      {
+        type: "code",
+        question: "Create a component that conditionally displays an image only if showImage is true."
+      },
+      {
+        type: "code",
+        question: "Create a React component that renders a list of five fruits using the map() method."
+      },
+      {
+        type: "code",
+        question: "Create a React component that renders a list of students (name and roll number) using map() and assigns a unique key to each item."
+      }
+    ],
+
     "cpp-dics-july": [
       {
         type: "code",
