@@ -2236,6 +2236,325 @@ export default function QuestionComponent() {
         type: "code",
         question: "Write a SQL statement to modify the salary column to DECIMAL(10,2) using ALTER TABLE."
       }
+    ],
+
+    "python-dics-morning-july": [
+      {
+        type: "mcq",
+        question: "Which method adds an element to the end of a list?",
+        options: ["append()", "add()", "insertEnd()", "push()"],
+        answer: "append()",
+      },
+      {
+        type: "mcq",
+        question: "What is the output of len([10, 20, 30, 40])?",
+        options: ["3", "4", "5", "Error"],
+        answer: "4",
+      },
+      {
+        type: "mcq",
+        question: "Which list method removes and returns the last element?",
+        options: ["remove()", "delete()", "pop()", "clear()"],
+        answer: "pop()",
+      },
+      {
+        type: "mcq",
+        question: "How do you access the value of key 'name' in {'name': 'Alice'}?",
+        options: ["dict.name", "dict['name']", "dict(name)", "dict.getValue('name')"],
+        answer: "dict['name']",
+      },
+      {
+        type: "mcq",
+        question: "Which dictionary method returns all keys?",
+        options: ["values()", "items()", "keys()", "getKeys()"],
+        answer: "keys()",
+      },
+      {
+        type: "mcq",
+        question: "What is the output of {'a': 1}.get('b', 0)?",
+        options: ["None", "Error", "0", "'b'"],
+        answer: "0",
+      },
+      {
+        type: "mcq",
+        question: "Which string method converts all characters to uppercase?",
+        options: ["capitalize()", "upper()", "title()", "swapcase()"],
+        answer: "upper()",
+      },
+      {
+        type: "mcq",
+        question: "What is the output of 'Python'[1]?",
+        options: ["P", "y", "t", "o"],
+        answer: "y",
+      },
+      {
+        type: "mcq",
+        question: "Which method removes whitespace from both ends of a string?",
+        options: ["trim()", "strip()", "remove()", "clean()"],
+        answer: "strip()",
+      },
+      {
+        type: "mcq",
+        question: "How many times will the loop execute?\nfor i in range(5):",
+        options: ["4", "5", "6", "Infinite"],
+        answer: "5",
+      },
+      {
+        type: "mcq",
+        question: "Which keyword skips the current iteration of a loop?",
+        options: ["break", "continue", "pass", "skip"],
+        answer: "continue",
+      },
+      {
+        type: "mcq",
+        question: "Which keyword immediately exits a loop?",
+        options: ["continue", "exit", "break", "return"],
+        answer: "break",
+      },
+      {
+        type: "mcq",
+        question: "What is the output?\nif 5 > 3:\n    print('Yes')",
+        options: ["Yes", "No", "Error", "Nothing"],
+        answer: "Yes",
+      },
+      {
+        type: "mcq",
+        question: "Which operator checks if two values are equal?",
+        options: ["=", "==", "!=", "==="],
+        answer: "==",
+      },
+      {
+        type: "mcq",
+        question: "Which keyword is used for an alternative condition after if?",
+        options: ["elseif", "elif", "otherwise", "then"],
+        answer: "elif",
+      },
+      {
+        type: "mcq",
+        question: "Which keyword is used to define a function in Python?",
+        options: ["function", "func", "define", "def"],
+        answer: "def",
+      },
+      {
+        type: "mcq",
+        question: "What is the purpose of the return statement in a function?",
+        options: [
+          "Stops the program",
+          "Returns a value from the function",
+          "Prints a value",
+          "Repeats the function",
+        ],
+        answer: "Returns a value from the function",
+      },
+      {
+        type: "mcq",
+        question: "What is the output of len((1, 2, 3))?",
+        options: ["2", "3", "4", "Error"],
+        answer: "3",
+      },
+      {
+        type: "mcq",
+        question: "Which statement about tuples is true?",
+        options: [
+          "They are mutable",
+          "They are immutable",
+          "They only store numbers",
+          "They cannot contain strings",
+        ],
+        answer: "They are immutable",
+      },
+      {
+        type: "mcq",
+        question: "Which symbol is commonly used to create a tuple?",
+        options: ["[]", "()", "{}", "<>"],
+        answer: "()",
+      },
+      {
+        type: "mcq",
+        question: "Which method adds an element to a set?",
+        options: ["append()", "insert()", "add()", "push()"],
+        answer: "add()",
+      },
+      {
+        type: "mcq",
+        question: "Which of the following is true about Python sets?",
+        options: [
+          "They allow duplicate values",
+          "They are ordered",
+          "They store unique values",
+          "They use indexes",
+        ],
+        answer: "They store unique values",
+      },
+      {
+        type: "mcq",
+        question: "What is the result of len({1, 1, 2, 3})?",
+        options: ["4", "3", "2", "Error"],
+        answer: "3",
+      },
+      {
+        type: "mcq",
+        question: "Which mode opens a file for reading?",
+        options: ["w", "a", "r", "x"],
+        answer: "r",
+      },
+      {
+        type: "mcq",
+        question: "Which method reads the entire contents of a file?",
+        options: ["read()", "readline()", "write()", "load()"],
+        answer: "read()",
+      },
+      {
+        type: "mcq",
+        question: "Which statement automatically closes a file after use?",
+        options: ["close()", "with", "endfile()", "exit()"],
+        answer: "with",
+      },
+      {
+        type: "mcq",
+        question: "Which Python module is commonly used to work with JSON data?",
+        options: ["json", "jsonify", "pickle", "csv"],
+        answer: "json",
+      },
+      {
+        type: "mcq",
+        question: "Which function converts a Python object into a JSON string?",
+        options: ["json.loads()", "json.dumps()", "json.read()", "json.parse()"],
+        answer: "json.dumps()",
+      },
+      {
+        type: "mcq",
+        question: "Which function converts a JSON string into a Python object?",
+        options: ["json.dumps()", "json.loads()", "json.write()", "json.convert()"],
+        answer: "json.loads()",
+      },
+      {
+        type: "mcq",
+        question: "What is the output of print('Python'.lower())?",
+        options: ["python", "PYTHON", "Python", "Error"],
+        answer: "python",
+      },
+      {
+        type: "code",
+        question: "Write a Python program to count the occurrences of a specific character in a string.",
+      },
+      {
+        type: "code",
+        question: "Write a Python program to find the largest number in a list.",
+      },
+      {
+        type: "code",
+        question: "Write a Python program to calculate the sum of all elements in a list.",
+      },
+      {
+        type: "code",
+        question: "Write a Python program to remove duplicate elements from a list.",
+      },
+      {
+        type: "code",
+        question: "Write a Python program to reverse a given string without using slicing.",
+      },
+      {
+        type: "code",
+        question: "Write a Python program to check whether a string is a palindrome.",
+      },
+      {
+        type: "code",
+        question: "Write a Python program to count the number of vowels in a string.",
+      },
+      {
+        type: "code",
+        question: "Write a Python program to create a dictionary from two lists (keys and values).",
+      },
+      {
+        type: "code",
+        question: "Write a Python program to find the key with the highest value in a dictionary.",
+      },
+      {
+        type: "code",
+        question: "Write a Python program to merge two dictionaries into one.",
+      },
+      {
+        type: "code",
+        question: "Write a Python program to print the multiplication table of a given number using a loop.",
+      },
+      {
+        type: "code",
+        question: "Write a Python program to print all even numbers between 1 and 100 using a loop.",
+      },
+      {
+        type: "code",
+        question: "Write a Python program to calculate the factorial of a number using a loop.",
+      },
+      {
+        type: "code",
+        question: "Write a Python program to check whether a given number is prime.",
+      },
+      {
+        type: "code",
+        question: "Write a Python function that accepts a list of numbers and returns the average.",
+      },
+      {
+        type: "code",
+        question: "Write a Python function to find the maximum of three numbers.",
+      },
+      {
+        type: "code",
+        question: "Write a Python function to count the number of words in a sentence.",
+      },
+      {
+        type: "code",
+        question: "Write a Python program to swap the values of two variables using a function.",
+      },
+      {
+        type: "code",
+        question: "Write a Python program to find the common elements between two tuples.",
+      },
+      {
+        type: "code",
+        question: "Write a Python program to convert a tuple into a list and sort it.",
+      },
+      {
+        type: "code",
+        question: "Write a Python program to find the union and intersection of two sets.",
+      },
+      {
+        type: "code",
+        question: "Write a Python program to remove all duplicate values from a list using a set.",
+      },
+      {
+        type: "code",
+        question: "Write a Python program to read a text file and count the total number of lines.",
+      },
+      {
+        type: "code",
+        question: "Write a Python program to copy the contents of one file into another file.",
+      },
+      {
+        type: "code",
+        question: "Write a Python program to count the number of words in a text file.",
+      },
+      {
+        type: "code",
+        question: "Write a Python program to write a dictionary to a JSON file.",
+      },
+      {
+        type: "code",
+        question: "Write a Python program to read a JSON file and print all key-value pairs.",
+      },
+      {
+        type: "code",
+        question: "Write a Python program to update a value in a JSON file and save the changes.",
+      },
+      {
+        type: "code",
+        question: "Write a Python program to find the frequency of each word in a sentence.",
+      },
+      {
+        type: "code",
+        question: "Write a Python program to sort a dictionary by its values in ascending order.",
+      }
+
     ]
   };
 
