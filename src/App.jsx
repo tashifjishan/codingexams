@@ -3167,6 +3167,128 @@ export default function QuestionComponent() {
         type: "code",
         question: "Write a MySQL SELECT query using GROUP BY and HAVING to display product categories whose total sales exceed 100000."
       }
+    ],
+    "python-numpy": [
+      {
+        type: "code",
+        question: "Write a NumPy program to create a 1D array containing the numbers 10, 20, 30, 40, and 50."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to create a 2D array with 3 rows and 4 columns using a list of lists."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to create an array of 10 zeros using np.zeros()."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to create a 3×3 array of ones using np.ones()."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to create an array containing numbers from 1 to 20 using np.arange()."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to create an array of 5 equally spaced numbers between 0 and 1 using np.linspace()."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to create an identity matrix of size 4×4 using np.eye()."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to create a 3×3 array filled with the value 7 using np.full()."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to create an array of 10 random integers between 1 and 100 using NumPy's random functions."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to display the shape, size, number of dimensions, and data type of a given array."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to find the sum, mean, median, minimum, and maximum of an array."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to calculate the standard deviation and variance of the values in an array."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to find the cumulative sum of the elements in a 1D array."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to reshape an array containing 12 elements into a 3×4 matrix."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to convert a 2D array into a 1D array using flatten() or ravel()."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to transpose a 3×2 matrix into a 2×3 matrix."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to extract all elements greater than 50 from an array using Boolean masking."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to replace all negative values in an array with 0 using Boolean masking."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to use np.where() to replace values greater than 50 with 1 and all other values with 0."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to use np.where() to find the indices of all elements that are greater than 75."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to select all even numbers from an array using Boolean indexing."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to select rows from a 2D array where the value in the second column is greater than 50."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to create an array containing NaN values and use np.isnan() to identify the missing values."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to replace all NaN values in an array with the mean of the non-missing values."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to count the number of missing values in an array containing NaN values."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to remove elements containing NaN values from a 1D array."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to calculate the row-wise sum and column-wise sum of a 2D array using the axis parameter."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to find the index of the maximum and minimum values in an array using np.argmax() and np.argmin()."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to sort an array in ascending order and then retrieve the three largest values."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to calculate the percentage of each value in an array relative to the total sum of all values."
+      }
     ]
 
   };
