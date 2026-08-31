@@ -207,7 +207,251 @@ export default function QuestionComponent() {
         },
 
       ],
+    "python-dsdc-august": [
+      {
+        type: "code",
+        question: "Write a Python program to find the largest number in a list."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to count how many even numbers are present in a list."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to calculate the sum of all numbers in a list."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to create a new list containing only the positive numbers from a given list."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to find how many times a given element appears in a list."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to print all the elements of a list using a loop."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to reverse a list using a loop."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to find the smallest number in a list without using the min() function."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to remove all duplicate elements from a list."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to separate the even and odd numbers from a list into two different lists."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to create a dictionary containing the names of three students and their marks."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to print all the keys and values of a dictionary using a loop."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to find the student with the highest marks from a dictionary of student names and marks."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to count the number of times each character appears in a given string using a dictionary."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to check whether a given key exists in a dictionary."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to calculate the total of all the values in a dictionary."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to create a dictionary of numbers from 1 to 5 and their squares."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to print only the dictionary values that are greater than 50."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to check whether a given number is positive, negative, or zero using if/elif/else."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to check whether a given number is even or odd."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to print the numbers from 1 to 20 using a loop."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to print the multiplication table of a given number using a loop."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to calculate the factorial of a given number using a loop."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to count the number of vowels in a given string using a loop."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to check whether a given number is divisible by both 3 and 5."
+      },
+      {
+        type: "code",
+        question: "Write a Python function named greet that takes a person's name as a parameter and prints a greeting message."
+      },
+      {
+        type: "code",
+        question: "Write a Python function named add_numbers that takes two numbers as arguments and returns their sum."
+      },
+      {
+        type: "code",
+        question: "Write a Python function named is_even that takes a number as an argument and returns True if it is even and False otherwise."
+      },
+      {
+        type: "code",
+        question: "Write a Python function named find_largest that takes a list of numbers as a parameter and returns the largest number."
+      },
+      {
+        type: "code",
+        question: "Write a Python function named count_vowels that takes a string as a parameter and returns the number of vowels in the string."
+      }
+    ],
 
+    "javascript-dsdc-august": [
+      {
+        type: "code",
+        question: "Write a JavaScript program to declare variables for your name, age, and city, and print them to the console."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to swap the values of two variables."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to calculate the area of a rectangle using length and width variables."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to convert a temperature from Celsius to Fahrenheit."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to check whether a given number is positive, negative, or zero using if/else."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to check whether a given number is even or odd."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to find the largest of three numbers using if/else."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to print the numbers from 1 to 20 using a for loop."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to print the multiplication table of a given number using a loop."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to calculate the sum of all numbers from 1 to a given number using a loop."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to calculate the factorial of a given number using a loop."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to count the number of vowels in a given string."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript function named greet that takes a name as a parameter and prints a greeting message."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript function named add that takes two numbers as parameters and returns their sum."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript function named isEven that takes a number as an argument and returns true if the number is even and false otherwise."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript function named findLargest that takes an array of numbers and returns the largest number."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to create an array of five numbers and print each element using a loop."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to find the sum of all elements in an array."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to create a new array containing only the even numbers from a given array."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to reverse an array without using the reverse() method."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to create an object representing a student with properties for name, age, and marks, and print each property."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to create an array of student objects and print the names of students who scored more than 80 marks."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to select a button from an HTML page using the DOM and change its text when it is clicked."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program that takes text from an input field and displays the text inside a paragraph when a button is clicked."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to create a simple counter with Increment and Decrement buttons using DOM events."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to use setTimeout() to print a message to the console after 2 seconds."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program that uses fetch() to retrieve data from a public API and print the returned JSON data to the console."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program that uses fetch() and async/await to retrieve a list of users from an API and print their names."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program that uses fetch() to retrieve data from an API and displays the results as a list of items on an HTML page."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program that uses fetch() with async/await and try/catch to handle API errors and display an appropriate error message to the user."
+      }
+    ],
     "react-dsdc-july": [
       {
         type: "code",
