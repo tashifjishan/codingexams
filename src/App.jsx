@@ -2152,7 +2152,7 @@ export default function QuestionComponent() {
         question: "Select student_id and name, and display a calculated column that multiplies student_id by 10 and aliases it as score."
       }
     ],
-    "node-dics-july": [
+    "node-dics-august": [
       {
         type: "code",
         question: "Write a Node.js program to create a file named notes.txt using the File System module."
