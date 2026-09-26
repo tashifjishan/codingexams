@@ -2316,7 +2316,7 @@ export default function QuestionComponent() {
         question: "Select student_id and name, and display a calculated column that multiplies student_id by 10 and aliases it as score."
       }
     ],
-    "node-dics-july": [
+    "node-dics-august": [
       {
         type: "code",
         question: "Write a Node.js program to create a file named notes.txt using the File System module."
@@ -3086,7 +3086,375 @@ export default function QuestionComponent() {
         question: "Write a Python program to sort a dictionary by its values in ascending order.",
       }
 
+    ],
+    "mysql-dics-august-da": [
+      {
+        type: "code",
+        question: "Write a MySQL query to find the total salary paid in each department using GROUP BY."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL query to count the number of employees in each department."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL query to find departments having more than 5 employees using HAVING."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL query to find the average salary for each job role and display only roles with an average salary above 50000."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL query to find the maximum salary in each department."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL query to find departments where the total salary exceeds 500000."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL ALTER TABLE statement to add an email column to the students table."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL ALTER TABLE statement to remove the phone_number column from the customers table."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL ALTER TABLE statement to rename the column mobile to phone_number in the customers table."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL ALTER TABLE statement to change the salary column from INT to DECIMAL(10,2)."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL ALTER TABLE statement to add a NOT NULL constraint to the employee_name column."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL CREATE TABLE statement to create a students table with id, name, age, and email columns."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL CREATE TABLE statement for an employees table with id as the primary key and department_id as a foreign key."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL CREATE TABLE statement to create a products table with an auto-incrementing product_id."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL CREATE TABLE statement to create an orders table with order_id, customer_id, order_date, and amount."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL CREATE TABLE statement to create a courses table where course_id is the primary key and course_name cannot be NULL."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL INNER JOIN query to display employee names along with their department names."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL LEFT JOIN query to display all customers and their orders, including customers who have not placed any orders."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL query using INNER JOIN to display product names and their category names."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL query using LEFT JOIN to find employees who are not assigned to any department."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL query using JOINs to display order details along with the customer name and product name."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL query using CASE WHEN to classify employees as 'High', 'Medium', or 'Low' earners based on salary."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL query using CASE WHEN to display 'Pass' when marks are 40 or above and 'Fail' otherwise."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL query using CASE WHEN to assign a performance rating based on an employee's score."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL query using CASE WHEN to categorize products as 'Expensive', 'Moderate', or 'Cheap' based on price."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL query to calculate the total price of each order using quantity multiplied by unit_price."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL query to calculate the annual salary from an employee's monthly salary."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL query to calculate the discount amount as 10% of the product price."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL query to calculate the final price after applying a 15% discount to each product."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL query to calculate each employee's salary after adding a 10% bonus."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL stored procedure to display all employees from the employees table."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL stored procedure that accepts a department ID as an input parameter and displays employees from that department."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL stored procedure that accepts an employee ID and updates the employee's salary."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL stored procedure to insert a new employee into the employees table using input parameters."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL stored procedure that accepts a customer ID and returns the total number of orders placed by that customer."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL function that accepts an employee's monthly salary and returns the annual salary."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL function that accepts a student's marks and returns 'Pass' if the marks are 40 or above, otherwise 'Fail'."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL function that accepts a product price and returns the price after applying a 10% discount."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL function that accepts an employee's salary and returns the salary category as 'High', 'Medium', or 'Low'."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL function that accepts an order ID and returns the total order amount by calculating quantity multiplied by unit price."
+      }
+
+    ],
+    "mysql-dics-august-basics": [
+      {
+        type: "code",
+        question: "Write a MySQL SELECT query to display all columns from the employees table."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL SELECT query to display the name and salary of all employees."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL SELECT query to display employees whose salary is greater than 50000."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL SELECT query to display employees who belong to the 'Sales' department."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL SELECT query to display employees ordered by salary from highest to lowest."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL CREATE TABLE statement to create a students table with student_id, name, age, and marks columns."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL CREATE TABLE statement to create a products table with product_id as the primary key, product_name, price, and stock_quantity."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL CREATE TABLE statement to create an employees table with employee_id as an auto-increment primary key, employee_name, department, and salary."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL INSERT statement to add one new student to the students table."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL INSERT statement to add three new products to the products table in a single query."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL INSERT statement to add a new employee with a name, department, and salary."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL SELECT query to calculate the total price as quantity multiplied by unit_price for each order."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL SELECT query to calculate annual_salary from an employee's monthly salary."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL SELECT query to calculate the discounted_price by reducing the product price by 10%."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL SELECT query to calculate the total value of inventory as price multiplied by stock_quantity for each product."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL SELECT query using GROUP BY to find the number of employees in each department."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL SELECT query using GROUP BY to find the average salary for each department."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL SELECT query using GROUP BY to find the total sales amount for each salesperson."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL SELECT query using GROUP BY and HAVING to display departments with more than 5 employees."
+      },
+      {
+        type: "code",
+        question: "Write a MySQL SELECT query using GROUP BY and HAVING to display product categories whose total sales exceed 100000."
+      }
+    ],
+    "python-numpy": [
+      {
+        type: "code",
+        question: "Write a NumPy program to create a 1D array containing the numbers 10, 20, 30, 40, and 50."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to create a 2D array with 3 rows and 4 columns using a list of lists."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to create an array of 10 zeros using np.zeros()."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to create a 3×3 array of ones using np.ones()."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to create an array containing numbers from 1 to 20 using np.arange()."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to create an array of 5 equally spaced numbers between 0 and 1 using np.linspace()."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to create an identity matrix of size 4×4 using np.eye()."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to create a 3×3 array filled with the value 7 using np.full()."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to create an array of 10 random integers between 1 and 100 using NumPy's random functions."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to display the shape, size, number of dimensions, and data type of a given array."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to find the sum, mean, median, minimum, and maximum of an array."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to calculate the standard deviation and variance of the values in an array."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to find the cumulative sum of the elements in a 1D array."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to reshape an array containing 12 elements into a 3×4 matrix."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to convert a 2D array into a 1D array using flatten() or ravel()."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to transpose a 3×2 matrix into a 2×3 matrix."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to extract all elements greater than 50 from an array using Boolean masking."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to replace all negative values in an array with 0 using Boolean masking."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to use np.where() to replace values greater than 50 with 1 and all other values with 0."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to use np.where() to find the indices of all elements that are greater than 75."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to select all even numbers from an array using Boolean indexing."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to select rows from a 2D array where the value in the second column is greater than 50."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to create an array containing NaN values and use np.isnan() to identify the missing values."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to replace all NaN values in an array with the mean of the non-missing values."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to count the number of missing values in an array containing NaN values."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to remove elements containing NaN values from a 1D array."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to calculate the row-wise sum and column-wise sum of a 2D array using the axis parameter."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to find the index of the maximum and minimum values in an array using np.argmax() and np.argmin()."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to sort an array in ascending order and then retrieve the three largest values."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to calculate the percentage of each value in an array relative to the total sum of all values."
+      }
     ]
+
   };
 
   const [currentIndex, setCurrentIndex] = useState(0);
