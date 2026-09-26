@@ -3289,7 +3289,70 @@ export default function QuestionComponent() {
         type: "code",
         question: "Write a NumPy program to calculate the percentage of each value in an array relative to the total sum of all values."
       }
+    ],
+    "javascript-dics-basics-september": [
+      {
+        "type": "code",
+        "question": "Write a JavaScript program to create a variable storing your name and print it to the console."
+      },
+      {
+        "type": "code",
+        "question": "Write a JavaScript program to create two variables storing numbers and print their sum using console.log()."
+      },
+      {
+        "type": "code",
+        "question": "Write a JavaScript program to take the user's name using prompt() and print a greeting using console.log()."
+      },
+      {
+        "type": "code",
+        "question": "Write a JavaScript program to take a number using prompt() and print whether it is positive or negative."
+      },
+      {
+        "type": "code",
+        "question": "Write a JavaScript program to take a number using prompt() and check whether it is even or odd using if-else."
+      },
+      {
+        "type": "code",
+        "question": "Write a JavaScript program to take a person's age using prompt() and print whether they are eligible to vote."
+      },
+      {
+        "type": "code",
+        "question": "Write a JavaScript program to take two numbers using prompt() and print the larger number using if-else."
+      },
+      {
+        "type": "code",
+        "question": "Write a JavaScript program to take a student's marks using prompt() and print 'Pass' if the marks are 40 or above, otherwise print 'Fail'."
+      },
+      {
+        "type": "code",
+        "question": "Write a JavaScript program to take the user's age using prompt() and print whether they are a child, teenager, or adult using if-else."
+      },
+      {
+        "type": "code",
+        "question": "Write a JavaScript program to take a number using prompt() and check whether it is greater than, less than, or equal to 10."
+      },
+      {
+        "type": "code",
+        "question": "Write a JavaScript program to take the temperature using prompt() and print 'Hot' if it is above 30, otherwise print 'Not Hot'."
+      },
+      {
+        "type": "code",
+        "question": "Write a JavaScript program to take a password using prompt() and check whether it matches a predefined password."
+      },
+      {
+        "type": "code",
+        "question": "Write a JavaScript program to take two numbers using prompt() and print the smaller number using if-else."
+      },
+      {
+        "type": "code",
+        "question": "Write a JavaScript program to take a person's age using prompt() and print whether they can enter a movie rated for adults."
+      },
+      {
+        "type": "code",
+        "question": "Write a JavaScript program to take a number using prompt() and print 'Positive', 'Negative', or 'Zero' using if-else."
+      }
     ]
+
 
   };
 
