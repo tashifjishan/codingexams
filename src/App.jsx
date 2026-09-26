@@ -1620,6 +1620,90 @@ export default function QuestionComponent() {
       }
     ],
 
+    "mysql-dics-september": [
+      {
+        "type": "code",
+        "question": "Write an SQL query to select all columns from the employees table."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query to select only the name and salary columns from the employees table."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query to find employees whose salary is greater than 50000."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query to find employees who belong to the 'IT' department."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query to sort employees by salary in descending order."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query to display the top 5 highest-paid employees."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query to skip the first 5 employees and display the next 10 employees."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query to count the total number of employees."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query to find the average salary of all employees."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query to find the maximum and minimum salary from the employees table."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query to calculate the total salary paid to all employees."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query to count the number of employees in each department using GROUP BY."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query to find the average salary for each department using GROUP BY."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query to display departments having more than 5 employees using HAVING."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query to display departments whose average salary is greater than 60000."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query using CASE WHEN to classify employees as 'High', 'Medium', or 'Low' salary based on their salary."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query using CASE WHEN to display 'Senior' when an employee's experience is 5 years or more, otherwise display 'Junior'."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query to find the second-highest salary from the employees table."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query to group employees by department and order the departments by their average salary in descending order."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query to find the top 3 departments with the highest average salary, excluding departments with fewer than 3 employees."
+      }
+    ]
+    ,
+
     "css-dics-july": [
       {
         type: "mcq",
