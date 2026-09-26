@@ -207,6 +207,170 @@ export default function QuestionComponent() {
         },
 
       ],
+    "javascript-dsdc-september": [
+      {
+        type: "code",
+        question: "Write a JavaScript function to find the largest number in an array."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to remove duplicate values from an array"
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript function to count the frequency of each element in an array using an object."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to find the common elements between two arrays."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript function to filter an array of objects based on a specific property."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to sort an array of objects by a numeric property."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript function to group an array of objects by a specific property."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to use destructuring to extract values from an object and an array."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript function that uses map(), filter(), and reduce() to calculate the total price of products."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to find the first duplicate value in an array using a loop."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript function to check whether a string is a palindrome."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to count vowels and consonants in a string."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript function using rest parameters to calculate the sum of any number of arguments."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript function using spread syntax to merge two arrays and remove duplicates."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to create a Promise that resolves after a specified delay."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript async function to make an HTTP GET request using fetch() and display the JSON response."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to fetch data from an API using async/await and handle HTTP errors."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript function to debounce another function."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to store, retrieve, update, and remove data using localStorage."
+      },
+      {
+        type: "code",
+        question: "Write a JavaScript program to validate a form object and return validation errors for missing or invalid fields."
+      }
+    ],
+    "python-dsdc-september": [
+      {
+        type: "code",
+        question: "Write a Python program to find the largest value in a list of numbers using a loop."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to remove duplicate values from a list using a set."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to find the common elements between two sets."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to find the union, intersection, and difference of two sets."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to count the frequency of each word in a string using a dictionary."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to separate even and odd numbers from a list using if/else."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to find all students who scored more than 75 from a list of dictionaries."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to calculate the average marks of students stored in a list of dictionaries."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to sort a list of dictionaries by a specific key such as age or salary."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to convert a list of tuples into a dictionary."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to find the maximum and minimum values from a list of tuples."
+      },
+      {
+        type: "code",
+        question: "Write a Python function that accepts a list of numbers and returns the sum, average, and maximum value."
+      },
+      {
+        type: "code",
+        question: "Write a Python function to check whether a given string is a palindrome."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to count vowels, consonants, digits, and spaces in a string."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to read a text file and count the number of lines, words, and characters."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to read a file and print only the lines containing a given keyword."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to write a list of dictionaries to a JSON file."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to read a JSON file and display selected information from each record."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to make an HTTP GET request to an API and print the JSON response."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to make an HTTP GET request to an API, handle errors, and display selected fields from the response."
+      }
+    ],
     "python-dsdc-august": [
       {
         type: "code",
