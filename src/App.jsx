@@ -1497,6 +1497,88 @@ export default function QuestionComponent() {
         question: "Write a JavaScript program to add a click event listener to a button that increments and displays a counter every time the button is clicked."
       }
     ],
+    "python-basics-october": [
+      {
+        "type": "code",
+        "question": "Write a Python program to declare two variables, store two numbers in them, and print their sum."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take the user's name as input and print a greeting message using that name."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take two numbers as input and print their sum, difference, and product."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take a number as input and check whether it is positive or negative using an if-else statement."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take a number as input and check whether it is even or odd."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take a student's marks as input and check whether the student has passed or failed. Consider 40 as the passing marks."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take two numbers as input and print the greater number using an if-else statement."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take a person's age as input and check whether they are eligible to vote. Consider 18 as the minimum voting age."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take a number as input and check whether it is positive, negative, or zero using if-elif-else."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take two numbers as input and print which number is greater. If both numbers are equal, print that they are equal."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take a student's marks as input and display their grade using the following conditions: 90 and above = A, 75 to 89 = B, 50 to 74 = C, below 50 = D."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take the temperature as input and display whether the weather is Cold (below 20), Moderate (20 to 30), or Hot (above 30)."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take a person's age as input and categorize them as Child (below 13), Teenager (13 to 19), or Adult (20 and above)."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take three numbers as input and print the greatest number using if-elif-else."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take a number as input and check whether it is divisible by 5, divisible by 10, or neither."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take the total purchase amount as input. If the amount is above 5000, give a 20% discount. If it is above 2000, give a 10% discount. Otherwise, give no discount. Print the final amount."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take two numbers and an operator (+, -, *, /) as input. Use if-elif-else to perform the selected mathematical operation."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take a student's marks in three subjects as input, calculate the total marks, and display whether the student has passed or failed. The student must score at least 35 in each subject to pass."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to take a person's salary as input and calculate a bonus. If the salary is above 50000, give a 10% bonus. If the salary is between 25000 and 50000 (inclusive), give a 5% bonus. Otherwise, give a 2% bonus. Display the bonus amount."
+      },
+      {
+        "type": "code",
+        "question": "Write a Python program to create a simple ticket pricing system. Take the user's age as input. If the age is below 5, the ticket is free. If the age is between 5 and 17, the ticket costs 100. If the age is between 18 and 59, the ticket costs 200. Otherwise, the ticket costs 150. Display the ticket price."
+      }
+    ],
     "python-dsdc-july": [
       {
         "type": "code",
