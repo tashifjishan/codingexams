@@ -3538,6 +3538,89 @@ export default function QuestionComponent() {
         question: "Write a NumPy program to calculate the percentage of each value in an array relative to the total sum of all values."
       }
     ],
+    "python-numpy-basics": [
+      {
+        type: "code",
+        question: "Write a Python program using a for loop to print all even numbers between 1 and 50."
+      },
+      {
+        type: "code",
+        question: "Write a Python program using a while loop to calculate the sum of the first 100 natural numbers."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to print the multiplication table of a given number using a for loop."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to find the factorial of a given number using a while loop."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to check whether a given number is prime using loops and conditional statements."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to print all numbers between 1 and 100 that are divisible by both 3 and 5."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to count the number of vowels in a given string using a for loop and conditional statements."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to find the largest number in a list without using the built-in max() function."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to generate the Fibonacci sequence up to n terms using a loop."
+      },
+      {
+        type: "code",
+        question: "Write a Python program to print a right-angled triangle pattern using nested for loops."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to create a one-dimensional array containing numbers from 1 to 20."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to create a 3×3 array of zeros, a 3×3 array of ones, and a 3×3 identity matrix."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to create an array of 10 equally spaced values between 0 and 100."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to filter all even numbers from a given array using Boolean indexing."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to extract all elements greater than 50 from a given array."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to replace all negative values in an array with zero using conditional filtering."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to calculate the square of every element in an array using vectorization without using loops."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to calculate the percentage of each value in an array relative to the total sum of all values."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to add two arrays element-wise using vectorized operations."
+      },
+      {
+        type: "code",
+        question: "Write a NumPy program to create a 5×5 array containing numbers from 1 to 25 and filter all values divisible by 3."
+      }
+    ],
+
     "javascript-dics-basics-september": [
       {
         "type": "code",
