@@ -1497,6 +1497,88 @@ export default function QuestionComponent() {
         question: "Write a JavaScript program to add a click event listener to a button that increments and displays a counter every time the button is clicked."
       }
     ],
+    "mysql-basics": [
+      {
+        "type": "code",
+        "question": "Write an SQL query to display all columns from a table named Students."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query to display only the name and age columns from the Students table."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query to display all students whose age is greater than 18."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query to display students whose marks are greater than 75."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query to display students whose age is between 15 and 20 using the BETWEEN operator."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query to display students who belong to either Delhi or Mumbai using the IN operator."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query to display students whose names start with the letter 'A' using the LIKE operator."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query to display students whose marks are not equal to 50."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query to display students whose marks are greater than 60 AND whose age is less than 20."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query to display students who belong to Delhi OR have scored more than 90 marks."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query to display all students in descending order of their marks using ORDER BY."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query to display the first 5 records from the Students table using LIMIT."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query to count the total number of students in the Students table using COUNT()."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query to find the highest and lowest marks from the Students table using MAX() and MIN()."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query to calculate the average marks of all students using AVG()."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query to calculate the total marks of all students using SUM()."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query to display the number of students in each city using GROUP BY."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query to calculate the average marks for each city using GROUP BY."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query to display only those cities where the average student marks are greater than 75 using GROUP BY and HAVING."
+      },
+      {
+        "type": "code",
+        "question": "Write an SQL query to display departments having more than 5 students. Use COUNT(), GROUP BY, and HAVING."
+      }
+    ],
     "python-basics-october": [
       {
         "type": "code",
